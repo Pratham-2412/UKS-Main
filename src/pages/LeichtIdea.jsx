@@ -181,7 +181,7 @@ const kitchenSlides = [
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
     img: `https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
-    to: '/kitchens/leicht',
+    to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',

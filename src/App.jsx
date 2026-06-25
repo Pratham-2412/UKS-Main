@@ -14,6 +14,7 @@ import Novacucina from './pages/Novacucina'
 import LeichtIdea from './pages/LeichtIdea'
 import LeichtWakuu from './pages/LeichtWakuu'
 import LeichtHygge from './pages/LeichtHygge'
+import LeichtCurved from './pages/LeichtCurved'
 
 
 function ScrollToTop() {
@@ -38,6 +39,7 @@ export default function App() {
           <Route path="/kitchens/leicht/idea" element={<LeichtIdea />} />
           <Route path="/kitchens/leicht/wakuu" element={<LeichtWakuu />} />
           <Route path="/kitchens/leicht/hygge" element={<LeichtHygge />} />
+          <Route path="/kitchens/leicht/curved" element={<LeichtCurved />} />
           <Route path="/kitchens/keller" element={<Keller />} />
           <Route path="/kitchens/novacucina" element={<Novacucina />} />
           <Route path="/bedrooms" element={<Bedrooms />} />

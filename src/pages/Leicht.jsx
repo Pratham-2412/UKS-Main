@@ -199,6 +199,7 @@ export default function Leicht() {
                   concept.tag === 'IDEA' ? '/kitchens/leicht/idea'
                   : concept.tag === 'WAKUU' ? '/kitchens/leicht/wakuu'
                   : concept.tag === 'HYGGE' ? '/kitchens/leicht/hygge'
+                  : concept.tag === 'CURVED' ? '/kitchens/leicht/curved'
                   : '/contact'
                 }
                 className="brand-card"
