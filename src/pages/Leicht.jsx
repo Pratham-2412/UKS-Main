@@ -200,6 +200,13 @@ export default function Leicht() {
                   : concept.tag === 'WAKUU' ? '/kitchens/leicht/wakuu'
                   : concept.tag === 'HYGGE' ? '/kitchens/leicht/hygge'
                   : concept.tag === 'CURVED' ? '/kitchens/leicht/curved'
+                  : concept.tag === 'TERMA ROCCA' ? '/kitchens/leicht/terma-rocca'
+                  : concept.tag === 'TAJ MAHAL' ? '/kitchens/leicht/taj-mahal'
+                  : concept.tag === 'KYOTO' ? '/kitchens/leicht/kyoto'
+                  : concept.tag === 'CONTINO Ξ 12' ? '/kitchens/leicht/contino-12'
+                  : concept.tag === 'BOSSA FENIX F45-C' ? '/kitchens/leicht/bossa-fenix-f45-c'
+                  : concept.tag === 'BOSSA KERA MADERO' ? '/kitchens/leicht/bossa-kera-madero'
+                  : concept.tag === 'BAHIA' ? '/kitchens/leicht/bahia'
                   : '/contact'
                 }
                 className="brand-card"
@@ -220,9 +227,10 @@ export default function Leicht() {
                     <h3 className="brand-card__title" style={{ fontSize: '26px' }}>{concept.title}</h3>
                     <p className="brand-card__desc">{concept.desc}</p>
                     <span className="btn btn-ghost">
-                      {(concept.tag === 'IDEA' || concept.tag === 'WAKUU' || concept.tag === 'HYGGE') ? 'EXPLORE THIS CONCEPT →' : 'ENQUIRE ABOUT THIS CONCEPT →'}
+                      {['IDEA', 'WAKUU', 'HYGGE', 'CURVED', 'TERMA ROCCA', 'TAJ MAHAL', 'KYOTO', 'CONTINO Ξ 12', 'BOSSA FENIX F45-C', 'BOSSA KERA MADERO', 'BAHIA'].includes(concept.tag) ? 'EXPLORE THIS CONCEPT →' : 'ENQUIRE ABOUT THIS CONCEPT →'}
                     </span>
                   </div>
+
                 </motion.article>
               </Link>
             ))}

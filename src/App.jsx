@@ -15,6 +15,13 @@ import LeichtIdea from './pages/LeichtIdea'
 import LeichtWakuu from './pages/LeichtWakuu'
 import LeichtHygge from './pages/LeichtHygge'
 import LeichtCurved from './pages/LeichtCurved'
+import LeichtTermaRocca from './pages/LeichtTermaRocca'
+import LeichtTajMahal from './pages/LeichtTajMahal'
+import LeichtKyoto from './pages/LeichtKyoto'
+import LeichtContino12 from './pages/LeichtContino12'
+import LeichtBossaFenixF45C from './pages/LeichtBossaFenixF45C'
+import LeichtBossaKeraMadero from './pages/LeichtBossaKeraMadero'
+import LeichtBahia from './pages/LeichtBahia'
 
 
 function ScrollToTop() {
@@ -40,6 +47,13 @@ export default function App() {
           <Route path="/kitchens/leicht/wakuu" element={<LeichtWakuu />} />
           <Route path="/kitchens/leicht/hygge" element={<LeichtHygge />} />
           <Route path="/kitchens/leicht/curved" element={<LeichtCurved />} />
+          <Route path="/kitchens/leicht/terma-rocca" element={<LeichtTermaRocca />} />
+          <Route path="/kitchens/leicht/taj-mahal" element={<LeichtTajMahal />} />
+          <Route path="/kitchens/leicht/kyoto" element={<LeichtKyoto />} />
+          <Route path="/kitchens/leicht/contino-12" element={<LeichtContino12 />} />
+          <Route path="/kitchens/leicht/bossa-fenix-f45-c" element={<LeichtBossaFenixF45C />} />
+          <Route path="/kitchens/leicht/bossa-kera-madero" element={<LeichtBossaKeraMadero />} />
+          <Route path="/kitchens/leicht/bahia" element={<LeichtBahia />} />
           <Route path="/kitchens/keller" element={<Keller />} />
           <Route path="/kitchens/novacucina" element={<Novacucina />} />
           <Route path="/bedrooms" element={<Bedrooms />} />
