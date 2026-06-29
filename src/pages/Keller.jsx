@@ -262,7 +262,7 @@ function StyleSection({ id, title, desc, models, nextTitle, nextId, reverse }) {
         <div className="keller-split__content">
           <h2 className="keller-split__title">{title}</h2>
           <p className="keller-split__desc">{desc}</p>
-          <Link to="/contact" className="keller-split__btn-read">
+          <Link to={id === 'modern' ? '/kitchens/keller/modern-kitchens' : '/contact'} className="keller-split__btn-read">
             Read more
           </Link>
         </div>
