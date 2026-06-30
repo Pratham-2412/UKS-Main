@@ -8,57 +8,68 @@ const MODERN_MODELS = [
   {
     name: 'Suite Life',
     desc: 'Deep warm oak textures meet dark accents for an inviting, luxurious culinary space.',
-    image: `${BASE}/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg`
+    image: `${BASE}/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/suite-life'
   },
   {
     name: 'Natural Harmony',
     desc: 'Light open wood shelves combined with neutral sand tones create a calming, natural atmosphere.',
-    image: `${BASE}/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg`
+    image: `${BASE}/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/natural-harmony'
   },
   {
     name: 'Perfect Sense',
     desc: 'Matte anti-fingerprint surfaces in warm graphite grey provide perfect haptics and elegance.',
-    image: `${BASE}/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg`
+    image: `${BASE}/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/perfect-sense'
   },
   {
     name: 'Black Marble',
     desc: 'Stunning black marble elements contrasted with dark wood grains for bold architectural statements.',
-    image: `${BASE}/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg`
+    image: `${BASE}/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/black-marble'
   },
   {
     name: 'City Chic',
     desc: 'Warm walnut caramel veneer matched with smooth cashmere panels for urban sophisticated living.',
-    image: `${BASE}/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg`
+    image: `${BASE}/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/city-chic'
   },
   {
     name: 'Matt Black',
     desc: 'Handle-less matte black doors and ultra-slim worktops offer the ultimate minimalist design.',
-    image: `${BASE}/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg`
+    image: `${BASE}/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/matt-black'
   },
   {
     name: 'Modern Urban',
     desc: 'Compact layouts with smart shelving and functional configurations optimized for city apartments.',
-    image: `${BASE}/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png`
+    image: `${BASE}/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png`,
+    link: '/kitchens/keller/modern-kitchens/modern-urban'
   },
   {
     name: 'Nautical Navy',
     desc: 'Deep marine navy lacquer paired with light quartz countertops for a fresh, classic look.',
-    image: `${BASE}/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg`
+    image: `${BASE}/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/nautical-navy'
   },
   {
     name: 'Northern Nature',
     desc: 'Scandinavian-inspired combination of pale ash veneer and soft matte sage green.',
-    image: `${BASE}/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg`
+    image: `${BASE}/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/northern-nature'
   },
   {
     name: 'Pure Basic',
     desc: 'Timeless white lacquer and functional, durable laminate surfaces for the family kitchen.',
-    image: `${BASE}/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg`
+    image: `${BASE}/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/pure-basic'
   },
   {
     name: 'Vogue Vibes',
     desc: 'Brushed metal metallic accents and tinted glass showcase units for a touch of haute couture.',
-    image: `${BASE}/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg`
+    image: `${BASE}/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg`,
+    link: '/kitchens/keller/modern-kitchens/vogue-vibes'
   }
 ]
 
@@ -162,6 +173,14 @@ export default function KellerModernKitchens() {
                   &#8594;
                 </button>
               </div>
+              {MODERN_MODELS[activeModel].link && (
+                <Link
+                  to={MODERN_MODELS[activeModel].link}
+                  className="km-more-btn"
+                >
+                  More about this kitchen
+                </Link>
+              )}
             </div>
           </div>
 
@@ -261,10 +280,10 @@ export default function KellerModernKitchens() {
 
         /* ── hero ── */
         .km-hero {
-          position: relative; width: 100%; height: 500px; overflow: hidden;
+          position: relative; width: 100%; height: 100vh; overflow: hidden;
           background: #000;
         }
-        @media (min-width: 992px) { .km-hero { height: 600px; } }
+        @media (min-width: 992px) { .km-hero { height: 100vh; } }
         .km-hero__img {
           position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
           opacity: 0.75;
@@ -353,6 +372,15 @@ export default function KellerModernKitchens() {
           font-family: var(--ff-sans); font-size: 14px; font-weight: 600;
           color: var(--gray); letter-spacing: 0.05em;
         }
+        .km-more-btn {
+          display: inline-block; margin-top: 24px; width: fit-content;
+          font-family: var(--ff-sans); font-size: 12px; font-weight: 700;
+          text-transform: uppercase; letter-spacing: 0.12em;
+          color: var(--charcoal); text-decoration: none;
+          border-bottom: 2px solid var(--gold); padding-bottom: 3px;
+          transition: color 0.2s, border-color 0.2s;
+        }
+        .km-more-btn:hover { color: var(--gold); border-color: var(--gold); }
 
         .km-thumbs-track {
           display: flex; gap: 20px; overflow-x: auto;

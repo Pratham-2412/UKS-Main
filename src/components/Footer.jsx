@@ -100,7 +100,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="footer__bottom">
         <div className="footer__bottom-inner container">
-          <p className="footer__copy">© 2026 UKS Interiors. All rights reserved.</p>
+          <p className="footer__copy">© 2026 UKS Interiors. All rights reserved. | Created and maintained by <a href="https://technoadviser.com/" target="_blank" rel="noopener noreferrer">technoadviser</a></p>
           <div className="footer__legal">
             <a href="#" className="footer__legal-link">Privacy</a>
             <a href="#" className="footer__legal-link">Terms</a>

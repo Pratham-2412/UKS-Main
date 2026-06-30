@@ -463,6 +463,16 @@ img {
   color: var(--gray-light);
 }
 
+.footer__copy a {
+  color: var(--gray-light);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.footer__copy a:hover {
+  color: var(--charcoal);
+}
+
 .footer__legal { display: flex; gap: 24px; }
 
 .footer__legal-link {

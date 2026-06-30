@@ -12,47 +12,58 @@ const stylesData = [
     models: [
       {
         name: 'Suite Life',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/suite-life'
       },
       {
         name: 'Natural Harmony',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/natural-harmony'
       },
       {
         name: 'Perfect Sense',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/perfect-sense'
       },
       {
         name: 'Black Marble',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/black-marble'
       },
       {
         name: 'City chic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/city-chic'
       },
       {
         name: 'Matt Black',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/matt-black'
       },
       {
         name: 'Modern Urban',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png',
+        link: '/kitchens/keller/modern-kitchens/modern-urban'
       },
       {
         name: 'Nautical Navy',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/nautical-navy'
       },
       {
         name: 'Northern Nature',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/northern-nature'
       },
       {
         name: 'Pure Basic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/pure-basic'
       },
       {
         name: 'Vogue Vibes',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg'
+        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg',
+        link: '/kitchens/keller/modern-kitchens/vogue-vibes'
       }
     ]
   },
@@ -262,7 +273,7 @@ function StyleSection({ id, title, desc, models, nextTitle, nextId, reverse }) {
         <div className="keller-split__content">
           <h2 className="keller-split__title">{title}</h2>
           <p className="keller-split__desc">{desc}</p>
-          <Link to={id === 'modern' ? '/kitchens/keller/modern-kitchens' : '/contact'} className="keller-split__btn-read">
+          <Link to={id === 'modern' ? '/kitchens/keller/modern-kitchens' : id === 'classic' ? '/kitchens/keller/classic-kitchens' : id === 'country' ? '/kitchens/keller/country-kitchens' : id === 'industrial' ? '/kitchens/keller/industrial-kitchens' : '/contact'} className="keller-split__btn-read">
             Read more
           </Link>
         </div>
@@ -328,7 +339,10 @@ function StyleSection({ id, title, desc, models, nextTitle, nextId, reverse }) {
           />
         </AnimatePresence>
 
-        <Link to="/contact" className="keller-split__btn-more">
+        <Link
+          to={models[activeIdx].link || (id === 'classic' ? '/kitchens/keller/classic-kitchens' : id === 'country' ? '/kitchens/keller/country-kitchens' : id === 'industrial' ? '/kitchens/keller/industrial-kitchens' : '/kitchens/keller/modern-kitchens')}
+          className="keller-split__btn-more"
+        >
           <span>More about this kitchen &rarr;</span>
         </Link>
       </div>

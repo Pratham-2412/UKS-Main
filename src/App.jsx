@@ -28,6 +28,24 @@ import LeichtSteelClassicFsTopos from './pages/Leichtsteelclassicfstopos'
 import LeichtFenixF45CValaisClassicFs from './pages/Leichtfenixf45cvalaisclassicfs'
 import LeichtFenixF54COrlandoC from './pages/Leichtfenixf54corlandoc'
 import KellerModernKitchens from './pages/Kellermodernkitchens'
+import KellerBlackMarble from './pages/KellerBlackMarble'
+import KellerCityChic from './pages/KellerCityChic'
+import KellerMattBlack from './pages/KellerMattBlack'
+import KellerModernUrban from './pages/KellerModernUrban'
+import KellerNauticalNavy from './pages/KellerNauticalNavy'
+import KellerNorthernNature from './pages/KellerNorthernNature'
+import KellerPureBasic from './pages/KellerPureBasic'
+import KellerVogueVibes from './pages/KellerVogueVibes'
+import KellerSuiteLife from './pages/KellerSuiteLife'
+import KellerNaturalHarmony from './pages/KellerNaturalHarmony'
+import KellerPerfectSense from './pages/KellerPerfectSense'
+import KellerClassicKitchens from './pages/KellerClassicKitchens'
+import KellerRetroVibes from './pages/KellerRetroVibes'
+import KellerNaturalWeave from './pages/KellerNaturalWeave'
+import KellerCalmFlow from './pages/KellerCalmFlow'
+import KellerTimelessCharm from './pages/KellerTimelessCharm'
+import KellerCountryKitchens from './pages/KellerCountryKitchens'
+import KellerIndustrialKitchens from './pages/KellerIndustrialKitchens'
 
 
 function ScrollToTop() {
@@ -67,6 +85,24 @@ export default function App() {
           <Route path="/kitchens/leicht/fenix-f54-c-orlando-c" element={<LeichtFenixF54COrlandoC />} />
           <Route path="/kitchens/keller" element={<Keller />} />
           <Route path="/kitchens/keller/modern-kitchens" element={<KellerModernKitchens />} />
+          <Route path="/kitchens/keller/classic-kitchens" element={<KellerClassicKitchens />} />
+          <Route path="/kitchens/keller/classic-kitchens/retro-vibes" element={<KellerRetroVibes />} />
+          <Route path="/kitchens/keller/classic-kitchens/natural-weave" element={<KellerNaturalWeave />} />
+          <Route path="/kitchens/keller/classic-kitchens/calm-flow" element={<KellerCalmFlow />} />
+          <Route path="/kitchens/keller/classic-kitchens/timeless-charm" element={<KellerTimelessCharm />} />
+          <Route path="/kitchens/keller/country-kitchens" element={<KellerCountryKitchens />} />
+          <Route path="/kitchens/keller/industrial-kitchens" element={<KellerIndustrialKitchens />} />
+          <Route path="/kitchens/keller/modern-kitchens/suite-life" element={<KellerSuiteLife />} />
+          <Route path="/kitchens/keller/modern-kitchens/natural-harmony" element={<KellerNaturalHarmony />} />
+          <Route path="/kitchens/keller/modern-kitchens/perfect-sense" element={<KellerPerfectSense />} />
+          <Route path="/kitchens/keller/modern-kitchens/black-marble" element={<KellerBlackMarble />} />
+          <Route path="/kitchens/keller/modern-kitchens/city-chic" element={<KellerCityChic />} />
+          <Route path="/kitchens/keller/modern-kitchens/matt-black" element={<KellerMattBlack />} />
+          <Route path="/kitchens/keller/modern-kitchens/modern-urban" element={<KellerModernUrban />} />
+          <Route path="/kitchens/keller/modern-kitchens/nautical-navy" element={<KellerNauticalNavy />} />
+          <Route path="/kitchens/keller/modern-kitchens/northern-nature" element={<KellerNorthernNature />} />
+          <Route path="/kitchens/keller/modern-kitchens/pure-basic" element={<KellerPureBasic />} />
+          <Route path="/kitchens/keller/modern-kitchens/vogue-vibes" element={<KellerVogueVibes />} />
           <Route path="/kitchens/novacucina" element={<Novacucina />} />
           <Route path="/bedrooms" element={<Bedrooms />} />
           <Route path="/projects" element={<Projects />} />
