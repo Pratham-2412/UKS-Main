@@ -1,14 +1,22 @@
+import HERO_IMG from '../assets/uks-natural-weave/natural-weave-hero.webp';
+import SPLIT_IMG from '../assets/uks-natural-weave/natural-weave-944-x-884-afbeelding-bij-tekst.webp';
+import WIDE_IMG from '../assets/uks-natural-weave/natural-weave-1.webp';
+import STYLE_IMG from '../assets/uks-natural-weave/hoe-maak-ik-deze-stijl3.webp';
+import SAVANNAH_OAK_IMG from '../assets/uks-natural-weave/ithaca-savanne-eiken.webp';
+import COPPER_OAK_IMG from '../assets/uks-natural-weave/ithaca-koper-eiken.webp';
+import PLATINUM_OAK_IMG from '../assets/uks-natural-weave/ithaca-platina-eiken.webp';
+import NATURAL_OAK_IMG from '../assets/uks-natural-weave/ithaca-naturel-eiken.webp';
+import MOKKA_OAK_IMG from '../assets/uks-natural-weave/ithaca-mokka-eiken.webp';
+import MOSS_OAK_IMG from '../assets/uks-natural-weave/ithaca-mos-eiken.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
-
+const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc';
 /* ── Images ─────────────────────────────────────────────────── */
-const HERO_IMG  = `${BASE}/kcN9ZSKg/uploads/media/68f1e8cb5c9b4/natural-weave-hero.webp?originalExtension=jpg`
-const SPLIT_IMG = `${BASE}/TyIBZI57/uploads/media/68f5d26019bdb/natural-weave-944-x-884-afbeelding-bij-tekst.webp?originalExtension=jpg`
-const WIDE_IMG  = `${BASE}/JzFSDGde/uploads/media/68f5d10e5664a/natural-weave-1.webp?originalExtension=jpg`
-const STYLE_IMG = `${BASE}/w8YQpK9l/uploads/media/691485cbac764/hoe-maak-ik-deze-stijl3.webp?originalExtension=jpg`
+
+
+
+
 
 /* ── Ithaca wood swatches carousel ─────────────────────────── */
 const SWATCHES = [

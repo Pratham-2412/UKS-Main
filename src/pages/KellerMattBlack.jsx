@@ -1,14 +1,16 @@
+import UKS_KELLER_MATT_BLACK_1920_X_1090_HERO_MATTBLACK from '../assets/uks-keller-matt-black/uks-keller-matt-black-1920-x-1090-hero-mattblack.webp';
+import UKS_KELLER_MATT_BLACK_960_X_1024_MATTBLACK from '../assets/uks-keller-matt-black/uks-keller-matt-black-960-x-1024-mattblack.webp';
+import UKS_KELLER_MATT_BLACK_1326_X_884_RASTER_MATTBLACK from '../assets/uks-keller-matt-black/uks-keller-matt-black-1326-x-884-raster-mattblack.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Exact image URLs from the Keller Matt Black page
-const HERO_IMG  = `${BASE}/wFPI39x6/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg`
-const WIDE_IMG  = `${BASE}/1iEfjUt1/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg`
-const SPLIT_IMG = `${BASE}/TfZuoSPO/uploads/media/630c8c6480414/960-x-1024-mattblack.webp?originalExtension=jpg`
-const GRID_IMG  = `${BASE}/FiLvDI5a/uploads/media/630c8eac23fd6/1326-x-884-raster-mattblack.webp?originalExtension=jpg`
+const HERO_IMG  = UKS_KELLER_MATT_BLACK_1920_X_1090_HERO_MATTBLACK
+const WIDE_IMG  = UKS_KELLER_MATT_BLACK_1920_X_1090_HERO_MATTBLACK
+const SPLIT_IMG = UKS_KELLER_MATT_BLACK_960_X_1024_MATTBLACK
+const GRID_IMG  = UKS_KELLER_MATT_BLACK_1326_X_884_RASTER_MATTBLACK
 
 // The original Matt Black page has these unique colours:
 // intro bg: #edefee (very light sage)

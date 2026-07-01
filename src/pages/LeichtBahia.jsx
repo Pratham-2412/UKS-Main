@@ -1,8 +1,36 @@
+import UKS_LEICHT_BAHIA_LEICHTMOOD0054002 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0054002.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0108 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0108.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0177 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0177.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0098 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0098.jpg';
+import UKS_LEICHT_BAHIA_DESIGNOHNETITEL from '../assets/uks-leicht-bahia/uks-leicht-bahia-DesignohneTitel.png';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0115 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0115.jpg';
+import UKS_LEICHT_BAHIA_0470102BAHIA012 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0470102BAHIA012.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0285 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0285.jpg';
+import UKS_LEICHT_BAHIA_0470104BAHIA004 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0470104BAHIA004.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0257 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0257.jpg';
+import UKS_LEICHT_BAHIA_0470105BAHIA002 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0470105BAHIA002.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0167 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0167.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0241 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0241.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0384 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0384.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0234 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0234.jpg';
+import UKS_LEICHT_BAHIA_0890301IDEA003 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0890301Idea003.jpg';
+import UKS_LEICHT_BAHIA_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_BAHIA_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_BAHIA_TOPOSCLASSICFS03 from '../assets/uks-leicht-bahia/uks-leicht-bahia-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_BAHIA_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-bahia/uks-leicht-bahia-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_BAHIA_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-bahia/uks-leicht-bahia-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_BAHIA_0480101KYOTO012NAH from '../assets/uks-leicht-bahia/uks-leicht-bahia-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_BAHIA_684269M01167309J22 from '../assets/uks-leicht-bahia/uks-leicht-bahia-684269M01167309J22.jpg';
+import UKS_LEICHT_BAHIA_244753M01350120J20 from '../assets/uks-leicht-bahia/uks-leicht-bahia-244753M01350120j20.jpg';
+import UKS_LEICHT_BAHIA_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-bahia/uks-leicht-bahia-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_BAHIA_0470101BAHIA026 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0470101BAHIA026.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0260 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0260.jpg';
+import UKS_LEICHT_BAHIA_0470107BAHIA005 from '../assets/uks-leicht-bahia/uks-leicht-bahia-0470107BAHIA005.jpg';
+import UKS_LEICHT_BAHIA_LEICHTMOOD0136 from '../assets/uks-leicht-bahia/uks-leicht-bahia-LeichtMood0136.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -11,7 +39,7 @@ const hotspots = [
     y: '67.5%',
     title: 'Tense structures',
     desc: 'The M8 pull-out system emphasizes the elegance of the ribbed structure of the BAHIA front and carries the design principle through to the very core of the furniture.',
-    img: `${CAISY}/ad57cb63-4c51-4357-852e-6a337f6c9cce/f11f45e8-547d-47e6-b4ff-bfa552faf003/LeichtMood0108.jpg?width=400`,
+    img: UKS_LEICHT_BAHIA_LEICHTMOOD0108,
     dir: 'left'
   },
   {
@@ -20,7 +48,7 @@ const hotspots = [
     y: '67.2%',
     title: 'Continuous front design',
     desc: 'The dark vertical millings and the vertical joints blend harmoniously, making the individual cabinets appear as a single piece of furniture.',
-    img: `${CAISY}/5ce089c3-15c9-40f3-b40e-555de8b7267a/d3d67d4e-99b6-44ea-81e1-2d2b74e0099c/LeichtMood0177.jpg?width=400`,
+    img: UKS_LEICHT_BAHIA_LEICHTMOOD0177,
     dir: 'right'
   },
   {
@@ -29,7 +57,7 @@ const hotspots = [
     y: '76.3%',
     title: 'Striking front design',
     desc: 'The contrast of the dark vertical grooves combined with the equally black edge design gives the BAHIA product a confident and timeless appearance.',
-    img: `${CAISY}/083e620e-7595-4ef6-9cff-cd8ebe13ebf8/53270386-37a4-4d80-af93-4b9332641653/LeichtMood0098.jpg?width=400`,
+    img: UKS_LEICHT_BAHIA_LEICHTMOOD0098,
     dir: 'left'
   },
   {
@@ -38,7 +66,7 @@ const hotspots = [
     y: '52.3%',
     title: 'Passage door',
     desc: 'Passage doors in kitchens create smooth transitions, enhance functionality, and ensure spatial harmony.',
-    img: `${CAISY}/28decbe2-ab2a-42fe-9d9d-6f4af93374cb/a05f9b33-fbd1-4a58-bdd2-60ce78037784/DesignohneTitel.png?width=400`,
+    img: UKS_LEICHT_BAHIA_DESIGNOHNETITEL,
     dir: 'right'
   },
   {
@@ -47,83 +75,83 @@ const hotspots = [
     y: '63.3%',
     title: 'ROCCA Surface',
     desc: 'ROCCA, a natural stone program with a subtly elegant effect. The front edges are clad with fine natural stone and beveled along the miter joint from front to edge. A detail that reflects the high quality of the surface.',
-    img: `${CAISY}/83f00f12-5589-4807-8ac3-0b1fac638c58/a51669ee-8203-4a3f-a9c1-0a247c053c21/LeichtMood0115.jpg?width=400`,
+    img: UKS_LEICHT_BAHIA_LEICHTMOOD0115,
     dir: 'right'
   }
 ]
 
 const galleryImages = [
-  `${CAISY}/119a0185-6ab4-42c1-9678-5419601668f6/d6c5c37c-d1c7-4746-8642-93cbe251f6f1/0470102BAHIA012.jpg?width=900`,
-  `${CAISY}/58f7c093-c0aa-4061-8109-aa3bad4e7eb2/fb998515-68de-48d6-b8ec-71f6109102b8/LeichtMood0285.jpg?width=900`,
-  `${CAISY}/45acb8d0-b685-43e3-961c-aba6d4954c57/e91bd211-a518-48dd-9f07-215ad361e246/0470104BAHIA004.jpg?width=900`,
-  `${CAISY}/6c045fd5-0ea2-4a53-963f-9344c9c93621/5d75e472-3680-4c8a-a6bc-ceb9fd02727b/LeichtMood0257.jpg?width=900`,
-  `${CAISY}/a8d6f417-3924-48b5-80cb-bd498e19c5c7/b3a6096f-c2a3-45e8-82ec-383943ea1eb2/0470105BAHIA002.jpg?width=900`,
-  `${CAISY}/83f00f12-5589-4807-8ac3-0b1fac638c58/a51669ee-8203-4a3f-a9c1-0a247c053c21/LeichtMood0115.jpg?width=900`,
-  `${CAISY}/efa666cd-a5d2-4dd4-b7ec-d7dd48fc07f1/7546b098-5ad8-4d03-a2f9-3ffcedbb7595/LeichtMood0167.jpg?width=900`,
-  `${CAISY}/341e952e-33dc-4f6e-a1d5-5ea916c6ee0d/3f60ad8e-3f28-4551-8be1-7045ac681969/LeichtMood0241.jpg?width=900`,
-  `${CAISY}/13baa04d-feae-466b-bf53-48457c94e53f/70e291a4-25b4-48e4-8304-4fbaba0c1bad/LeichtMood0384.jpg?width=900`,
-  `${CAISY}/8b6be1f1-f6ed-4635-a41a-6448640f576e/ab8cfa70-05e4-4f56-a7e0-094bc6dba1e7/LeichtMood0234.jpg?width=900`
+  UKS_LEICHT_BAHIA_0470102BAHIA012,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0285,
+  UKS_LEICHT_BAHIA_0470104BAHIA004,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0257,
+  UKS_LEICHT_BAHIA_0470105BAHIA002,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0115,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0167,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0241,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0384,
+  UKS_LEICHT_BAHIA_LEICHTMOOD0234
 ]
 
 const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_BAHIA_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht/bossa-kera-madero',
   }
 ]
@@ -158,7 +186,7 @@ export default function LeichtBahia() {
       <section className="bahia-hero">
         <div className="bahia-hero__aspect">
           <img
-            src={`${CAISY}/8ac2c52d-b34e-495f-9ad5-f3d2f8826c3c/bc14b4ff-c39e-4831-abd9-86f1ef1b840c/0470101BAHIA026.jpg`}
+            src={UKS_LEICHT_BAHIA_0470101BAHIA026}
             alt="LEICHT BAHIA award winning kitchen front clone"
             className="bahia-hero__img"
           />
@@ -217,13 +245,13 @@ export default function LeichtBahia() {
           <div className="bahia-intro__imgs">
             <div className="bahia-intro__img bahia-intro__img--wide">
               <img
-                src={`${CAISY}/1b2108a6-9070-40d7-991b-57079d8ab34c/1715c7db-457c-44ea-9d6b-fb52e9ba3c09/LeichtMood0177.jpg?width=800`}
+                src={UKS_LEICHT_BAHIA_LEICHTMOOD0177}
                 alt="Bahia asymmetric vertical groove structures detail"
               />
             </div>
             <div className="bahia-intro__img bahia-intro__img--tall">
               <img
-                src={`${CAISY}/4522c174-5b21-4a3f-b00a-906222e5ab72/ec3875fa-8303-4dfa-b931-9eda90efd50c/LeichtMood0260.jpg?width=600`}
+                src={UKS_LEICHT_BAHIA_LEICHTMOOD0260}
                 alt="Minimalist design interior decor details"
               />
             </div>
@@ -274,10 +302,10 @@ export default function LeichtBahia() {
               transition={{ duration: 0.3 }}
               src={
                 activeLookTab === 1
-                  ? `${CAISY}/8851c07f-949c-40f8-9a93-5812bb567ac7/984f7f24-2188-4a67-a7c3-d9359bb68505/0470104BAHIA004.jpg?width=900`
+                  ? UKS_LEICHT_BAHIA_0470104BAHIA004
                   : activeLookTab === 2
                   ? `https://assets.caisy.io/assets/reupload/551e9be6-4efc-46d0-85a5-cad97ca9e6eb/85a145be-a184-4bcf-9c8c-9ad37dd23d58/LeichtMood0177.jpeg?width=900`
-                  : `${CAISY}/b761cb8d-5d18-4339-98f8-f9ec0b7bca3c/40fc86a4-cc0e-4cd3-8349-272dcd01ee15/0470107BAHIA005.jpg?width=900`
+                  : UKS_LEICHT_BAHIA_0470107BAHIA005
               }
               alt="Bahia look and feel real wood vertical milled details"
               style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
@@ -289,7 +317,7 @@ export default function LeichtBahia() {
       {/* ── 4. NATURAL VITALITY PARALLAX BANNER ────────────────── */}
       <section className="bahia-parallax-banner">
         <img
-          src="https://assets.caisy.io/assets/reupload/551e9be6-4efc-46d0-85a5-cad97ca9e6eb/b925b881-28cb-4f5e-b925-dcfebb903ccb/LeichtMood0054002.jpg"
+          src={UKS_LEICHT_BAHIA_LEICHTMOOD0054002}
           alt="Bahia Natural Vitality vertical grain structure"
           className="bahia-parallax-banner__img"
         />
@@ -312,7 +340,7 @@ export default function LeichtBahia() {
         </div>
         <div className="bahia-split__img">
           <img
-            src={`${CAISY}/dd65a912-4719-4a1b-b461-62b181efb027/9c33115a-2da0-4eb9-87ac-15b760b6b40a/LeichtMood0136.jpg?width=900`}
+            src={UKS_LEICHT_BAHIA_LEICHTMOOD0136}
             alt="Bahia natural vitality real wood veneer details"
           />
         </div>

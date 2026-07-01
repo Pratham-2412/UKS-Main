@@ -1,28 +1,33 @@
+import UKS_KELLER_MODERN_URBAN_MODERN_URBAN_1326_X_884_AFBEELDING from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-modern-urban-1326-x-884-afbeelding.webp';
+import UKS_KELLER_MODERN_URBAN_MODERN_URBAN_BEELD_BIJ_TEKST from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-modern-urban-beeld-bij-tekst.webp';
+import UKS_KELLER_MODERN_URBAN_MODERN_URBAN_BEELD_BIJ_TEKST2 from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-modern-urban-beeld-bij-tekst2.webp';
+import UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_HAVER from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-615x718-carrouselafbeelding-everest-haver.webp';
+import UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_AS from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-615x718-carrouselafbeelding-everest-as.webp';
+import UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_TURF from '../assets/uks-keller-modern-urban/uks-keller-modern-urban-615x718-carrouselafbeelding-everest-turf.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // All images exactly as referenced in Keller Modern Urban page
-const HERO_IMG     = `${BASE}/ZY8h2biY/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png`
-const SPLIT1_IMG   = `${BASE}/eXlopgx3/uploads/media/66e0063ba7c1c/modern-urban-beeld-bij-tekst.webp?originalExtension=jpg`
-const SPLIT2_IMG   = `${BASE}/woww6kJt/uploads/media/66e43c68caaa8/modern-urban-beeld-bij-tekst2.webp?originalExtension=jpg`
-const WIDE_IMG     = `${BASE}/ZY8h2biY/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png`
+const HERO_IMG     = UKS_KELLER_MODERN_URBAN_MODERN_URBAN_1326_X_884_AFBEELDING
+const SPLIT1_IMG   = UKS_KELLER_MODERN_URBAN_MODERN_URBAN_BEELD_BIJ_TEKST
+const SPLIT2_IMG   = UKS_KELLER_MODERN_URBAN_MODERN_URBAN_BEELD_BIJ_TEKST2
+const WIDE_IMG     = UKS_KELLER_MODERN_URBAN_MODERN_URBAN_1326_X_884_AFBEELDING
 
 // Carousel slides
 const SLIDES = [
   {
     title: 'Oat',
-    image: `${BASE}/pBSrf05J/uploads/media/6707a15348f9a/615x718-carrouselafbeelding-everest-haver.webp?originalExtension=jpg`
+    image: UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_HAVER
   },
   {
     title: 'Ash',
-    image: `${BASE}/81H6cyf6/uploads/media/6707a1532642d/615x718-carrouselafbeelding-everest-as.webp?originalExtension=jpg`
+    image: UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_AS
   },
   {
     title: 'Peat',
-    image: `${BASE}/D8ehPPyK/uploads/media/6707a1535f576/615x718-carrouselafbeelding-everest-turf.webp?originalExtension=jpg`
+    image: UKS_KELLER_MODERN_URBAN_615X718_CARROUSELAFBEELDING_EVEREST_TURF
   }
 ]
 

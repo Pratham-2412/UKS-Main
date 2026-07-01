@@ -1,3 +1,44 @@
+import UKS_KELLER_SUITE_LIFE_HERO from '../assets/uks-keller/uks-keller-suite-life-hero.webp';
+import UKS_KELLER_NATURAL_HARMONY_HERO from '../assets/uks-keller/uks-keller-natural-harmony-hero.webp';
+import UKS_KELLER_1920_X_1090_HERO_PERFECTSENSE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-perfectsense.webp';
+import UKS_KELLER_1920_X_1090_HERO_BLACKMARBLE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-blackmarble.webp';
+import UKS_KELLER_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL from '../assets/uks-keller/uks-keller-1920-x-1090-hero-citychic-walnootkaramel.webp';
+import UKS_KELLER_1920_X_1090_HERO_MATTBLACK from '../assets/uks-keller/uks-keller-1920-x-1090-hero-mattblack.webp';
+import UKS_KELLER_MODERN_URBAN_1326_X_884_AFBEELDING from '../assets/uks-keller/uks-keller-modern-urban-1326-x-884-afbeelding.webp';
+import UKS_KELLER_1920_X_1090_HERO_NAUTICALNAVY from '../assets/uks-keller/uks-keller-1920-x-1090-hero-nauticalnavy.webp';
+import UKS_KELLER_1920_X_1090_HERO_NORTHERNNATURE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-northernnature.webp';
+import UKS_KELLER_1920_X_1090_HERO_PUREBASIC from '../assets/uks-keller/uks-keller-1920-x-1090-hero-purebasic.webp';
+import UKS_KELLER_1920_X_1090_HERO_VOGUEVIBES from '../assets/uks-keller/uks-keller-1920-x-1090-hero-voguevibes.webp';
+import UKS_KELLER_RETRO_VIBES_HERO from '../assets/uks-keller/uks-keller-retro-vibes-hero.webp';
+import UKS_KELLER_NATURAL_WEAVE_HERO from '../assets/uks-keller/uks-keller-natural-weave-hero.webp';
+import UKS_KELLER_CALM_FLOW_HERO2 from '../assets/uks-keller/uks-keller-calm-flow-hero2.webp';
+import UKS_KELLER_TIMELESS_CHARM_1326_X_884_AFBEELDING from '../assets/uks-keller/uks-keller-timeless-charm-1326-x-884-afbeelding.webp';
+import UKS_KELLER_1920_X_1090_HEROBLISSBOUTIQUE from '../assets/uks-keller/uks-keller-1920-x-1090-heroblissboutique.webp';
+import UKS_KELLER_1920_X_1090_HERO_GLAMCHIC from '../assets/uks-keller/uks-keller-1920-x-1090-hero-glamchic.webp';
+import UKS_KELLER_1920_X_1090_HERO_MAJESTICMANSION from '../assets/uks-keller/uks-keller-1920-x-1090-hero-majesticmansion.webp';
+import UKS_KELLER_MARBLING_MOODS_1920_X_1090 from '../assets/uks-keller/uks-keller-marbling-moods-1920-x-1090.webp';
+import UKS_KELLER_1920_X_1090_HERO_OCEAN_BREEZE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-ocean-breeze.webp';
+import UKS_KELLER_ORIENTAL_ESSENCE_1326_X_884_AFBEELDING from '../assets/uks-keller/uks-keller-oriental-essence-1326-x-884-afbeelding.webp';
+import UKS_KELLER_1920_X_1090_HERO_RAW_NATURE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-raw-nature.webp';
+import UKS_KELLER_1920_X_1090_HERO_TUSCAN_VILLA from '../assets/uks-keller/uks-keller-1920-x-1090-hero-tuscan-villa.webp';
+import UKS_KELLER_SILENT_RIVER_HERO from '../assets/uks-keller/uks-keller-silent-river-hero.webp';
+import UKS_KELLER_KELLER_KEUKEN_2 from '../assets/uks-keller/uks-keller-keller-keuken-2.webp';
+import UKS_KELLER_1920_X_1090_HERO_BLCKCOTTAGE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-blckcottage.webp';
+import UKS_KELLER_1920_X_1090_HERO_COTTAGELIFE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-cottagelife.webp';
+import UKS_KELLER_1920_X_1090_HERO_MISTYGREY from '../assets/uks-keller/uks-keller-1920-x-1090-hero-mistygrey.webp';
+import UKS_KELLER_1920_X_1090_HERO_MODERNFARMHOUSE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-modernfarmhouse.webp';
+import UKS_KELLER_1920_X_1090_HERO_NATURAL_BASIC from '../assets/uks-keller/uks-keller-1920-x-1090-hero-natural-basic.webp';
+import UKS_KELLER_1920_X_1090_HERO_NEW_COUNTRY from '../assets/uks-keller/uks-keller-1920-x-1090-hero-new-country.webp';
+import UKS_KELLER_1920_X_1090_HERO_SMOKEYWOOD from '../assets/uks-keller/uks-keller-1920-x-1090-hero-smokeywood.webp';
+import UKS_KELLER_BOLD_ELEGANCE_HERO from '../assets/uks-keller/uks-keller-bold-elegance-hero.webp';
+import UKS_KELLER_1920_X_1090_HERO_URBANNUDE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-urbannude.webp';
+import UKS_KELLER_1920_X_1090_HERO_BLCKMETAL from '../assets/uks-keller/uks-keller-1920-x-1090-hero-blckmetal.webp';
+import UKS_KELLER_1920_X_1090_HERO_BROOKLYNBRICK from '../assets/uks-keller/uks-keller-1920-x-1090-hero-brooklynbrick.webp';
+import UKS_KELLER_1920_X_1090_HERO_CONCRETEJUNGLE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-concretejungle.webp';
+import UKS_KELLER_1920_X_1090_HERO_DARKRITUALS from '../assets/uks-keller/uks-keller-1920-x-1090-hero-darkrituals.webp';
+import UKS_KELLER_1920_X_1090_HERO_NATURESCHOICE from '../assets/uks-keller/uks-keller-1920-x-1090-hero-natureschoice.webp';
+import UKS_KELLER_1920_X_1090_HERO_ROCKSOLID from '../assets/uks-keller/uks-keller-1920-x-1090-hero-rocksolid.webp';
+import UKS_KELLER_KELLER_KEUKEN_19 from '../assets/uks-keller/uks-keller-keller-keuken-19.webp';
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
@@ -12,57 +53,57 @@ const stylesData = [
     models: [
       {
         name: 'Suite Life',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg',
+        image: UKS_KELLER_SUITE_LIFE_HERO,
         link: '/kitchens/keller/modern-kitchens/suite-life'
       },
       {
         name: 'Natural Harmony',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg',
+        image: UKS_KELLER_NATURAL_HARMONY_HERO,
         link: '/kitchens/keller/modern-kitchens/natural-harmony'
       },
       {
         name: 'Perfect Sense',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_PERFECTSENSE,
         link: '/kitchens/keller/modern-kitchens/perfect-sense'
       },
       {
         name: 'Black Marble',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_BLACKMARBLE,
         link: '/kitchens/keller/modern-kitchens/black-marble'
       },
       {
         name: 'City chic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL,
         link: '/kitchens/keller/modern-kitchens/city-chic'
       },
       {
         name: 'Matt Black',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_MATTBLACK,
         link: '/kitchens/keller/modern-kitchens/matt-black'
       },
       {
         name: 'Modern Urban',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png',
+        image: UKS_KELLER_MODERN_URBAN_1326_X_884_AFBEELDING,
         link: '/kitchens/keller/modern-kitchens/modern-urban'
       },
       {
         name: 'Nautical Navy',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_NAUTICALNAVY,
         link: '/kitchens/keller/modern-kitchens/nautical-navy'
       },
       {
         name: 'Northern Nature',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_NORTHERNNATURE,
         link: '/kitchens/keller/modern-kitchens/northern-nature'
       },
       {
         name: 'Pure Basic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_PUREBASIC,
         link: '/kitchens/keller/modern-kitchens/pure-basic'
       },
       {
         name: 'Vogue Vibes',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg',
+        image: UKS_KELLER_1920_X_1090_HERO_VOGUEVIBES,
         link: '/kitchens/keller/modern-kitchens/vogue-vibes'
       }
     ]
@@ -76,51 +117,63 @@ const stylesData = [
     models: [
       {
         name: 'Retro Vibes',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/D2t8og5h/uploads/media/68f0f29be799f/retro-vibes-hero.webp?originalExtension=jpg'
+        image: UKS_KELLER_RETRO_VIBES_HERO,
+        link: '/kitchens/keller/classic-kitchens/retro-vibes'
       },
       {
         name: 'Natural Weave',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/kcN9ZSKg/uploads/media/68f1e8cb5c9b4/natural-weave-hero.webp?originalExtension=jpg'
+        image: UKS_KELLER_NATURAL_WEAVE_HERO,
+        link: '/kitchens/keller/classic-kitchens/natural-weave'
       },
       {
         name: 'Calm Flow',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/ZkjuSX14/uploads/media/68f5d9b9d834e/calm-flow-hero2.webp?originalExtension=jpg'
+        image: UKS_KELLER_CALM_FLOW_HERO2,
+        link: '/kitchens/keller/classic-kitchens/calm-flow'
       },
       {
         name: 'Timeless Charm',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/WX57s4Yb/uploads/media/66e14ccf72b7e/timeless-charm-1326-x-884-afbeelding.webp?originalExtension=png'
+        image: UKS_KELLER_TIMELESS_CHARM_1326_X_884_AFBEELDING,
+        link: '/kitchens/keller/classic-kitchens/timeless-charm'
       },
       {
         name: 'Bliss Boutique',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/HC4KAMvx/uploads/media/6322f6c5c2922/1920-x-1090-heroblissboutique.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HEROBLISSBOUTIQUE,
+        link: '/kitchens/keller/classic-kitchens/bliss-boutique'
       },
       {
         name: 'Glam Chic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/zV7m5Fxe/uploads/media/6322f118d95df/1920-x-1090-hero-glamchic.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_GLAMCHIC,
+        link: '/kitchens/keller/classic-kitchens/glam-chic'
       },
       {
         name: 'Majestic Mansion',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/w57ebxpK/uploads/media/63218a81bc161/1920-x-1090-hero-majesticmansion.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_MAJESTICMANSION,
+        link: '/kitchens/keller/classic-kitchens/majestic-mansion'
       },
       {
         name: 'Marbling Moods',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/DsKqUj3L/uploads/media/6305d6b460601/marbling-moods-1920-x-1090.webp?originalExtension=png'
+        image: UKS_KELLER_MARBLING_MOODS_1920_X_1090,
+        link: '/kitchens/keller/classic-kitchens/marbling-moods'
       },
       {
         name: 'Ocean Breeze',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/mLCGJGp6/uploads/media/64ec5a6663f39/1920-x-1090-hero-ocean-breeze.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_OCEAN_BREEZE,
+        link: '/kitchens/keller/classic-kitchens/ocean-breeze'
       },
       {
         name: 'Oriëntal Essence',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/llBb6jEE/uploads/media/66e14e4b01341/oriental-essence-1326-x-884-afbeelding.webp?originalExtension=png'
+        image: UKS_KELLER_ORIENTAL_ESSENCE_1326_X_884_AFBEELDING,
+        link: '/kitchens/keller/classic-kitchens/oriental-essence'
       },
       {
         name: 'Raw Nature',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Um6IYMOX/uploads/media/637c8b860c62e/1920-x-1090-hero-raw-nature.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_RAW_NATURE,
+        link: '/kitchens/keller/classic-kitchens/raw-nature'
       },
       {
         name: 'Tuscan Villa',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/hcgaym3g/uploads/media/64ec8d9edb3b4/1920-x-1090-hero-tuscan-villa.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_TUSCAN_VILLA,
+        link: '/kitchens/keller/classic-kitchens/tuscan-villa'
       }
     ]
   },
@@ -133,39 +186,39 @@ const stylesData = [
     models: [
       {
         name: 'Silent River',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/iDg0Jhh6/uploads/media/68f22c8fee668/silent-river-hero.webp?originalExtension=jpg'
+        image: UKS_KELLER_SILENT_RIVER_HERO
       },
       {
         name: 'Zen Life',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/iphZATfs/uploads/media/674846211a708/keller-keuken-2.webp?originalExtension=jpg'
+        image: UKS_KELLER_KELLER_KEUKEN_2
       },
       {
         name: 'Black Cottage',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/JGah8Gf2/uploads/media/631f1dbb493c3/1920-x-1090-hero-blckcottage.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_BLCKCOTTAGE
       },
       {
         name: 'Cottage Life',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/qKidCM6j/uploads/media/630cc28992239/1920-x-1090-hero-cottagelife.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_COTTAGELIFE
       },
       {
         name: 'Misty Grey',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/Pe4HEea7/uploads/media/64ec620dbe613/1920-x-1090-hero-mistygrey.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_MISTYGREY
       },
       {
         name: 'Modern Farmhouse',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/lPHTlABB/uploads/media/630dce0aad09b/1920-x-1090-hero-modernfarmhouse.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_MODERNFARMHOUSE
       },
       {
         name: 'Natural Basic',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/7Lng14Lx/uploads/media/630ddb1545e23/1920-x-1090-hero-natural-basic.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_NATURAL_BASIC
       },
       {
         name: 'New Country',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/DBprpywA/uploads/media/631f14bb07ec4/1920-x-1090-hero-new-country.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_NEW_COUNTRY
       },
       {
         name: 'Smokey Wood',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/GTwDx8tV/uploads/media/6566f6542c105/1920-x-1090-hero-smokeywood.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_SMOKEYWOOD
       }
     ]
   },
@@ -178,35 +231,35 @@ const stylesData = [
     models: [
       {
         name: 'Bold Elegance',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/BJ2OQLpT/uploads/media/66e0836f017d9/bold-elegance-hero.webp?originalExtension=jpg'
+        image: UKS_KELLER_BOLD_ELEGANCE_HERO
       },
       {
         name: 'Urban Nude',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/odc4sSud/uploads/media/630cbb72a2fc9/1920-x-1090-hero-urbannude.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_URBANNUDE
       },
       {
         name: 'Black Metal',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/0b1TTPSx/uploads/media/630cb1d98f788/1920-x-1090-hero-blckmetal.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_BLCKMETAL
       },
       {
         name: 'Brooklyn Brick',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/g6W7B6x5/uploads/media/631ef3b6b8d84/1920-x-1090-hero-brooklynbrick.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_BROOKLYNBRICK
       },
       {
         name: 'Concrete Jungle',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/YmbOJV0U/uploads/media/630cb785aa135/1920-x-1090-hero-concretejungle.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_CONCRETEJUNGLE
       },
       {
         name: 'Dark Rituals',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/EiSGawKS/uploads/media/630c91435d3fc/1920-x-1090-hero-darkrituals.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_DARKRITUALS
       },
       {
         name: "Nature's Choice",
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/tRV66fWT/uploads/media/64ec6cf21563c/1920-x-1090-hero-natureschoice.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_NATURESCHOICE
       },
       {
         name: 'Rock Solid',
-        image: 'https://www.kellerkitchens.com/media/cache/generic/rc/w9F2wZGx/uploads/media/630cbc8e45e20/1920-x-1090-hero-rocksolid.webp?originalExtension=jpg'
+        image: UKS_KELLER_1920_X_1090_HERO_ROCKSOLID
       }
     ]
   }
@@ -366,7 +419,7 @@ export default function Keller() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.9, ease: 'easeOut' }}
       >
-        <img src="https://www.kellerkitchens.com/media/cache/generic/rc/U4CpjXYX/uploads/media/674846241e714/keller-keuken-19.webp?originalExtension=jpg" alt="Keller Dutch Kitchens" />
+        <img src={UKS_KELLER_KELLER_KEUKEN_19} alt="Keller Dutch Kitchens" />
       </motion.div>
 
       {/* Intro Text */}

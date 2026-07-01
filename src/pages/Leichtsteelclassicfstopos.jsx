@@ -1,8 +1,34 @@
+import UKS_LEICHTSTEELCLASSICFSTOPOS_312WALNUSSB from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-312walnussb.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D08298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D08298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D01298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D01298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D03298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D03298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D22298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D22298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D17298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D17298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D16298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D16298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D18298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D18298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D19298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D19298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D20298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269D20298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0890301IDEA003 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0890301Idea003.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0900305HYGGEHELLCYAN002 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_TOPOSCLASSICFS03 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0480101KYOTO012NAH from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0480101Kyoto012nah.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_684269M01167309J22 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-684269M01167309J22.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_244753M01350120J20 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-244753M01350120j20.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_0470101BAHIA026 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-0470101BAHIA026.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_744293M01352192J22 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-744293M01352192j22.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_CLASSICFSCTOPOS2 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-CLASSICFSCTOPOS2.webp';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269M01298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269M01298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269M02298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269M02298025312j18.jpg';
+import UKS_LEICHTSTEELCLASSICFSTOPOS_219213269MO03298025312J18 from '../assets/uks-leichtsteelclassicfstopos/uks-leichtsteelclassicfstopos-219213269MO03298025312j18.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
+const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb';
 
-const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 /* ── HOTSPOTS ─────────────────────────────────────────────────── */
 const hotspots = [
@@ -11,7 +37,7 @@ const hotspots = [
     x: '67.7%', y: '51.8%',
     title: 'TOPOS',
     desc: 'Genuine wood front veneered in oak, ash, nutwood or elm. Ash and elm veneers are implemented in a vertical direction and furthermore have a continuous veneer. Design range: PRIMO Colour: H 312 walnut',
-    img: `${BASE}/4cb00201-d801-40c2-9f48-2d6e6c5284f2/91d034fb-79e9-48a6-9f35-0e55b2b129c2/312walnussb.jpg?width=257&height=169`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_312WALNUSSB,
     popDir: 'left',
   },
   {
@@ -19,7 +45,7 @@ const hotspots = [
     x: '60.3%', y: '46.0%',
     title: 'Side panel shelf',
     desc: 'Side panel shelf units offer maximum flexibility. Variable in depth from 25 to 68 cm and available in a large number of accessory surround colours, homely touches can be created in every kitchen. They come in either 1.6 cm or 2.8 cm.',
-    img: `${BASE}/5d6dd733-9f47-483f-ba8e-d2bc42f003e3/df34a932-3845-4781-8024-b3ded5809a52/219213269D08298025312j18.jpg?width=257&height=169`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D08298025312J18,
     popDir: 'left',
   },
   {
@@ -27,7 +53,7 @@ const hotspots = [
     x: '36.8%', y: '48.4%',
     title: 'Glass display cabinet VERO',
     desc: 'The glass display cabinet features delicately tinted glass in an anodised aluminium frame profile. Vertical LED lighting strips inside ensure atmospheric lighting. The light can be controlled in terms of intensity and colour temperature.',
-    img: `${BASE}/405c38e3-2978-4b33-924c-035196e4daf5/fac5fc0e-d1ed-48a0-8757-5a1ad49657b2/219213269D01298025312j18.jpg?width=257&height=169`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D01298025312J18,
     popDir: 'right',
     link: '/contact',
   },
@@ -36,7 +62,7 @@ const hotspots = [
     x: '18.3%', y: '43.2%',
     title: 'CLASSIC-FS',
     desc: 'High-grade matt-lacquered surface with pleasant, velvety feel. Lacquering on both sides. Available in exclusive Le Corbusier colours, RAL and NSC colour systems. Design range: PRIMO Colour: Les Couleurs Le Corbusier: ombre naturelle 31',
-    img: `${BASE}/6003e756-d45e-4a69-8a27-d905c06a282f/8c752c3f-cc45-42a8-bcb8-7aaae56fb434/219213269D03298025312j18.jpg?width=257&height=169`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D03298025312J18,
     popDir: 'right',
   },
   {
@@ -44,7 +70,7 @@ const hotspots = [
     x: '14.9%', y: '69.9%',
     title: 'STEEL',
     desc: 'Surface with genuine metal coating. Steel powder with a special lacquer sprayed onto the surface, processed with a special oxidisation process and then polished and lacquered matt. Design range: PRIMO Colour: mf 298 ferro',
-    img: `${BASE}/c4d7dd41-9113-48c3-82fc-1a8255b4b45b/88b04462-05a5-4078-9a6d-6f09c73bdf82/219213269D22298025312j18.jpg?width=257&height=169`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D22298025312J18,
     popDir: 'right',
   }
 ]
@@ -53,27 +79,27 @@ const hotspots = [
 const COMBO_SLIDES = [
   {
     id: 1,
-    img: `${BASE}/d6b7c6a1-605f-463d-a04a-29fe8b5bab31/ae9aa3f7-d9fa-4128-ac32-44f790a7d895/219213269D17298025312j18.jpg?width=1000`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D17298025312J18,
     alt: 'Combo Organizer – Natural oak cutlery divider',
   },
   {
     id: 2,
-    img: `${BASE}/5cc49f4c-4308-4361-816b-ad75163ff5cd/90f4b816-8ed4-4b08-b96e-792e5bc9dea1/219213269D16298025312j18.jpg?width=1000`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D16298025312J18,
     alt: 'Combo Organizer – Flat drawer view',
   },
   {
     id: 3,
-    img: `${BASE}/a081e9c6-b045-4ccc-a965-3b61c65b627a/40e74ebd-f0c2-4153-9484-2af45af5de9d/219213269D18298025312j18.jpg?width=1000`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D18298025312J18,
     alt: 'Combo Organizer – Spacious compartment separation',
   },
   {
     id: 4,
-    img: `${BASE}/dbab7c59-2809-4f50-80c8-9d0fa943a842/cae6c8ef-f3f5-4eed-9ff5-c2966e9596c1/219213269D19298025312j18.jpg?width=1000`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D19298025312J18,
     alt: 'Combo Organizer – Deep drawer with solid dividers',
   },
   {
     id: 5,
-    img: `${BASE}/559fba5e-bf38-4126-b7ac-62db9a91b83c/85ffe349-f05a-4c2a-b54c-cb53d4d2c18e/219213269D20298025312j18.jpg?width=1000`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D20298025312J18,
     alt: 'Combo Organizer – Cutlery trays close-up',
   }
 ]
@@ -83,79 +109,79 @@ const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${BASE}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${BASE}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${BASE}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${BASE}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${BASE}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${BASE}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${BASE}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${BASE}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${BASE}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${BASE}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht/bossa-kera-madero',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${BASE}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_0470101BAHIA026,
     to: '/kitchens/leicht/bahia',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Textured wood meets raw concrete for bold architectural kitchens.',
-    img: `${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_744293M01352192J22,
     to: '/kitchens/leicht/bossa-concrete',
   },
   {
     title: 'CLASSIC-FS-C TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${BASE}/17222983-1ea7-4667-8e59-2c0ab2f11db4/e94fbfd1-43d2-436d-8720-5c429fd4497d/CLASSICFSCTOPOS2.webp?width=1200`,
+    img: UKS_LEICHTSTEELCLASSICFSTOPOS_CLASSICFSCTOPOS2,
     to: '/kitchens/leicht/classic-fs-c-topos',
   }
 ]
@@ -193,7 +219,7 @@ export default function LeichtSteelClassicFsTopos() {
         <div className="sct-hero__wrap">
           <img
             className="sct-hero__img"
-            src={`${BASE}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=2499&height=1571`}
+            src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269M01298025312J18}
             srcSet={`${BASE}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1279 1279w,
               ${BASE}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1919 1919w,
               ${BASE}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=2499 2499w`}
@@ -262,14 +288,14 @@ export default function LeichtSteelClassicFsTopos() {
           <div className="sct-intro__imgs">
             <div className="sct-intro__img-wide">
               <img
-                src={`${BASE}/b044a9f6-c84c-419c-8b61-db98c974b436/c5f458cf-4e04-4c16-9fab-b688f925e299/219213269M02298025312j18.jpg?width=833&height=714`}
+                src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269M02298025312J18}
                 alt="STEEL CLASSIC-FS TOPOS – overall kitchen counter"
                 loading="lazy"
               />
             </div>
             <div className="sct-intro__img-tall">
               <img
-                src={`${BASE}/9b676f9f-5165-4958-a01d-14e6fb43859e/51524d2f-8fab-4e68-913b-dd86d0ed67cb/219213269MO03298025312j18.jpg?width=833&height=1054`}
+                src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269MO03298025312J18}
                 alt="STEEL CLASSIC-FS TOPOS – vertical walnut cabinet fronts"
                 loading="lazy"
               />
@@ -282,7 +308,7 @@ export default function LeichtSteelClassicFsTopos() {
       <section className="sct-divider">
         <div className="sct-divider__bg">
           <img
-            src={`${BASE}/8a103486-2751-4a38-a32c-369e254e7b93/1669dc0d-7820-489f-a216-0cad43224858/219213269D22298025312j18.jpg?width=1439&height=745`}
+            src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D22298025312J18}
             alt="STEEL CLASSIC-FS TOPOS – steel surface texture"
             loading="lazy"
             className="sct-divider__wide-img"
@@ -297,7 +323,7 @@ export default function LeichtSteelClassicFsTopos() {
           </div>
           <div className="sct-divider__portrait">
             <img
-              src={`${BASE}/d6b7c6a1-605f-463d-a04a-29fe8b5bab31/ae9aa3f7-d9fa-4128-ac32-44f790a7d895/219213269D17298025312j18.jpg?width=833&height=738`}
+              src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D17298025312J18}
               alt="STEEL CLASSIC-FS TOPOS – kitchen island sink detail"
               loading="lazy"
             />
@@ -352,7 +378,7 @@ export default function LeichtSteelClassicFsTopos() {
             </div>
             <div className="sct-shelving__img-wrap">
               <img
-                src={`${BASE}/91292da2-025d-493e-a899-cf984b845bb3/298f80a3-f0a3-475e-9b4f-ccdb88102569/219213269D08298025312j18.jpg?width=1000`}
+                src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D08298025312J18}
                 alt="STEEL CLASSIC-FS TOPOS – side panel shelf modules"
                 loading="lazy"
               />
@@ -374,14 +400,14 @@ export default function LeichtSteelClassicFsTopos() {
           <div className="sct-vero__grid">
             <div className="sct-vero__col">
               <img
-                src={`${BASE}/91292da2-025d-493e-a899-cf984b845bb3/298f80a3-f0a3-475e-9b4f-ccdb88102569/219213269D08298025312j18.jpg?width=800`}
+                src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D08298025312J18}
                 alt="STEEL CLASSIC-FS TOPOS – Vero shelf structure close-up"
                 loading="lazy"
               />
             </div>
             <div className="sct-vero__col">
               <img
-                src={`${BASE}/1fd2e79a-ce60-4971-8ea1-d539480cc5fa/1bc9a9e6-a223-49cf-921c-46ad1c341ebe/219213269D01298025312j18.jpg?width=800`}
+                src={UKS_LEICHTSTEELCLASSICFSTOPOS_219213269D01298025312J18}
                 alt="STEEL CLASSIC-FS TOPOS – Vero glass cabinet layout"
                 loading="lazy"
               />

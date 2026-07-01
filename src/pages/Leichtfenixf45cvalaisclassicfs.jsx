@@ -1,8 +1,34 @@
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D06120335NCSJ22003 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-753283213D06120335NCSj22003.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO08120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213MO08120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D19120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213D19120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D22120335NCSJ22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-753283213D22120335NCSj22.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D22120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213D22120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D17120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213D17120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D16120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213D16120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D20120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213D20120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0890301IDEA003 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0890301Idea003.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0900305HYGGEHELLCYAN002 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_TOPOSCLASSICFS03 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0480101KYOTO012NAH from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0480101Kyoto012nah.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_684269M01167309J22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-684269M01167309J22.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_244753M01350120J20 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-244753M01350120j20.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_0470101BAHIA026 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-0470101BAHIA026.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_744293M01352192J22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-744293M01352192j22.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_CLASSICFSCTOPOS2 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-CLASSICFSCTOPOS2.webp';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_219213269M01298025312J18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-219213269M01298025312j18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213M01120335NCSJ22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-753283213M01120335NCSj22.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO13120335NCSJ18 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-242283213MO13120335NCSj18.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D02120335NCSJ22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-753283213D02120335NCSj22.jpg';
+import UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D15120335NCSJ22 from '../assets/uks-leichtfenixf45cvalaisclassicfs/uks-leichtfenixf45cvalaisclassicfs-753283213D15120335NCSj22.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
+const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb';
 
-const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 /* ── HOTSPOTS ─────────────────────────────────────────────────── */
 const hotspots = [
@@ -11,7 +37,7 @@ const hotspots = [
     x: '60.9%', y: '61.0%',
     title: 'FENIX F 45',
     desc: 'High-quality laminate front made from original FENIX NTM material. The all-round 45° chamfered laminate edge ensures the special look of the front. Design range: CONTINO Colour: K 120 frosty white',
-    img: `${BASE}/b2b6cae6-3752-4031-9383-6ad5e9446cbd/e52fd048-906c-40e7-a2e5-205c65e10769/753283213D06120335NCSj22003.jpg?width=257&height=169`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D06120335NCSJ22003,
     popDir: 'left',
   },
   {
@@ -19,7 +45,7 @@ const hotspots = [
     x: '16.8%', y: '41.5%',
     title: 'Shelves',
     desc: 'Filigree metal shelves, with integrated LED lighting strip for positioning on wall cladding. The shelves are available in several colours. The light can be controlled in terms of intensity and colour temperature.',
-    img: `${BASE}/95c7873c-62bd-416c-9c00-b30ee7c8f4d1/5504638a-ef3f-4043-83dc-e2dc656e0b1b/242283213MO08120335NCSj18.jpg?width=257&height=169`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO08120335NCSJ18,
     popDir: 'right',
   },
   {
@@ -27,7 +53,7 @@ const hotspots = [
     x: '28.6%', y: '63.2%',
     title: 'Table solution',
     desc: 'Variable table solution with support brackets made of stainless steel or a lacquered metal version in the desired colour. The metal brackets are manufactured as required and in terms of dimensions can be planned freely.',
-    img: `${BASE}/1a20915b-3bd0-425f-bfac-19a7eaef18b9/1fafec3d-7212-43f2-bd5d-74b1a8cd6993/242283213D19120335NCSj18.jpg?focal_point=54.95,94.85&width=257&height=169`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D19120335NCSJ18,
     popDir: 'right',
   },
   {
@@ -35,7 +61,7 @@ const hotspots = [
     x: '37.1%', y: '39.6%',
     title: 'One-piece tall unit front',
     desc: 'Tall unit element with continuous door which is extended to the floor, thus concealing the plinth in the front – resulting in extra elegance and homeliness.',
-    img: `${BASE}/c906e067-71b7-4fb9-acc4-7e12f34fda06/d3eabb14-07df-4f09-aa53-b6a7c4ae9c51/753283213D22120335NCSj22.jpg?width=257&height=169`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D22120335NCSJ22,
     popDir: 'right',
   },
   {
@@ -43,7 +69,7 @@ const hotspots = [
     x: '10.4%', y: '55.4%',
     title: 'Wall cladding',
     desc: 'Wall cladding is available in a number of programmes, materials and colours and, in terms of dimensions, can be adapted to suit requirements. Colour: H 335 alpine natural oak',
-    img: `${BASE}/0e0b3e00-944b-4646-ba80-0945492003bc/9638d3ac-f1be-43a7-b1dd-a70f9c09bad3/242283213D22120335NCSj18.jpg?width=257&height=169`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D22120335NCSJ18,
     popDir: 'right',
   }
 ]
@@ -52,26 +78,26 @@ const hotspots = [
 const SWATCHES = [
   {
     id: 1,
-    thumb: `${BASE}/0d9adaa3-c0f9-4cea-abdd-67de956653d2/f77414e7-8ecf-4e8f-82a4-a88a0b826651/242283213D17120335NCSj18.jpg?width=120&height=82`,
-    large: `${BASE}/0d9adaa3-c0f9-4cea-abdd-67de956653d2/f77414e7-8ecf-4e8f-82a4-a88a0b826651/242283213D17120335NCSj18.jpg?width=1360&height=575`,
+    thumb: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D17120335NCSJ18,
+    large: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D17120335NCSJ18,
     alt: 'Fenix F45-C – Solid oak cutlery organizer',
   },
   {
     id: 2,
-    thumb: `${BASE}/9caf444b-791d-4fb5-b6cb-845971629c28/48e826ea-8fa5-4f08-9551-6e2d54a18674/242283213D16120335NCSj18.jpg?width=120&height=82`,
-    large: `${BASE}/9caf444b-791d-4fb5-b6cb-845971629c28/48e826ea-8fa5-4f08-9551-6e2d54a18674/242283213D16120335NCSj18.jpg?width=1360&height=575`,
+    thumb: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D16120335NCSJ18,
+    large: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D16120335NCSJ18,
     alt: 'Fenix F45-C – Drawer with plate dividers',
   },
   {
     id: 3,
-    thumb: `${BASE}/3125dc49-bc21-4e1f-9a1b-e33d00604e24/64fb3132-28b5-4c27-a580-8c680478b4e9/242283213D20120335NCSj18.jpg?width=120&height=82`,
-    large: `${BASE}/3125dc49-bc21-4e1f-9a1b-e33d00604e24/64fb3132-28b5-4c27-a580-8c680478b4e9/242283213D20120335NCSj18.jpg?width=1360&height=575`,
+    thumb: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D20120335NCSJ18,
+    large: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D20120335NCSJ18,
     alt: 'Fenix F45-C – Drawer with adjustable pegs',
   },
   {
     id: 4,
-    thumb: `${BASE}/ae037edc-bab8-4ba1-9b81-aa9dfae9264b/d32ec910-8e3a-4261-97c0-6e657bdb44b8/242283213MO08120335NCSj18.jpg?width=120&height=82`,
-    large: `${BASE}/ae037edc-bab8-4ba1-9b81-aa9dfae9264b/d32ec910-8e3a-4261-97c0-6e657bdb44b8/242283213MO08120335NCSj18.jpg?width=1360&height=575`,
+    thumb: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO08120335NCSJ18,
+    large: UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO08120335NCSJ18,
     alt: 'Fenix F45-C – Wall shelves with integrated lighting',
   }
 ]
@@ -81,85 +107,85 @@ const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${BASE}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${BASE}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${BASE}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${BASE}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${BASE}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${BASE}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${BASE}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${BASE}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${BASE}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${BASE}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht/bossa-kera-madero',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${BASE}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_0470101BAHIA026,
     to: '/kitchens/leicht/bahia',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Textured wood meets raw concrete for bold architectural kitchens.',
-    img: `${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_744293M01352192J22,
     to: '/kitchens/leicht/bossa-concrete',
   },
   {
     title: 'CLASSIC-FS-C TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${BASE}/17222983-1ea7-4667-8e59-2c0ab2f11db4/e94fbfd1-43d2-436d-8720-5c429fd4497d/CLASSICFSCTOPOS2.webp?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_CLASSICFSCTOPOS2,
     to: '/kitchens/leicht/classic-fs-c-topos',
   },
   {
     title: 'STEEL CLASSIC-FS TOPOS',
     sub: 'Pure steel surfaces meet warm wood accents – an elegant kitchen design.',
-    img: `${BASE}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1200`,
+    img: UKS_LEICHTFENIXF45CVALAISCLASSICFS_219213269M01298025312J18,
     to: '/kitchens/leicht/steel-classic-fs-topos',
   }
 ]
@@ -189,7 +215,7 @@ export default function LeichtFenixF45CValaisClassicFs() {
         <div className="fval-hero__wrap">
           <img
             className="fval-hero__img"
-            src={`${BASE}/88e64946-236c-4d20-82d1-df8743b017ac/43f74d13-707b-471c-bb8a-11b4b3e07cd5/753283213M01120335NCSj22.jpg?width=2499&height=1679`}
+            src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213M01120335NCSJ22}
             srcSet={`${BASE}/88e64946-236c-4d20-82d1-df8743b017ac/43f74d13-707b-471c-bb8a-11b4b3e07cd5/753283213M01120335NCSj22.jpg?width=1279 1279w,
               ${BASE}/88e64946-236c-4d20-82d1-df8743b017ac/43f74d13-707b-471c-bb8a-11b4b3e07cd5/753283213M01120335NCSj22.jpg?width=1919 1919w,
               ${BASE}/88e64946-236c-4d20-82d1-df8743b017ac/43f74d13-707b-471c-bb8a-11b4b3e07cd5/753283213M01120335NCSj22.jpg?width=2499 2499w`}
@@ -258,14 +284,14 @@ export default function LeichtFenixF45CValaisClassicFs() {
           <div className="fval-intro__imgs">
             <div className="fval-intro__img-wide">
               <img
-                src={`${BASE}/b2b6cae6-3752-4031-9383-6ad5e9446cbd/e52fd048-906c-40e7-a2e5-205c65e10769/753283213D06120335NCSj22003.jpg?width=833&height=714`}
+                src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D06120335NCSJ22003}
                 alt="FENIX F45-C VALAIS – frosty white kitchen island detail"
                 loading="lazy"
               />
             </div>
             <div className="fval-intro__img-tall">
               <img
-                src={`${BASE}/870bbc05-73c6-4072-a463-6e51248ba5a1/82cf8d2b-80c3-4bf6-801a-fdec0d861a7c/242283213MO13120335NCSj18.jpg?focal_point=46.44,5.18&width=833&height=1054`}
+                src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213MO13120335NCSJ18}
                 alt="FENIX F45-C VALAIS – alpine oak cabinet fronts"
                 loading="lazy"
               />
@@ -278,7 +304,7 @@ export default function LeichtFenixF45CValaisClassicFs() {
       <section className="fval-divider">
         <div className="fval-divider__bg">
           <img
-            src={`${BASE}/37a71ba7-a0e2-42ff-b24d-54e8efc20261/803857cb-a7d5-4ca7-b261-bfc4be9ee4c3/753283213D02120335NCSj22.jpg?width=1439&height=745`}
+            src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D02120335NCSJ22}
             alt="FENIX F45-C VALAIS – functional open kitchen design"
             loading="lazy"
             className="fval-divider__wide-img"
@@ -293,7 +319,7 @@ export default function LeichtFenixF45CValaisClassicFs() {
           </div>
           <div className="fval-divider__portrait">
             <img
-              src={`${BASE}/fa606a2c-3957-4732-b48b-745a15007cd5/c8f76761-9c2a-44dd-9b47-e2d792e773a3/753283213D22120335NCSj22.jpg?width=833&height=1137`}
+              src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D22120335NCSJ22}
               alt="FENIX F45-C VALAIS – handleless tall cabinets detailed view"
               loading="lazy"
             />
@@ -305,7 +331,7 @@ export default function LeichtFenixF45CValaisClassicFs() {
       <section className="fval-overlay-sec">
         <div className="fval-overlay-sec__bg">
           <img
-            src={`${BASE}/810cd499-88b6-4ab7-b78c-4af8c2ca7739/74732b11-deb9-4678-8ccc-826e0806946c/753283213D15120335NCSj22.jpg?width=1440`}
+            src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_753283213D15120335NCSJ22}
             alt="FENIX F45-C – 45 degree chamfered edge drawer profile"
             loading="lazy"
           />
@@ -330,7 +356,7 @@ export default function LeichtFenixF45CValaisClassicFs() {
       <section className="fval-overlay-sec">
         <div className="fval-overlay-sec__bg">
           <img
-            src={`${BASE}/9afe5b7d-0e69-4fd4-9ca8-f4d16a3e48e4/38bcf943-67f1-4739-9e0f-526407f765b2/242283213D19120335NCSj18.jpg?focal_point=46.53,55.56&width=1440`}
+            src={UKS_LEICHTFENIXF45CVALAISCLASSICFS_242283213D19120335NCSJ18}
             alt="FENIX F45-C – alpine oak wall cladding wood texture"
             loading="lazy"
           />

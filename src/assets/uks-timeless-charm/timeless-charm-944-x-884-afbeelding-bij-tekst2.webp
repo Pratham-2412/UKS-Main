@@ -1,0 +1,1809 @@
+
+<!DOCTYPE html>
+<!--[if lte IE 9]> <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+      
+    
+<meta
+http-equiv="Content-Security-Policy"
+content="
+  font-src 'self' data:
+    https://fonts.googleapis.com
+    https://*.typekit.net
+    https://fonts.gstatic.com;
+  default-src 'self';
+  base-uri 'self';
+  form-action 'self';
+  style-src 'self' 'unsafe-inline'
+    https://*.klaviyo.com
+    https://www.googletagmanager.com
+    https://fonts.googleapis.com
+    https://*.typekit.net
+    https://cdn.jsdelivr.net;
+  img-src 'self' data:
+    https://www.googletagmanager.com
+    https://*.cookiebot.com
+    https://*.doubleclick.net
+    https://maps.googleapis.com
+    https://www.google-analytics.com
+    https://www.google.com
+    https://www.google.nl
+    https://maps.gstatic.com
+    https://px.ads.linkedin.com
+    https://www.facebook.com
+    https://www.linkedin.com;
+  script-src
+    'self'
+    'unsafe-eval'
+    'nonce-786464908'
+    'sha256-sp3UwzRzBv6ZnTbKsE7Zqe+GPYhdEchuu7VxgC8l/1k='
+    'sha256-OvspORMgfS/pZElRCtWOtfXDvfGJT3SP3b2nzBksdBw='
+    'sha256-/nlKavf5GavdFH00/Yn09aSyjXpP39AX5K1YXI8FQUI='
+    'sha256-IKYBHpwQtG1CvJmdQtWHQ7M3A+O4Ru7/70N6X+RifjI='
+    'sha256-XBMkZ0Vgz1plGBDB562WQ80kchRNQyt6YqdDoZ9vhsQ='
+    'sha256-dM8pMnZRQV4VFClez5FbRr3hVsOUKlCV1kmrBQST5RY='
+    'sha256-+YbMoGuRkmgWDgS9U+j+OUR2hcBSMHt7Cv+NdRM4Q64='
+    'sha256-gwp3LcEY0zaW9Z/hIpMRrrLezHqT2LFf6IiJLhJBmvQ='
+    'sha256-50ZrEbyN+1lAd4MGZUDPjVnIKQ+WA84h4L9mB2jqVhk='
+    'sha256-m/U3wQ6Xvm56NzvkTczV0FssSv5Lpg2jcV0uYrH2IBI='
+    'sha256-DA2ahF/7SX84GKBzfB8AjIVtjJTKWVvLikLSq4OohPM='
+    'sha256-PoADNyKZWXNzTEwopVJtWSbKwe/81G8c8+tRvMsQUD0='
+    'sha256-8TVmdtxBm9x0UL5su9NuKyuJ+TVapXl49REH5PNN+EY='
+    'sha256-UdmupFfuqpq9/WTlx5gA96lG7y+hWRyl0S1ATbHfNUA='
+    'sha256-dmNbAMxDrwcw7TR/um1+F+Zjlhn2uneHFqF4EUCy2T0='
+    https://kellerkeukens.accept.goodnews.nl
+    https://www.kellerkeukens.nl
+    https://www.kellerkitchens.com
+    https://www.kellercuisines.com
+    https://*.googlesyndication.com
+    https://www.google.com
+    https://www.gstatic.com
+    https://*.cookiebot.com
+    https://www.google-analytics.com
+    https://connect.facebook.net
+    https://maps.google.com
+    https://www.googletagmanager.com
+    https://*.klaviyo.com
+    https://s.pinimg.com
+    https://*.google.com
+    https://*.pinterest.com
+    https://*.adform.net
+    https://maps.googleapis.com
+    https://*.leadinfo.com
+    https://*.leadinfo.net
+    https://cdn.ldnfrpl.com
+    https://snap.licdn.com;
+  frame-src 'self'
+    https://player.flipsnack.com
+    https://www.google.com
+    https://www.youtube.com
+    https://player.vimeo.com/video
+    https://www.dailymotion.com/embed/video
+    https://consentcdn.cookiebot.com
+    https://maps.google.com
+    https://*.adform.net
+    https://*.pinterest.com
+    https://www.googletagmanager.com;
+  child-src 'self'
+    https://www.google.com
+    https://www.youtube.com
+    https://player.vimeo.com
+    https://www.dailymotion.com;
+  connect-src 'self'
+    https://*.google.com
+    https://*.googlesyndication.com
+    https://*.google-analytics.com
+    https://maps.googleapis.com
+    https://www.google-analytics.com
+    https://*.doubleclick.net
+    https://consentcdn.cookiebot.com
+    https://*.pinterest.com
+    https://px.ads.linkedin.com
+    https://*.klaviyo.com
+    https://*.leadinfo.com
+    https://*.leadinfo.net
+    https://www.facebook.com
+    https://s.pinimg.com;
+  object-src 'self';
+  worker-src 'self';
+"
+>
+
+
+  <title>Keller Kitchens</title>
+
+        
+  <link rel="icon" href="/assets/img/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicon/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicon/safari-pinned-tab.svg" color="#000000">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
+
+      <link rel="preload" href="/assets/fonts/raleway-v27-latin-500.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-500italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-600italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-700italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/raleway-v27-latin-italic.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="/assets/app.ceb5505005824ec4b3a5.css" type="text/css" />
+  
+  <!-- Google Tag Manager -->
+          <script nonce="786464908">
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js',
+      });
+      const f = d.getElementsByTagName(s)[0];
+      const j = d.createElement(s);
+      const dl = l != 'dataLayer' ? `&l=${l}` : '';
+      j.async = true;
+      j.src = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`;
+      const n = d.querySelector('[nonce]');
+      n && j.setAttribute('nonce', n.nonce || n.getAttribute('nonce'));
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TMV6T4H');
+  </script>
+  <!-- End Google Tag Manager -->
+</head>
+
+
+<body
+  class="  content-page
+"
+    data-theme="kellerkeukens"
+  style=""
+  >
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMV6T4H" height="0" width="0" class="u-hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="u-visually-hidden u-visually-hidden--focusable">
+  <nav class="c-skiplinks">
+                
+          
+    
+      
+            
+                
+  <a
+    class="c-button c-button--outlined c-button--outlined-secondary"
+                target="_self"     href="#content"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Ga naar de hoofdinhoud</span>
+                            </span>
+  </a>
+  </nav>
+</div>
+
+  
+
+  
+
+
+
+<header class="c-header c-header--private" data-module="header" data-js-bind="header" data-force=private>
+  <div class="o-container">
+    <div class="c-header__switch-container o-layout o-layout--nowrap o-layout--full-width">
+      <a class="c-header__logo-link c-header__logo-link--mobile" href="https://www.kellerkitchens.com/">
+        <svg width="90" height="90" class="c-header__logo"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#logo"></use>
+    </svg>
+        <span class="u-visually-hidden">
+          Homepagina
+        </span>
+      </a>
+      <button
+  data-private-href="https://www.kellerkitchens.com/"
+  data-business-href="https://www.kellerkitchens.com/voor-dealers-en-projectpartners"
+  data-js-bind="menu-switch"
+  class="c-header__switch "
+>
+  <span>Consumers</span>
+  <span>B2B</span>
+</button>
+    </div>
+
+    <div class="c-header__content o-layout o-layout--no-wrap o-layout--align-center">
+      <a class="c-header__logo-link c-header__logo-link--desktop" href="https://www.kellerkitchens.com/">
+        <svg width="90" height="90" class="c-header__logo"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#logo"></use>
+    </svg>
+        <span class="u-visually-hidden">
+          Homepagina
+        </span>
+      </a>
+
+      
+      <div class="c-header__actions">
+                    
+      
+                
+  <button
+    class="c-button c-button--icon-only c-button--clean c-button--large-icon c-button--hidden-label"
+            type="button"        
+           data-js-bind="open-search"
+            title="Zoeken"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Zoeken</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#magnifiyng-glass"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+
+        <button
+          type="button"
+          class="c-header__menu-toggle"
+          data-js-bind="toggle-menu"
+          aria-expanded="false"
+          aria-controls="main-menu"
+          aria-label="Menu"
+        >
+          <span class="c-header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+          <span class="u-hidden@until-md">Menu</span>
+        </button>
+
+                  
+<div
+  class="c-language-switch u-hidden@until-md" data-js-bind="language-switch"
+>
+  <select
+    class="c-language-switch__select"
+    aria-label="Selecteer een taal"
+    data-module="language-switch"
+  >
+          <option value="https://www.kellerkeukens.nl/" >
+        NL
+      </option>
+          <option value="https://www.kellerkitchens.com/"  selected >
+        EN
+      </option>
+          <option value="https://www.kellercuisines.com/" >
+        FR
+      </option>
+      </select>
+
+  <svg width="14" height="14" class="c-language-switch__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</div>
+        
+        
+                
+                                                  
+      
+                
+  <button
+    class="c-button c-header__brochure"
+            type="button"        
+           data-js-bind="open-brochure"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Request our brochure</span>
+                            </span>
+  </button>
+
+                                
+          
+    
+      
+            
+                
+  <a
+    class="c-button c-header__become-dealer"
+                target="_self"     href="https://www.kellerkitchens.com/for-dealers/become-a-partner"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Become a partner</span>
+                            </span>
+  </a>
+
+                            
+              </div>
+
+      
+
+
+<div id="main-menu" class="c-main-menu " data-module="main-menu" data-js-bind="main-menu">
+  <div class="o-container c-main-menu__container" data-js-bind="main-menu-container">
+    <nav>
+      <div data-js-bind="main-menu-navigation">
+        <ul data-js-bind="main-menu-nav" class="u-list-clean c-main-menu__nav">
+                <li class="c-main-menu__list-item">
+              
+<button
+  type="button"
+  id="main-menu-button-1"
+  class="c-main-menu__link u-underline-animation"
+  aria-controls="sub-menu-1"
+  aria-expanded="false"
+  data-js-bind="toggle-sub-menu"
+>
+  <span>
+    Kitchens
+  </span>
+  <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-right"></use>
+    </svg>
+</button>
+<div
+  id="sub-menu-1"
+  aria-labelledby="main-menu-button-1"
+  data-js-bind="sub-menu"
+  class="c-main-menu__sub-menu-container"
+>
+  <ul
+    class="c-main-menu__sub-menu"
+  >
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--back">
+                  
+      
+                
+  <button
+    class="c-button c-button--clean c-button--icon-left c-main-menu__back-button"
+            type="button"        
+           data-js-bind="back-to-main-menu"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Kitchens</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#arrow-left"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+    </li>
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--overview">
+      <a class="c-main-menu__sub-link c-main-menu__sub-link--overview u-underline-animation is-active" href="/the-personal-kitchen/interior-styles" target="_self">
+  <span>
+    → Kitchens
+  </span>
+</a>
+    </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/the-personal-kitchen/interior-styles" target="_self">
+  <span>
+    Kitchen designs
+  </span>
+</a>
+              </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/the-personal-kitchen/utility-rooms" target="_self">
+  <span>
+    Utility rooms
+  </span>
+</a>
+              </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/the-personal-kitchen/programme" target="_self">
+  <span>
+    Programme
+  </span>
+</a>
+              </li>
+      </ul>
+</div>
+<span class="c-main-menu__sub-menu-scroll-indicator" data-js-bind="scroll-indicator" hidden>
+  <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</span>
+          </li>
+      <li class="c-main-menu__list-item">
+              
+<button
+  type="button"
+  id="main-menu-button-2"
+  class="c-main-menu__link u-underline-animation"
+  aria-controls="sub-menu-2"
+  aria-expanded="false"
+  data-js-bind="toggle-sub-menu"
+>
+  <span>
+    Keller dealers
+  </span>
+  <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-right"></use>
+    </svg>
+</button>
+<div
+  id="sub-menu-2"
+  aria-labelledby="main-menu-button-2"
+  data-js-bind="sub-menu"
+  class="c-main-menu__sub-menu-container"
+>
+  <ul
+    class="c-main-menu__sub-menu"
+  >
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--back">
+                  
+      
+                
+  <button
+    class="c-button c-button--clean c-button--icon-left c-main-menu__back-button"
+            type="button"        
+           data-js-bind="back-to-main-menu"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Keller dealers</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#arrow-left"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+    </li>
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--overview">
+      <a class="c-main-menu__sub-link c-main-menu__sub-link--overview u-underline-animation is-active" href="/keller-dealers" target="_self">
+  <span>
+    → Keller dealers
+  </span>
+</a>
+    </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/keller-dealers/dealers" target="_self">
+  <span>
+    Find your dealer
+  </span>
+</a>
+              </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/for-dealers/become-a-partner" target="_self">
+  <span>
+    Become a partner
+  </span>
+</a>
+              </li>
+      </ul>
+</div>
+<span class="c-main-menu__sub-menu-scroll-indicator" data-js-bind="scroll-indicator" hidden>
+  <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</span>
+          </li>
+      <li class="c-main-menu__list-item">
+              <a class="c-main-menu__link u-underline-animation" href="/csr" target="_self">
+  <span>
+    Sustainability
+  </span>
+</a>
+          </li>
+      <li class="c-main-menu__list-item">
+              
+<button
+  type="button"
+  id="main-menu-button-4"
+  class="c-main-menu__link u-underline-animation"
+  aria-controls="sub-menu-4"
+  aria-expanded="false"
+  data-js-bind="toggle-sub-menu"
+>
+  <span>
+    Contract kitchens
+  </span>
+  <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-right"></use>
+    </svg>
+</button>
+<div
+  id="sub-menu-4"
+  aria-labelledby="main-menu-button-4"
+  data-js-bind="sub-menu"
+  class="c-main-menu__sub-menu-container"
+>
+  <ul
+    class="c-main-menu__sub-menu"
+  >
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--back">
+                  
+      
+                
+  <button
+    class="c-button c-button--clean c-button--icon-left c-main-menu__back-button"
+            type="button"        
+           data-js-bind="back-to-main-menu"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Contract kitchens</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#arrow-left"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+    </li>
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--overview">
+      <a class="c-main-menu__sub-link c-main-menu__sub-link--overview u-underline-animation is-active" href="/contract-kitchens" target="_self">
+  <span>
+    → Contract kitchens
+  </span>
+</a>
+    </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/contract-kitchens/our-references" target="_self">
+  <span>
+    Our references
+  </span>
+</a>
+              </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/contract-kitchens/programme" target="_self">
+  <span>
+    Programme
+  </span>
+</a>
+              </li>
+      </ul>
+</div>
+<span class="c-main-menu__sub-menu-scroll-indicator" data-js-bind="scroll-indicator" hidden>
+  <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</span>
+          </li>
+      <li class="c-main-menu__list-item">
+              
+<button
+  type="button"
+  id="main-menu-button-5"
+  class="c-main-menu__link u-underline-animation"
+  aria-controls="sub-menu-5"
+  aria-expanded="false"
+  data-js-bind="toggle-sub-menu"
+>
+  <span>
+    Our company
+  </span>
+  <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-right"></use>
+    </svg>
+</button>
+<div
+  id="sub-menu-5"
+  aria-labelledby="main-menu-button-5"
+  data-js-bind="sub-menu"
+  class="c-main-menu__sub-menu-container"
+>
+  <ul
+    class="c-main-menu__sub-menu"
+  >
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--back">
+                  
+      
+                
+  <button
+    class="c-button c-button--clean c-button--icon-left c-main-menu__back-button"
+            type="button"        
+           data-js-bind="back-to-main-menu"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Our company</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#arrow-left"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+    </li>
+    <li class="c-main-menu__sub-item c-main-menu__sub-item--overview">
+      <a class="c-main-menu__sub-link c-main-menu__sub-link--overview u-underline-animation is-active" href="/our-company" target="_self">
+  <span>
+    → Our company
+  </span>
+</a>
+    </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/our-company/our-story" target="_self">
+  <span>
+    Our story
+  </span>
+</a>
+              </li>
+          <li class="c-main-menu__sub-item">
+        <a class="c-main-menu__sub-link u-underline-animation" href="/our-company/our-factory" target="_self">
+  <span>
+    Our factory
+  </span>
+</a>
+              </li>
+      </ul>
+</div>
+<span class="c-main-menu__sub-menu-scroll-indicator" data-js-bind="scroll-indicator" hidden>
+  <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</span>
+          </li>
+      <li class="c-main-menu__list-item">
+              <a class="c-main-menu__link u-underline-animation" href="/news-blogs" target="_self">
+  <span>
+    News & blogs
+  </span>
+</a>
+          </li>
+  
+        </ul>
+      </div>
+
+          </nav>
+
+    <div class="c-main-menu__bottom">
+              
+<div
+  class="c-language-switch u-hidden@from-md" data-js-bind="language-switch"
+>
+  <select
+    class="c-language-switch__select"
+    aria-label="Selecteer een taal"
+    data-module="language-switch"
+  >
+          <option value="https://www.kellerkeukens.nl/" >
+        NL
+      </option>
+          <option value="https://www.kellerkitchens.com/"  selected >
+        EN
+      </option>
+          <option value="https://www.kellercuisines.com/" >
+        FR
+      </option>
+      </select>
+
+  <svg width="14" height="14" class="c-language-switch__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use>
+    </svg>
+</div>
+      
+            
+            
+      <button
+  data-private-href="https://www.kellerkitchens.com/"
+  data-business-href="https://www.kellerkitchens.com/voor-dealers-en-projectpartners"
+  data-js-bind="menu-switch"
+  class="c-header__switch u-hidden@from-md"
+>
+  <span>Consumers</span>
+  <span>B2B</span>
+</button>
+
+      
+
+<ul class="c-socials u-list-clean c-socials--main-menu">
+            <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.instagram.com/kellerkitchens/"
+            title="Volg ons op instagram"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op instagram</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#instagram"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.facebook.com/KellerKitchensHQ"
+            title="Volg ons op facebook"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op facebook</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#facebook"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://nl.pinterest.com/kellerkeukens/"
+            title="Volg ons op pinterest"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op pinterest</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#pinterest"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.youtube.com/channel/UClK_uwvBWgcxCK-DzTIPUGA"
+            title="Volg ons op youtube"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op youtube</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#youtube"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.linkedin.com/company/keller-keukens/"
+            title="Volg ons op linkedIn"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op linkedIn</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#linkedIn"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+      </ul>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+</header>
+
+
+
+<div class="c-search" data-module="search">
+  <div class="c-search__backdrop" data-js-bind="search-backdrop"></div>
+  <div class="c-search__panel" data-js-bind="search-panel">
+    <div class="c-search__header">
+            <form
+        id="search-form"
+        class="c-search__form"
+        data-js-bind="search-form"
+        data-module="search-suggestions"
+      >
+        <label for="search-input-id" class="u-visually-hidden">
+          Search
+        </label>
+        <input
+          placeholder="Search here"
+          class="c-search__input"
+          name="query"
+          type="text"
+          data-js-bind="search-input"
+          id="search-input-id"
+        >
+        <div class="c-search__suggestions-container" data-js-bind="suggestions-container"></div>
+                    
+      
+                
+  <button
+    class="c-button c-search__submit c-button--icon-only c-button--clean c-button--hidden-label"
+            type="submit"        
+            title="Search"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Search</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#magnifiyng-glass"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+      </form>
+
+                        
+      
+                
+  <button
+    class="c-button c-button--icon-only c-button--clean c-button--hidden-label"
+            type="button"        
+           data-js-bind="close-search"
+            title="Close"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Close</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+    </div>
+    <div class="c-search__content">
+      <p
+        class="c-search__message u-hidden"
+        data-js-bind="search-message"
+        data-mes-results="Results"
+        data-mes-none="Geen zoekresultaten gevonden voor &#039;[query]&#039;"
+        data-hidden-class="u-hidden"
+      >
+        <span>No search term entered yet</span>
+      </p>
+
+                  
+              <div class="c-search__top-searched-terms" data-js-bind="top-searched-terms" data-hidden-class="u-hidden">
+          <p class="h4">Most searched:</p>
+          <ul class="u-list-clean">
+                          <li class="u-mb-2">
+                <button
+                  class="c-search__top-searched-terms-button"
+                  type="submit"
+                  form="search-form"
+                  data-top-search-term-button
+                  aria-label="Zoeken op:Dealers"
+                >Dealers</button>
+              </li>
+                          <li class="u-mb-2">
+                <button
+                  class="c-search__top-searched-terms-button"
+                  type="submit"
+                  form="search-form"
+                  data-top-search-term-button
+                  aria-label="Zoeken op:Modern kitchens"
+                >Modern kitchens</button>
+              </li>
+                          <li class="u-mb-2">
+                <button
+                  class="c-search__top-searched-terms-button"
+                  type="submit"
+                  form="search-form"
+                  data-top-search-term-button
+                  aria-label="Zoeken op:Classic kitchens"
+                >Classic kitchens</button>
+              </li>
+                          <li class="u-mb-2">
+                <button
+                  class="c-search__top-searched-terms-button"
+                  type="submit"
+                  form="search-form"
+                  data-top-search-term-button
+                  aria-label="Zoeken op:Country style kitchens"
+                >Country style kitchens</button>
+              </li>
+                          <li class="u-mb-2">
+                <button
+                  class="c-search__top-searched-terms-button"
+                  type="submit"
+                  form="search-form"
+                  data-top-search-term-button
+                  aria-label="Zoeken op:Industrial kitchens"
+                >Industrial kitchens</button>
+              </li>
+                      </ul>
+        </div>
+      
+            <div data-js-bind="error-message" class="u-mt-2" hidden>
+        
+
+<div
+  id="flash-message-id"
+  data-js-bind="hide-target"
+  class="c-flash-message c-flash-message--error c-flash-message--static o-container o-container--text"
+  data-module="collapsible-section"
+>
+  <div class="c-flash-message__container">
+          <div class="c-flash-message__text">Er is iets misgegaan bij het ophalen van de data</div>
+    
+    <button
+      data-js-bind="toggle"
+      aria-expanded="true"
+      aria-controls="flash-message-id"
+      type="button"
+      class="c-flash-message__close"
+      title="Close"
+    >
+      <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+  </div>
+</div>
+      </div>
+
+            <div data-js-bind="results" class="c-search__results-container" aria-live="polite">
+              </div>
+
+                  
+      
+                
+  <button
+    class="c-button c-search__more-items c-button--filled"
+            type="button"        
+           data-js-bind="more-items"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">More results</span>
+                            </span>
+  </button>
+
+      
+
+  <form name="search_feedback_form" method="post" id="search-feedback-form" class="c-search-feedback c-loader c-loader--search u-hidden " data-module="search-feedback" data-google-recaptcha="6LdUMtYqAAAAAPp6CW0BQ1GfGAYo9EluhBV-Q4k0">
+    <fieldset class="c-search-feedback__fieldset" data-js-bind="feedback-fieldset">
+            <div class="c-search-feedback__found" data-js-bind="feedback-found-container">
+        <h3 class="c-search-feedback__title" data-js-bind="feedback-title" data-title="Heeft u gevonden wat u zocht over &#039;[query]&#039;?">
+          Heeft u gevonden wat u zocht over &#039;[query]&#039;?
+        </h3>
+
+                    <div
+      class="c-form__row c-form__row--radio"
+          ><div class="c-form__wrap-label "></div><div class="c-form__wrap-input c-form__wrap-input--hide-underline"><div
+      class="c-choice"
+        data-js-bind="found-input"
+    ><div class="c-choice__wrap-list"><ul class="c-choice__list u-list-clean"><li><label for="search_feedback_form_found_0" class="is-required c-control c-control--radio-button"><input type="radio" id="search_feedback_form_found_0" name="search_feedback_form[found]" required="required" class="c-control__input u-visually-hidden" value="1"><span class="c-control__label c-control__label--radio-button">
+        Ja
+      </span></label></li><li><label for="search_feedback_form_found_1" class="is-required c-control c-control--radio-button"><input type="radio" id="search_feedback_form_found_1" name="search_feedback_form[found]" required="required" class="c-control__input u-visually-hidden" value="0"><span class="c-control__label c-control__label--radio-button">
+        Nee
+      </span></label></li></ul></div></div></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+      </div>
+
+            <div class="c-search-feedback__not-found u-hidden" data-js-bind="feedback-not-found-container">
+            <div
+      class="c-form__row c-form__row--text"
+          ><div class="c-form__wrap-label "><label class="c-search-feedback__label" for="search_feedback_form_whatNotFound">
+        Wat had u gehoopt te vinden?      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="search_feedback_form_whatNotFound" name="search_feedback_form[whatNotFound]" class="c-search-feedback__input c-input-text" data-js-bind="feedback-not-found-input" placeholder="Opmerking" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+
+        <button
+          class="c-button c-button--small"
+          type="submit"
+        >
+            Verstuur
+        </button>
+      </div>
+
+      <div data-js-bind="feedback-error-message" class="u-hidden">
+        
+
+<div
+  id="flash-message-id"
+  data-js-bind="hide-target"
+  class="c-flash-message c-flash-message--error c-flash-message--static u-mt-2 o-container o-container--text"
+  data-module="collapsible-section"
+>
+  <div class="c-flash-message__container">
+          <div class="c-flash-message__text">Er is iets misgegaan bij het versturen van de feedback. Probeer het later opnieuw.</div>
+    
+    <button
+      data-js-bind="toggle"
+      aria-expanded="true"
+      aria-controls="flash-message-id"
+      type="button"
+      class="c-flash-message__close"
+      title="Close"
+    >
+      <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+  </div>
+</div>
+      </div>
+
+              <div   data-js-bind="feedback-query" class="u-visually-hidden"><input
+      type="hidden" id="search_feedback_form_query" name="search_feedback_form[query]" data-js-bind="feedback-query" class="c-input-text" ></div>
+
+        <div    class="u-visually-hidden"><input
+      type="hidden" id="search_feedback_form__token" name="search_feedback_form[_token]" class="c-input-text" value="ebb34d50a173b8df71a63.tOlWd_wiBgEQSkv1Ngm4_PdvTmIJ90iphWJT7eQthv0.zI4EG413WW56DwOddG7RpKI6NDZ4hCzN5CcKmJ0Zv7mHgQwwlmVIbWE9IA" ></div>
+    </fieldset>
+
+    <button
+      aria-label="Close"
+      class="c-button c-search-feedback__close"
+      data-js-bind="feedback-close"
+      type="button"
+    >
+      <svg width="10" height="10" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+
+  </form>
+
+  <div class="c-search-feedback__message u-hidden" data-js-bind="feedback-message-positive">
+    <button
+      aria-label="Close"
+      type="button"
+      class="c-button c-search-feedback__close"
+      data-js-bind="feedback-message-close-positive"
+    >
+      <svg width="10" height="10" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+    <p class="c-search-feedback__message-text">Bedankt voor uw feedback</p>
+  </div>
+  
+  <div class="c-search-feedback__message u-hidden" data-js-bind="feedback-message-negative">
+    <button
+            aria-label="Close"
+            type="button"
+            class="c-button c-search-feedback__close"
+            data-js-bind="feedback-message-close-negative"
+    >
+      <svg width="10" height="10" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+    <p class="c-search-feedback__message-text">
+      Bedankt voor uw feedback. Let op: Contactgegevens worden niet gedeeld via dit formulier. Wilt u persoonlijk contact? Bel of mail onze klantenservice.
+    </p>
+    <p>
+                        
+          
+    
+                    
+            
+                
+  <a
+    class="c-button u-mt-4"
+                target="_blank"     href="https://www.kellerkitchens.com/service-warranty/contact"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Naar contactpagina</span>
+                            </span>
+  </a>
+    </p>
+  </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-brochure" data-module="brochure">
+  <div class="c-brochure__backdrop" data-js-bind="brochure-backdrop"></div>
+    <div class="c-brochure__panel" data-js-bind="brochure-panel">
+                  
+      
+                
+  <button
+    class="c-button c-button--icon-only c-button--clean c-brochure__close c-button--hidden-label"
+            type="button"        
+           data-js-bind="close-brochure"
+            title="Close"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Close</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+        </span>
+              </span>
+  </button>
+
+      
+        <div class="o-container o-container--form u-p-0">
+    
+                  <form name="brochure_form_slider" method="post" id="brochure-form" data-module="brochure-form" data-mail-format="post" data-netherlands="Nederland" class="c-form c-form--two-column c-form--brochure-#fff">
+            <div
+      class="c-form__row c-form__row--select"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_salutation" class="">
+        Salutation*      </label></div><div class="c-form__wrap-input c-form__wrap-input--hide-underline"><div class="c-select"><select id="brochure_form_slider_salutation" name="brochure_form_slider[salutation]" required="required" class="c-select__input"><option
+            value="" selected="selected">
+            -- Make your choice --</option><option value="Dhr.">Mr.</option><option value="Mevr.">Ms./Mrs.</option><option value="Overige">Other</option></select><svg width="15" height="15" class="c-select__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use></svg></div></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_firstName" class="">
+        First name      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_firstName" name="brochure_form_slider[firstName]" maxlength="255" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_surname" class="">
+        Last name*      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_surname" name="brochure_form_slider[surname]" required="required" maxlength="255" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+
+            <div
+      class="c-form__row c-form__row--select"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_receiveByFormat" class="">
+        Receive via*      </label></div><div class="c-form__wrap-input c-form__wrap-input--hide-underline"><div class="c-select"><select id="brochure_form_slider_receiveByFormat" name="brochure_form_slider[receiveByFormat]" required="required" data-js-bind="format-select" class="c-select__input"><option
+            value="" selected="selected">
+            -- Make your choice --</option><option value="pdf">Digital</option></select><svg width="15" height="15" class="c-select__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use></svg></div></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_postal" class="">
+        Postal code*      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_postal" name="brochure_form_slider[postal]" required="required" maxlength="255" data-js-bind="postal-field" class="u-text-uppercase c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text u-hidden"
+               data-js-bind="mail-field"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_houseNumber" class="">
+        Number      </label></div><div class="c-form__wrap-input"><input
+      type="number" id="brochure_form_slider_houseNumber" name="brochure_form_slider[houseNumber]" data-js-bind="house-number-field" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text u-hidden"
+               data-js-bind="mail-field"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_houseNumberAddition" class="">
+        Huisnr. toevoeging      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_houseNumberAddition" name="brochure_form_slider[houseNumberAddition]" maxlength="255" data-js-bind="house-number-addition-field" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+
+            <div
+      class="c-form__row c-form__row--text u-hidden"
+               data-js-bind="mail-field"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_streetname" class="">
+        Street      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_streetname" name="brochure_form_slider[streetname]" maxlength="255" data-js-bind="street-name-field" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--text u-hidden"
+               data-js-bind="mail-field"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_city" class="">
+        City      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="brochure_form_slider_city" name="brochure_form_slider[city]" maxlength="255" data-js-bind="city-field" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--select"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_country" class="">
+        Country*      </label></div><div class="c-form__wrap-input c-form__wrap-input--hide-underline"><div class="c-select"><select id="brochure_form_slider_country" name="brochure_form_slider[country]" required="required" data-js-bind="country-field" class="c-select__input"><option
+            value="" selected="selected">
+            -- Make your choice --</option><option value="Nederland">The Netherlands</option><option value="België">Belgium</option><option value="Anders">Others</option></select><svg width="15" height="15" class="c-select__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#chevron-down"></use></svg></div></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+
+            <div
+      class="c-form__row c-form__row--text"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_email" class="">
+        Email address*      </label></div><div class="c-form__wrap-input"><input
+      type="email" id="brochure_form_slider_email" name="brochure_form_slider[email]" required="required" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+            <div
+      class="c-form__row c-form__row--tel"
+               data-module="phone-validation"
+               data-error-message="Start&#x20;the&#x20;phone&#x20;number&#x20;with&#x20;the&#x20;country&#x20;code&#x20;&#x28;e.g.&#x20;&#x2B;44&#x20;7911&#x20;123456&#x29;"
+          ><div class="c-form__wrap-label "><label for="brochure_form_slider_phoneNumber" class="">
+        Phone number*      </label></div><div class="c-form__wrap-input"><input
+      type="tel" id="brochure_form_slider_phoneNumber" name="brochure_form_slider[phoneNumber]" required="required" maxlength="255" placeholder="Start the phone number with the country code (e.g. +44 7911 123456)" class="c-input-text" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+
+        <div class="c-form__row c-form__row--full-width c-form__row--mb-2">
+            <label class="u-hidden" for="brochure_form_slider_agreeToGeneralTerms">
+        I agree with the &lt;a target=&quot;_blank&quot; href=&quot;https://www.kellerkitchens.com/privacy-policy&quot;&gt;privacy statement&lt;/a&gt;.*      </label>
+            <label for="brochure_form_slider_agreeToGeneralTerms" class="is-required c-control c-control--checkbox"><input type="checkbox" id="brochure_form_slider_agreeToGeneralTerms" name="brochure_form_slider[agreeToGeneralTerms]" required="required" class="c-control__input  u-visually-hidden" value="1"><span class="c-control__indicator" role="presentation"><svg width="11" height="15" class="c-control__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#checkbox-icon"></use></svg></span><span class="c-control__label">
+        I agree with the <a target="_blank" href="https://www.kellerkitchens.com/privacy-policy">privacy statement</a>.
+      </span></label>
+            
+        </div>
+
+        <div class="c-form__row c-form__row--full-width">
+            <label class="u-hidden" for="brochure_form_slider_subscribeToNewsLetter">
+        Please send me the newsletter      </label>
+            <label for="brochure_form_slider_subscribeToNewsLetter" class="c-control c-control--checkbox"><input type="checkbox" id="brochure_form_slider_subscribeToNewsLetter" name="brochure_form_slider[subscribeToNewsLetter]" class="c-control__input  u-visually-hidden" value="1"><span class="c-control__indicator" role="presentation"><svg width="11" height="15" class="c-control__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#checkbox-icon"></use></svg></span><span class="c-control__label">
+        Please send me the newsletter
+      </span></label>
+            
+        </div>
+
+          <p class="u-mt-2">
+  This site is protected by reCAPTCHA and Google, <a href="https://policies.google.com/privacy" target="_blank" style="color:inherit">Privacybeleid</a> en <a href="https://policies.google.com/terms" target="_blank" style="color:inherit">Servicevoorwaarden</a> zijn van toepassing.<a href="https://policies.google.com/privacy" target="_blank" style="color:inherit">Privacy policy</a> and <a href="https://policies.google.com/terms" target="_blank" style="color:inherit">Terms of Service</a> apply.
+</p>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LdUMtYqAAAAAPp6CW0BQ1GfGAYo9EluhBV-Q4k0"></script>
+<script src="/bundles/goodnewsrecaptcha/js/recaptcha.js" integrity="sha512-U0h5VgXaOIc1cnpwQVWQy+USp06+WENeodZLcFpvuUG+CzqvEqSXv8QTLy4ssbu/QRVDay7ofSwXyt68s2d6yg=="></script>
+
+    <div   data-recaptcha-input="1" data-recaptcha-action="brochure_request_form" data-recaptcha-key="6LdUMtYqAAAAAPp6CW0BQ1GfGAYo9EluhBV-Q4k0" class="u-visually-hidden"><input
+      type="hidden" id="brochure_form_slider_recaptcha_recaptcha" name="brochure_form_slider[recaptcha][recaptcha]" data-recaptcha-input="data-recaptcha-input" data-recaptcha-action="brochure_request_form" data-recaptcha-key="6LdUMtYqAAAAAPp6CW0BQ1GfGAYo9EluhBV-Q4k0" class="c-input-text" ></div>
+
+
+                            
+      
+                
+  <button
+    class="c-button c-button--filled c-button--min-width u-mt-3"
+            type="submit"        
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Send</span>
+                            </span>
+  </button>
+
+          <div    class="u-visually-hidden"><input
+      type="hidden" id="brochure_form_slider__token" name="brochure_form_slider[_token]" class="c-input-text" value="3000c12aae3db4674cff4d5850a08._JknElEwoQ_OM1MVQPgt36eFrx5AMWJElcTjNALVAJQ.0apKQRh1ylqFcWB3AoBPtuLUxS46eDId3bemTXGRb8PP1kp-B2n7d4RHAg" ></div></form>
+          </div>
+  </div>
+</div>
+
+
+  <main class="c-main ">
+      
+
+<section
+  class="c-content-hero "
+  style="
+  --background-color: white; --text-color: black;
+  --background-color-cta: white; --text-color-cta: black;
+"
+>
+  
+  <div class="o-container c-content-hero__content" >
+    <div>
+
+      
+      <h1 class="c-content-hero__title">An error occured</h1>
+
+              <p class="c-content-hero__description">Probeer het later opnieuw of klik <a href="/">hier</a> om terug te gaan naar de homepage.</p>
+      
+      
+          </div>
+    
+    
+      </div>
+</section>
+  </main>
+
+  
+  
+
+  <form name="search_feedback_toolbar_form" method="post" id="search-feedback-toolbar-form" data-module="search-feedback-toolbar" class="c-search-feedback-toolbar c-loader c-loader--search u-hidden " data-google-recaptcha="6LdUMtYqAAAAAPp6CW0BQ1GfGAYo9EluhBV-Q4k0">
+    <fieldset data-js-bind="feedback-fieldset" class="c-search-feedback-toolbar__fieldset">
+            <div data-js-bind="feedback-found-container" class="c-search-feedback-toolbar__content">
+        <p class="c-search-feedback-toolbar__text" data-js-bind="feedback-title" data-title="Heeft u gevonden wat u zocht over &#039;[query]&#039;?">
+          Heeft u gevonden wat u zocht over &#039;[query]&#039;?
+        </p>
+
+        <div class="c-search-feedback-toolbar__form">
+                        <div
+      class="c-form__row c-form__row--radio"
+          ><div class="c-form__wrap-label "></div><div class="c-form__wrap-input c-form__wrap-input--hide-underline"><div
+      class="c-choice"
+        data-js-bind="found-input" id="found-input"
+    ><div class="c-choice__wrap-list"><ul class="c-choice__list u-list-clean"><li><label for="search_feedback_toolbar_form_found_0" class="is-required c-control c-control--radio-button"><input type="radio" id="search_feedback_toolbar_form_found_0" name="search_feedback_toolbar_form[found]" required="required" class="c-control__input u-visually-hidden" value="1"><span class="c-control__label c-control__label--radio-button">
+        Ja
+      </span></label></li><li><label for="search_feedback_toolbar_form_found_1" class="is-required c-control c-control--radio-button"><input type="radio" id="search_feedback_toolbar_form_found_1" name="search_feedback_toolbar_form[found]" required="required" class="c-control__input u-visually-hidden" value="0"><span class="c-control__label c-control__label--radio-button">
+        Nee
+      </span></label></li></ul></div></div></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+        </div>
+      </div>
+
+            <div data-js-bind="feedback-not-found-container" class="c-search-feedback-toolbar__content u-hidden">
+        <div class="c-search-feedback-toolbar__form">
+              <div
+      class="c-form__row c-form__row--text c-form__row--columns"
+          ><div class="c-form__wrap-label "><label for="search_feedback_toolbar_form_whatNotFound" class="">
+        Wat had u gehoopt te vinden?      </label></div><div class="c-form__wrap-input"><input
+      type="text" id="search_feedback_toolbar_form_whatNotFound" name="search_feedback_toolbar_form[whatNotFound]" class="c-input-text c-input-text--wide c-search-feedback__input c-input-text" placeholder="Opmerking" data-js-bind="feedback-not-found-input" ></div><div class="c-form__wrap-error" data-wrap-error></div></div>
+        </div>
+
+        <div class="c-search-feedback-toolbar__submit">
+          <button class="c-button c-button--small" type="submit">
+            Verstuur
+          </button>
+        </div>
+      </div>
+
+            <div data-js-bind="feedback-thank-you-container-positive" class="c-search-feedback-toolbar__content u-hidden">
+        <p class="c-search-feedback-toolbar__text">
+          Bedankt voor uw feedback
+        </p>
+      </div>
+      
+            <div data-js-bind="feedback-thank-you-container-negative" class="c-search-feedback-toolbar__content u-hidden">
+        <p class="c-search-feedback-toolbar__text">
+          Bedankt voor uw feedback. Let op: Contactgegevens worden niet gedeeld via dit formulier. Wilt u persoonlijk contact? Bel of mail onze klantenservice.
+        </p>
+                            
+          
+    
+                    
+            
+                
+  <a
+    class="c-button"
+                target="_blank"     href="https://www.kellerkitchens.com/service-warranty/contact"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Naar contactpagina</span>
+                            </span>
+  </a>
+      </div>
+      
+      <button
+        aria-label="Close"
+        type="button"
+        class="c-button c-search-feedback-toolbar__close"
+        data-js-bind="feedback-close"
+      >
+        <svg width="10" height="10" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+      </button>
+
+              <div   data-js-bind="feedback-query" value="" class="u-visually-hidden"><input
+      type="hidden" id="search_feedback_toolbar_form_query" name="search_feedback_toolbar_form[query]" data-js-bind="feedback-query" value="" class="c-input-text" ></div>
+        <div    class="u-visually-hidden"><input
+      type="hidden" id="search_feedback_toolbar_form__token" name="search_feedback_toolbar_form[_token]" class="c-input-text" value="808fd39f9c30860eac09.k7AHFUyJaybbDu72Egz4E5LQILROjCczl_xM1em-97E.9Mp3IALEU16ef9auRWGxeMD9Qvw99Vdh5pEH4N7OnvvC-l5WIuwuSZFpow" ></div>
+    </fieldset>
+
+    <div data-js-bind="feedback-error-message" class="u-hidden">
+      
+
+<div
+  id="flash-message-id"
+  data-js-bind="hide-target"
+  class="c-flash-message c-flash-message--error c-flash-message--static u-mb-2 o-container o-container--text"
+  data-module="collapsible-section"
+>
+  <div class="c-flash-message__container">
+          <div class="c-flash-message__text">Er is iets misgegaan bij het versturen van de feedback. Probeer het later opnieuw.</div>
+    
+    <button
+      data-js-bind="toggle"
+      aria-expanded="true"
+      aria-controls="flash-message-id"
+      type="button"
+      class="c-flash-message__close"
+      title="Close"
+    >
+      <svg width="14" height="14" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#cross"></use>
+    </svg>
+    </button>
+  </div>
+</div>
+    </div>
+  </form>
+
+  
+<footer class="c-footer ">
+  <div class="o-container">
+
+          
+
+
+
+<div class="c-footer__top-container">
+  <div class="c-footer__column c-footer__column--first">
+    <a
+      class="c-footer__logo"
+      href="https://www.kellerkitchens.com/"
+    >
+      <svg width="90" height="30" ><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#logo-letters"></use>
+    </svg>
+      <span class="u-visually-hidden">
+        Homepagina
+      </span>
+    </a>
+
+    <div class="c-editor-content">
+      <p>Keller Keukens B.V.<br>
+P.O Box 140 4600 AC<br>
+Drebbelstraat 35 4622 RC<br>
+Bergen op Zoom<br>
+The Netherlands</p>
+    </div>
+
+                
+          
+    
+      
+            
+                
+  <a
+    class="c-button c-button--link c-button--link-white u-mt-3 u-mb-3"
+                target="_self"     href="https://www.kellerkitchens.com/service-warranty/contact"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Contact us</span>
+                            </span>
+  </a>
+
+    <div class="c-editor-content">
+      <p>KvK: 20026770 <br> BTW: NL0011.63.140B01</p>
+    </div>
+  </div>
+
+  <div class="c-footer__column">
+        <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/the-personal-kitchen" target="_self" class="c-footer__title-link">
+      Kitchens
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/the-personal-kitchen/interior-styles" target="_self">
+  <span>
+    Kitchen inspiration
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/the-personal-kitchen/utility-rooms" target="_self">
+  <span>
+    Utility rooms
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/the-personal-kitchen/programme" target="_self">
+  <span>
+    Programme
+  </span>
+</a>
+      </li>
+      </ul>
+
+  </div>
+
+  <div class="c-footer__column c-footer__column--dealers">
+                  <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/keller-dealers" target="_self" class="c-footer__title-link">
+      Keller dealers
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/keller-dealers/dealers" target="_self">
+  <span>
+    Find your dealer
+  </span>
+</a>
+      </li>
+      </ul>
+
+                <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/for-dealers" target="_self" class="c-footer__title-link">
+      For dealers
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/dealer/login" target="_self">
+  <span>
+    Dealer portal
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/for-dealers/become-a-partner" target="_self">
+  <span>
+    Become a partner
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/for-dealers/team-dealers" target="_self">
+  <span>
+    Meet the team
+  </span>
+</a>
+      </li>
+      </ul>
+
+          </div>
+
+      <div class="c-footer__column">
+        <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/contract-kitchens" target="_self" class="c-footer__title-link">
+      Contract kitchens
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/contract-kitchens/programme" target="_self">
+  <span>
+    Programme
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/contract-kitchens/our-references" target="_self">
+  <span>
+    Our references
+  </span>
+</a>
+      </li>
+      </ul>
+
+  </div>
+      <div class="c-footer__column">
+        <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/our-company" target="_self" class="c-footer__title-link">
+      About us
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/our-company/our-story" target="_self">
+  <span>
+    Our story
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/our-company/our-factory" target="_self">
+  <span>
+    Our factory
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/csr" target="_self">
+  <span>
+    Sustainability
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/news-blogs" target="_self">
+  <span>
+    News & blogs
+  </span>
+</a>
+      </li>
+      </ul>
+
+  </div>
+      <div class="c-footer__column">
+        <h3 class="c-footer__column-title">
+    <a href="https://www.kellerkitchens.com/service-warranty" target="_self" class="c-footer__title-link">
+      Service & warranty
+    </a>
+  </h3>
+
+  <ul class="u-list-clean c-footer__menu-list">
+          <li>
+        <a class="c-footer__link" href="/service-warranty/warranty" target="_self">
+  <span>
+    Warranty
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/service-warranty/installation-instructions" target="_self">
+  <span>
+    Installation instructions
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/service-warranty/maintenance" target="_self">
+  <span>
+    Instructions for care and use
+  </span>
+</a>
+      </li>
+          <li>
+        <a class="c-footer__link" href="/service-warranty/contact" target="_self">
+  <span>
+    Contact
+  </span>
+</a>
+      </li>
+      </ul>
+
+  </div>
+  </div>
+    
+    
+<div class="c-footer__bottom">
+  <div class="c-footer__social-menu">
+                
+          
+    
+      
+            
+                
+  <a
+    class="c-button c-footer__bronchure-link"
+                target="_self"     href="https://www.kellerkitchens.com/thank-you-brochure2"
+                
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label" data-js-bind="label">Request our brochure</span>
+                            </span>
+  </a>
+
+    
+
+<ul class="c-socials u-list-clean">
+            <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.instagram.com/kellerkitchens/"
+            title="Volg ons op instagram"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op instagram</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#instagram"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.facebook.com/KellerKitchensHQ"
+            title="Volg ons op facebook"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op facebook</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#facebook"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://nl.pinterest.com/kellerkeukens/"
+            title="Volg ons op pinterest"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op pinterest</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#pinterest"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.youtube.com/channel/UClK_uwvBWgcxCK-DzTIPUGA"
+            title="Volg ons op youtube"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op youtube</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#youtube"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+                <li>
+                    
+          
+    
+                    
+            
+                
+  <a
+    class="c-button c-button--social-icon c-button--hidden-label"
+                target="_blank"     href="https://www.linkedin.com/company/keller-keukens/"
+            title="Volg ons op linkedIn"    
+  >
+  <span class="c-button__inner">
+              <span class="c-button__label u-visually-hidden" data-js-bind="label">Volg ons op linkedIn</span>
+                            <span class="c-button__wrap-icon">
+          <svg width="14" height="14" class="c-button__icon"><use xlink:href="/assets/sprite.a905d57d654e0ff853a9.svg#linkedIn"></use>
+    </svg>
+        </span>
+              </span>
+  </a>
+      </li>
+      </ul>
+
+                <div class="klaviyo-form-X3weca c-footer__newsletter-form" data-module="klaviyo-form" data-location="footer" data-form-id="X3weca"></div>
+      </div>
+  <div class="c-footer__privacy-menu">
+    <p class="c-footer__copy-right">
+      Copyright &copy; 2026 All rights reserved
+    </p>
+    <ul class="c-footer__privacy-links u-list-clean">
+              <li>
+          <a class="c-footer__bottom-link" href="/disclaimer" target="_self">
+  <span>
+    Disclaimer
+  </span>
+</a>
+        </li>
+              <li>
+          <a class="c-footer__bottom-link" href="/privacy-policy" target="_self">
+  <span>
+    Privacy policy
+  </span>
+</a>
+        </li>
+          </ul>
+  </div>
+</div>
+  </div>
+</footer>
+
+      <script nonce="1585245175">const formTranslations = {
+  messages: {
+    missingValue: {
+      checkbox: 'validation.missing_value.checkbox',
+      radio: 'validation.missing_value.radio',
+      select: 'validation.missing_value.select',
+      'select-multiple': 'validation.missing_value.select_multiple',
+      default: 'validation.missing_value.default',
+    },
+    patternMismatch: {
+      email: 'validation.pattern_mismatch.email',
+      url: 'validation.pattern_mismatch.url',
+      number: 'validation.pattern_mismatch.number',
+      default: 'validation.pattern_mismatch.default',
+    },
+    outOfRange: {
+      over: 'validation.out_of_range.over',
+      under: 'validation.out_of_range.under',
+    },
+    wrongLength: {
+      over: 'validation.wrong_length.over',
+      under: 'validation.wrong_length.under',
+    },
+  },
+};</script>
+<script defer src="/assets/manifest.664941265170362615d8.js"></script>
+<script defer src="/assets/vendor.b8c699a6ebbe3b73be28.js"></script>
+    <script defer src="/assets/app.e3862671d1919c36c766.js"></script>
+  
+  <script id="klaviyo-script" nonce="786464908" async type="text/javascript" src="https://static.klaviyo.com/onsite/js/klaviyo.js?company_id=WpPeXD"></script>
+</body>
+</html>

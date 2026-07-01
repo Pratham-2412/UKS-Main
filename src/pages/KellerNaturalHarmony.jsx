@@ -1,13 +1,15 @@
+import UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY_HERO from '../assets/uks-keller-natural-harmony/uks-keller-natural-harmony-natural-harmony-hero.webp';
+import UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY_944_X_884_AFBEELDING_BIJ_TEKST from '../assets/uks-keller-natural-harmony/uks-keller-natural-harmony-natural-harmony-944-x-884-afbeelding-bij-tekst.webp';
+import UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY1326_X_884_AFBEELDING from '../assets/uks-keller-natural-harmony/uks-keller-natural-harmony-natural-harmony1326-x-884-afbeelding.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG      = `${BASE}/qPTVdhq5/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg`
-const SPLIT_IMG     = `${BASE}/2v2N612J/uploads/media/66e020f8c1fd8/natural-harmony-944-x-884-afbeelding-bij-tekst.webp?originalExtension=jpg`
-const WIDE_IMG      = `${BASE}/Cwq50qqv/uploads/media/66e14b9735c9d/natural-harmony1326-x-884-afbeelding.webp?originalExtension=png`
+const HERO_IMG      = UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY_HERO
+const SPLIT_IMG     = UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY_944_X_884_AFBEELDING_BIJ_TEKST
+const WIDE_IMG      = UKS_KELLER_NATURAL_HARMONY_NATURAL_HARMONY1326_X_884_AFBEELDING
 
 const FAQ_DATA = [
   {

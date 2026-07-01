@@ -1,18 +1,25 @@
+import UKS_KELLER_VOGUE_VIBES_1920_X_1090_HERO_VOGUEVIBES from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-1920-x-1090-hero-voguevibes.webp';
+import UKS_KELLER_VOGUE_VIBES_1326_X_884_AFBEELDING_VOGUE_VIBES from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-1326-x-884-afbeelding-vogue-vibes.webp';
+import UKS_KELLER_VOGUE_VIBES_DSC_9671_SOCIAL_MEDIA from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-dsc-9671-social-media.webp';
+import UKS_KELLER_VOGUE_VIBES_LAK_LATTE from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-lak-latte.webp';
+import UKS_KELLER_VOGUE_VIBES_LAK_BLUSH from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-lak-blush.webp';
+import UKS_KELLER_VOGUE_VIBES_BEITS_CC_NATUUR_EIKEN from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-beits-cc-natuur-eiken.webp';
+import UKS_KELLER_VOGUE_VIBES_ZEEZOUT from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-zeezout.webp';
+import UKS_KELLER_VOGUE_VIBES_2023_SJABLOON_COLLAGE_VOGUE_VIBES from '../assets/uks-keller-vogue-vibes/uks-keller-vogue-vibes-2023-sjabloon-collage-vogue-vibes.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG      = `${BASE}/nIL1BpAx/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg`
-const WIDE1_IMG     = `${BASE}/YdXeEktF/uploads/media/655c99b35c0bc/1326-x-884-afbeelding-vogue-vibes.webp?originalExtension=jpg`
-const SPLIT_IMG     = `${BASE}/qAo9NXdp/uploads/media/655c9a00ad038/dsc-9671-social-media.webp?originalExtension=jpg`
-const MAT1_IMG      = `${BASE}/bFJOLhWd/uploads/media/6538db4ad0485/lak-latte.webp?originalExtension=jpg`
-const MAT2_IMG      = `${BASE}/yaPxddvN/uploads/media/655c6f8d00324/lak-blush.webp?originalExtension=jpg`
-const MAT3_IMG      = `${BASE}/plCZAIm0/uploads/media/655c967de9f62/beits-cc-natuur-eiken.webp?originalExtension=jpg`
-const MAT4_IMG      = `${BASE}/GUtm3gQL/uploads/media/6391a68376803/zeezout.webp?originalExtension=jpg`
-const MOODBOARD_IMG = `${BASE}/iDprkb8R/uploads/media/652e69626f1f4/2023-sjabloon-collage-vogue-vibes.webp?originalExtension=jpg`
+const HERO_IMG      = UKS_KELLER_VOGUE_VIBES_1920_X_1090_HERO_VOGUEVIBES
+const WIDE1_IMG     = UKS_KELLER_VOGUE_VIBES_1326_X_884_AFBEELDING_VOGUE_VIBES
+const SPLIT_IMG     = UKS_KELLER_VOGUE_VIBES_DSC_9671_SOCIAL_MEDIA
+const MAT1_IMG      = UKS_KELLER_VOGUE_VIBES_LAK_LATTE
+const MAT2_IMG      = UKS_KELLER_VOGUE_VIBES_LAK_BLUSH
+const MAT3_IMG      = UKS_KELLER_VOGUE_VIBES_BEITS_CC_NATUUR_EIKEN
+const MAT4_IMG      = UKS_KELLER_VOGUE_VIBES_ZEEZOUT
+const MOODBOARD_IMG = UKS_KELLER_VOGUE_VIBES_2023_SJABLOON_COLLAGE_VOGUE_VIBES
 
 const FAQ_DATA = [
   {

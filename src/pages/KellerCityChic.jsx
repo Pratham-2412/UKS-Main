@@ -1,13 +1,15 @@
+import UKS_KELLER_CITY_CHIC_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL from '../assets/uks-keller-city-chic/uks-keller-city-chic-1920-x-1090-hero-citychic-walnootkaramel.webp';
+import UKS_KELLER_CITY_CHIC_615X718_CARROUSEL_CITYCHIC_WALNOOTKARAMEL from '../assets/uks-keller-city-chic/uks-keller-city-chic-615x718-carrousel-citychic-walnootkaramel.webp';
+import UKS_KELLER_CITY_CHIC_1326_X_884_RASTER_CITYCHIC_WALNOOTKARAMEL from '../assets/uks-keller-city-chic/uks-keller-city-chic-1326-x-884-raster-citychic-walnootkaramel.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
-const HERO_IMG  = `${BASE}/xD4EC1bt/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg`
-const WIDE_IMG  = `${BASE}/OddQ5r6D/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg`
-const SPLIT_IMG = `${BASE}/YsM6WThT/uploads/media/67444d2a0c841/615x718-carrousel-citychic-walnootkaramel.webp?originalExtension=jpg`
-const GRID_IMG  = `${BASE}/Io39vD7V/uploads/media/67444d579c261/1326-x-884-raster-citychic-walnootkaramel.webp?originalExtension=jpg`
+const HERO_IMG  = UKS_KELLER_CITY_CHIC_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL
+const WIDE_IMG  = UKS_KELLER_CITY_CHIC_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL
+const SPLIT_IMG = UKS_KELLER_CITY_CHIC_615X718_CARROUSEL_CITYCHIC_WALNOOTKARAMEL
+const GRID_IMG  = UKS_KELLER_CITY_CHIC_1326_X_884_RASTER_CITYCHIC_WALNOOTKARAMEL
 
 const FAQ_DATA = [
   {

@@ -44,6 +44,14 @@ import KellerRetroVibes from './pages/KellerRetroVibes'
 import KellerNaturalWeave from './pages/KellerNaturalWeave'
 import KellerCalmFlow from './pages/KellerCalmFlow'
 import KellerTimelessCharm from './pages/KellerTimelessCharm'
+import KellerBlissBoutique from './pages/KellerBlissBoutique'
+import KellerGlamChic from './pages/KellerGlamChic'
+import KellerMajesticMansion from './pages/KellerMajesticMansion'
+import KellerMarblingMoods from './pages/KellerMarblingMoods'
+import KellerOceanBreeze from './pages/KellerOceanBreeze'
+import KellerOrientalEssence from './pages/KellerOrientalEssence'
+import KellerRawNature from './pages/KellerRawNature'
+import KellerTuscanVilla from './pages/KellerTuscanVilla'
 import KellerCountryKitchens from './pages/KellerCountryKitchens'
 import KellerIndustrialKitchens from './pages/KellerIndustrialKitchens'
 
@@ -90,6 +98,14 @@ export default function App() {
           <Route path="/kitchens/keller/classic-kitchens/natural-weave" element={<KellerNaturalWeave />} />
           <Route path="/kitchens/keller/classic-kitchens/calm-flow" element={<KellerCalmFlow />} />
           <Route path="/kitchens/keller/classic-kitchens/timeless-charm" element={<KellerTimelessCharm />} />
+          <Route path="/kitchens/keller/classic-kitchens/bliss-boutique" element={<KellerBlissBoutique />} />
+          <Route path="/kitchens/keller/classic-kitchens/glam-chic" element={<KellerGlamChic />} />
+          <Route path="/kitchens/keller/classic-kitchens/majestic-mansion" element={<KellerMajesticMansion />} />
+          <Route path="/kitchens/keller/classic-kitchens/marbling-moods" element={<KellerMarblingMoods />} />
+          <Route path="/kitchens/keller/classic-kitchens/ocean-breeze" element={<KellerOceanBreeze />} />
+          <Route path="/kitchens/keller/classic-kitchens/oriental-essence" element={<KellerOrientalEssence />} />
+          <Route path="/kitchens/keller/classic-kitchens/raw-nature" element={<KellerRawNature />} />
+          <Route path="/kitchens/keller/classic-kitchens/tuscan-villa" element={<KellerTuscanVilla />} />
           <Route path="/kitchens/keller/country-kitchens" element={<KellerCountryKitchens />} />
           <Route path="/kitchens/keller/industrial-kitchens" element={<KellerIndustrialKitchens />} />
           <Route path="/kitchens/keller/modern-kitchens/suite-life" element={<KellerSuiteLife />} />

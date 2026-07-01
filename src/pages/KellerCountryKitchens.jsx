@@ -1,54 +1,64 @@
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_LANDELIJKEKEUKENS from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-landelijkekeukens.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_960_X_1024_LANDELIJK from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-960-x-1024-landelijk.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_SILENT_RIVER_HERO from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-silent-river-hero.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_KELLER_KEUKEN_2 from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-keller-keuken-2.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_BLCKCOTTAGE from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-blckcottage.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_COTTAGELIFE from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-cottagelife.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MISTYGREY from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-mistygrey.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MODERNFARMHOUSE from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-modernfarmhouse.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NATURAL_BASIC from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-natural-basic.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NEW_COUNTRY from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-new-country.webp';
+import UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_SMOKEYWOOD from '../assets/uks-keller-country-kitchens/uks-keller-country-kitchens-1920-x-1090-hero-smokeywood.webp';
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 const COUNTRY_MODELS = [
   {
     name: 'Silent River',
     desc: 'Beautiful shaker-style cabinets finished in soft sage green with warm oak wood trims.',
-    image: `${BASE}/iDg0Jhh6/uploads/media/68f22c8fee668/silent-river-hero.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_SILENT_RIVER_HERO
   },
   {
     name: 'Zen Life',
     desc: 'Clean horizontal grains and light soft neutral colors creating a serene atmosphere.',
-    image: `${BASE}/iphZATfs/uploads/media/674846211a708/keller-keuken-2.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_KELLER_KEUKEN_2
   },
   {
     name: 'Black Cottage',
     desc: 'Charcoal shaker panels with traditional black handles for a modern rustic look.',
-    image: `${BASE}/JGah8Gf2/uploads/media/631f1dbb493c3/1920-x-1090-hero-blckcottage.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_BLCKCOTTAGE
   },
   {
     name: 'Cottage Life',
     desc: 'Traditional country styling with raised center door panels and brass accent handles.',
-    image: `${BASE}/qKidCM6j/uploads/media/630cc28992239/1920-x-1090-hero-cottagelife.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_COTTAGELIFE
   },
   {
     name: 'Misty Grey',
     desc: 'Muted grey shaker doors combined with dark wooden open frame display cabinets.',
-    image: `${BASE}/Pe4HEea7/uploads/media/64ec620dbe613/1920-x-1090-hero-mistygrey.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MISTYGREY
   },
   {
     name: 'Modern Farmhouse',
     desc: 'Bold farmhouse style with deep ceramic aproned sink and dark warm oak accents.',
-    image: `${BASE}/lPHTlABB/uploads/media/630dce0aad09b/1920-x-1090-hero-modernfarmhouse.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MODERNFARMHOUSE
   },
   {
     name: 'Natural Basic',
     desc: 'Minimal country lines with sand beige panels and solid wood details.',
-    image: `${BASE}/7Lng14Lx/uploads/media/630ddb1545e23/1920-x-1090-hero-natural-basic.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NATURAL_BASIC
   },
   {
     name: 'New Country',
     desc: 'Contemporary shaker fronts in matte ivory white for a fresh cottage feel.',
-    image: `${BASE}/DBprpywA/uploads/media/631f14bb07ec4/1920-x-1090-hero-new-country.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NEW_COUNTRY
   },
   {
     name: 'Smokey Wood',
     desc: 'Deep warm stained wooden cabinets matched with dark graphite grey details.',
-    image: `${BASE}/GTwDx8tV/uploads/media/6566f6542c105/1920-x-1090-hero-smokeywood.webp?originalExtension=jpg`
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_SMOKEYWOOD
   }
 ]
 
@@ -90,7 +100,7 @@ export default function KellerCountryKitchens() {
       {/* ── HERO BANNER ── */}
       <section className="kcy-hero">
         <img
-          src="https://www.kellerkitchens.com/media/cache/generic/rc/6X8BjLF1/uploads/media/63088fef5f46d/1920-x-1090-hero-landelijkekeukens.webp?originalExtension=jpg"
+          src={UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_LANDELIJKEKEUKENS}
           alt="Keller Country Style Kitchens"
           className="kcy-hero__img"
         />
@@ -199,7 +209,7 @@ export default function KellerCountryKitchens() {
             </div>
             <div className="kcy-split-media">
               <img
-                src="https://www.kellerkitchens.com/media/cache/generic/rc/R4FBSewQ/uploads/media/63076e026f9f6/960-x-1024-landelijk.webp?originalExtension=png"
+                src={UKS_KELLER_COUNTRY_KITCHENS_960_X_1024_LANDELIJK}
                 alt="Moodboard country style"
                 className="kcy-split-image"
               />

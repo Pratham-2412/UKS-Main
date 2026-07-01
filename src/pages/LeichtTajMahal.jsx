@@ -1,9 +1,31 @@
+import UKS_LEICHT_TAJ_MAHAL_0680105FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680105FotoproduktionA042copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_256 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-256.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0890301IDEA003 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0890301Idea003.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_TAJ_MAHAL_TOPOSCLASSICFS03 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0480101KYOTO012NAH from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_TAJ_MAHAL_684269M01167309J22 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-684269M01167309J22.jpg';
+import UKS_LEICHT_TAJ_MAHAL_244753M01350120J20 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-244753M01350120j20.jpg';
+import UKS_LEICHT_TAJ_MAHAL_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0470101BAHIA026 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0470101BAHIA026.jpg';
+import UKS_LEICHT_TAJ_MAHAL_744293M01352192J22 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-744293M01352192j22.jpg';
+import UKS_LEICHT_TAJ_MAHAL_713269M01103316J19 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-713269M01103316j19.jpg';
+import UKS_LEICHT_TAJ_MAHAL_219213269M01298025312J18 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-219213269M01298025312j18.jpg';
+import UKS_LEICHT_TAJ_MAHAL_753283213M01120335NCSJ22 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-753283213M01120335NCSj22.jpg';
+import UKS_LEICHT_TAJ_MAHAL_739719M01134345J18 from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-739719M01134345j18.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680116FOTOPRODUKTIONA002COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680116FotoproduktionA002copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680109FOTOPRODUKTIONA041COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680109FotoproduktionA041copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680110FOTOPRODUKTIONA041COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680110FotoproduktionA041copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680111FOTOPRODUKTIONA002COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680111FotoproduktionA002copy.jpg';
+import UKS_LEICHT_TAJ_MAHAL_0680118FOTOPRODUKTIONA044COPY from '../assets/uks-leicht-taj-mahal/uks-leicht-taj-mahal-0680118FotoproduktionA044copy.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import AdobeStock370402825 from '../assets/AdobeStock370402825.jpg'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -12,7 +34,7 @@ const hotspots = [
     y: '30.2%',
     title: 'VERO glass display cabinets',
     desc: 'Vero glass display cases combine transparency, noble materials, aluminum frames, and lighting into a functional, modern design – perfect for kitchens.',
-    img: `${CAISY}/36c64c4f-331e-4a88-9884-1a6f9f24538a/96176346-1ac9-4e3f-b7a1-a6afd0838f42/0680105FotoproduktionA042copy.jpg?width=400`,
+    img: UKS_LEICHT_TAJ_MAHAL_0680105FOTOPRODUKTIONA042COPY,
     dir: 'right',
   },
   {
@@ -21,7 +43,7 @@ const hotspots = [
     y: '49.2%',
     title: 'celano walnut',
     desc: 'A timeless elegance is created by combining a simple and calm décor in naturally reproduced European walnut. With the color 256v celano walnut, we are expanding our color palette in the ORLANDO program with a light color variant.',
-    img: `${CAISY}/ba113752-12aa-4983-b985-5c90eed77c2d/7804a134-ca5c-4a44-89af-3c4ca6394386/256.jpg?width=400`,
+    img: UKS_LEICHT_TAJ_MAHAL_256,
     dir: 'right',
   },
 ]
@@ -30,17 +52,17 @@ const swatches = [
   {
     code: 'ORLANDO',
     name: '256v celano walnut (walnut wood decor)',
-    img: `${CAISY}/ba113752-12aa-4983-b985-5c90eed77c2d/7804a134-ca5c-4a44-89af-3c4ca6394386/256.jpg?width=400`,
+    img: UKS_LEICHT_TAJ_MAHAL_256,
   },
   {
     code: 'ROCCA',
     name: 'Taj Mahal quartzite (natural stone front)',
-    img: `${CAISY}/5c2a6e3d-2574-44d7-965d-2326cc0cd780/2df5b722-5ce0-4644-8e22-e51cee5b5ce3/0680105FotoproduktionA042copy.jpg?width=400`,
+    img: UKS_LEICHT_TAJ_MAHAL_0680105FOTOPRODUKTIONA042COPY,
   },
   {
     code: 'ALURO',
     name: 'VERO glass (transparent grey glass in aluminum frame)',
-    img: `${CAISY}/36c64c4f-331e-4a88-9884-1a6f9f24538a/96176346-1ac9-4e3f-b7a1-a6afd0838f42/0680105FotoproduktionA042copy.jpg?width=400`,
+    img: UKS_LEICHT_TAJ_MAHAL_0680105FOTOPRODUKTIONA042COPY,
   },
 ]
 
@@ -48,97 +70,97 @@ const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0480101KYOTO012NAH,
     to: '/kitchens/leicht',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_684269M01167309J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_244753M01350120J20,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${CAISY}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_0470101BAHIA026,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Warm wood texture meets cool concrete.',
-    img: `${CAISY}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_744293M01352192J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'CLASSIC-FS-C | TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${CAISY}/77d147d2-6c6a-403d-9978-6d5bbfe8c587/ac6b25b5-a13e-4e92-810a-a4e3c667673f/713269M01103316j19.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_713269M01103316J19,
     to: '/kitchens/leicht',
   },
   {
     title: 'STEEL CLASSIC-FS TOPOS',
     sub: 'Dark steel meets dark matte lacquer.',
-    img: `${CAISY}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_219213269M01298025312J18,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F45-C',
     sub: 'Fenix in harmony with matte lacquer.',
-    img: `${CAISY}/0797a2ec-ddba-43fd-925d-d524003c8000/2297febd-3a9c-4c86-b3d8-d339204370f1/753283213M01120335NCSj22.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_753283213M01120335NCSJ22,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F54-C',
     sub: 'Fenix in contrast to dark wood decor.',
-    img: `${CAISY}/7a15c454-848a-464d-9427-df38e35b7a09/54d8cd1e-4aab-4f0b-b44b-b02cace4cdac/739719M01134345j18.jpg?width=1200`,
+    img: UKS_LEICHT_TAJ_MAHAL_739719M01134345J18,
     to: '/kitchens/leicht',
   },
 ]
@@ -172,7 +194,7 @@ export default function LeichtTajMahal() {
       <section className="taj-hero2">
         <div className="taj-hero2__aspect">
           <img
-            src={`${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg`}
+            src={UKS_LEICHT_TAJ_MAHAL_0680102FOTOPRODUKTIONA042COPY}
             alt="LEICHT TAJ MAHAL kitchen concept"
             className="taj-hero2__img"
           />
@@ -231,7 +253,7 @@ export default function LeichtTajMahal() {
           <div className="taj2-intro__imgs">
             <div className="taj2-intro__img taj2-intro__img--wide">
               <img
-                src={`${CAISY}/755e89c3-0cf5-456a-aef1-543a14d6e64e/fe605560-76eb-4322-9958-b7f1fb544bf4/0680116FotoproduktionA002copy.jpg?width=800`}
+                src={UKS_LEICHT_TAJ_MAHAL_0680116FOTOPRODUKTIONA002COPY}
                 alt="Taj Mahal kitchen architecture wide"
               />
             </div>
@@ -285,7 +307,7 @@ export default function LeichtTajMahal() {
         </div>
         <div className="taj2-arch__right">
           <img
-            src={`${CAISY}/2ae5a9df-7f78-426a-be5d-d2d4665ff20a/170444c4-99c5-494c-ab1a-4b58612e53c3/0680109FotoproduktionA041copy.jpg?width=900`}
+            src={UKS_LEICHT_TAJ_MAHAL_0680109FOTOPRODUKTIONA041COPY}
             alt="Beige Timeless and Modern kitchen detail"
           />
         </div>
@@ -296,7 +318,7 @@ export default function LeichtTajMahal() {
         <div className="taj2-material__overlay">
           <div className="taj2-material__card taj2-material__card--img">
             <img
-              src={`${CAISY}/3f5b2f90-b32b-4211-b023-96ccb96ae1f0/69b6bd38-6ffb-48a7-80cc-30f4ee09b98e/0680110FotoproduktionA041copy.jpg?width=900`}
+              src={UKS_LEICHT_TAJ_MAHAL_0680110FOTOPRODUKTIONA041COPY}
               alt="Beige The Perfect Balance kitchen detail"
             />
           </div>
@@ -316,13 +338,13 @@ export default function LeichtTajMahal() {
         <div className="container taj2-grid-duo__inner">
           <div className="taj2-grid-duo__img-wrapper">
             <img
-              src={`${CAISY}/b48c314a-0222-49c4-9b54-d6725da03584/a8f62dd8-7322-42a7-979f-4e5e9ad5f458/0680111FotoproduktionA002copy.jpg?width=900`}
+              src={UKS_LEICHT_TAJ_MAHAL_0680111FOTOPRODUKTIONA002COPY}
               alt="Taj Mahal planning layout detail left"
             />
           </div>
           <div className="taj2-grid-duo__img-wrapper">
             <img
-              src={`${CAISY}/d7add8ae-2d2c-4398-96c2-414b8ac825b0/5ed35d16-5419-423a-af16-37c7adb28fc3/0680118FotoproduktionA044copy.jpg?width=900`}
+              src={UKS_LEICHT_TAJ_MAHAL_0680118FOTOPRODUKTIONA044COPY}
               alt="Taj Mahal planning layout detail right"
             />
           </div>

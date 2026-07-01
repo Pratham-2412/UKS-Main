@@ -1,14 +1,16 @@
+import UKS_KELLER_BLACK_MARBLE_1920_X_1090_HERO_BLACKMARBLE from '../assets/uks-keller-black-marble/uks-keller-black-marble-1920-x-1090-hero-blackmarble.webp';
+import UKS_KELLER_BLACK_MARBLE_615X718_CARROUSEL_BLCKMARBLE from '../assets/uks-keller-black-marble/uks-keller-black-marble-615x718-carrousel-blckmarble.webp';
+import UKS_KELLER_BLACK_MARBLE_1326_X_884_RASTER_BLACKMARBLE from '../assets/uks-keller-black-marble/uks-keller-black-marble-1326-x-884-raster-blackmarble.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // All images exactly as on the original Keller Black Marble page
-const HERO_IMG   = `${BASE}/9iLtl6T5/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg`
-const WIDE_IMG   = `${BASE}/U3324k04/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg`
-const SPLIT_IMG  = `${BASE}/qESdZt6w/uploads/media/630888f8b94b2/615x718-carrousel-blckmarble.webp?originalExtension=jpg`
-const GRID_IMG   = `${BASE}/XFnrxSQj/uploads/media/6308cb3066a99/1326-x-884-raster-blackmarble.webp?originalExtension=jpg`
+const HERO_IMG   = UKS_KELLER_BLACK_MARBLE_1920_X_1090_HERO_BLACKMARBLE
+const WIDE_IMG   = UKS_KELLER_BLACK_MARBLE_1920_X_1090_HERO_BLACKMARBLE
+const SPLIT_IMG  = UKS_KELLER_BLACK_MARBLE_615X718_CARROUSEL_BLCKMARBLE
+const GRID_IMG   = UKS_KELLER_BLACK_MARBLE_1326_X_884_RASTER_BLACKMARBLE
 
 const FAQ_DATA = [
   {

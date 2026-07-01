@@ -1,3 +1,18 @@
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP01_P1 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp01_p1.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP_02_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp_02_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP06_P1 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp06_p1.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP14_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp14_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINE_C9_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucine_c9_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_C27_P1 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_c27_p1.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP17_P1_CHIUSA from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp17_p1_chiusa.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP05_01 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp05_01.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP21_P1 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp21_p1.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_C18_P1 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_c18_p1.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP7_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp7_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP20_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp20_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP24_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp24_gen.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP26_GEN_01 from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp26_gen_01.jpg';
+import UKS_NOVACUCINA_2025_NOVACUCINA_COMP23_GEN from '../assets/uks-novacucina/uks-novacucina-2025_novacucina_comp23_gen.jpg';
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
@@ -7,105 +22,105 @@ const collections = [
     tag: 'SISTEMA 2.2_1',
     title: 'Sistema 2.2_1',
     desc: 'Sleek modern linear layout utilizing handless matte dark cabinetry combined with matching gray oak textures.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp01_p1.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP01_P1,
   },
   {
     id: 2,
     tag: 'SISTEMA 2.2_2',
     title: 'Sistema 2.2_2',
     desc: 'Elegant and airy workspace featuring contrasting pure white worktops and warm light timber detailing.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp_02_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP_02_GEN,
   },
   {
     id: 3,
     tag: 'SISTEMA 2.2_3',
     title: 'Sistema 2.2_3',
     desc: 'Majestic monolith layout emphasizing seamless continuous worktops and rich vertical wood groove accents.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp06_p1.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP06_P1,
   },
   {
     id: 4,
     tag: 'SISTEMA 2.2 FLY_4',
     title: 'Sistema 2:2 Fly_4',
     desc: 'Minimalist architectural composition with suspended components, open shelving, and a metal profile structure.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp14_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP14_GEN,
   },
   {
     id: 5,
     tag: 'SISTEMA 2.2_5',
     title: 'Sistema 2.2_5',
     desc: 'Contemporary island hub kitchen displaying soft earth tones, brushed steel details, and integrated LED strip lighting.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucine_c9_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINE_C9_GEN,
   },
   {
     id: 6,
     tag: 'SISTEMA PLANET_6',
     title: 'Sistema Planet_6',
     desc: 'Premium Italian aesthetic combining deep structured stone finishes with dark wood veneered panels.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_c27_p1.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_C27_P1,
   },
   {
     id: 7,
     tag: 'SISTEMA 2.2_7',
     title: 'Sistema 2.2_7',
     desc: 'Smart concealed kitchen featuring sliding pivot panels, hidden appliances, and custom interior organizers.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp17_p1_chiusa.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP17_P1_CHIUSA,
   },
   {
     id: 8,
     tag: 'SISTEMA MK1_8',
     title: 'Sistema MK1_8',
     desc: 'Robust, urban design with concrete texture facades, open shelving units, and clean geometric structures.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp05_01.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP05_01,
   },
   {
     id: 9,
     tag: 'SISTEMA 2.2_9',
     title: 'Sistema 2.2_9',
     desc: 'Light-filled space integrating premium glass fronts, warm ambient backlighting, and slim composite stone tops.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp21_p1.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP21_P1,
   },
   {
     id: 10,
     tag: 'SISTEMA 2.2_10',
     title: 'Sistema 2.2_10',
     desc: 'Luxurious dark theme kitchen featuring natural black marble panels, dark brushed lacquer, and gold hardware accents.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_c18_p1.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_C18_P1,
   },
   {
     id: 11,
     tag: 'SISTEMA 2.2 FLY_11',
     title: 'Sistema 2:2 Fly_11',
     desc: 'Modern high-contrast design balancing dark charcoal panels with white marble worktops.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp7_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP7_GEN,
   },
   {
     id: 12,
     tag: 'SISTEMA 2.2_16',
     title: 'Sistema 2.2_16',
     desc: 'Industrial-inspired setting with exposed metal frameworks, smoked glass cases, and rustic oak details.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp20_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP20_GEN,
   },
   {
     id: 13,
     tag: 'SISTEMA 2.2 PLANET_18',
     title: 'Sistema 2.2 Planet_18',
     desc: 'Elegant L-shape layout incorporating premium white lacquer fronts, wood breakfast bars, and clean lines.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp24_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP24_GEN,
   },
   {
     id: 14,
     tag: 'SISTEMA 2.2 LINE_19',
     title: 'Sistema 2.2 Line_19',
     desc: 'Futuristic handles design utilizing grooved line aluminum grip channels and matte satin finishes.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp26_gen_01.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP26_GEN_01,
   },
   {
     id: 15,
     tag: 'SISTEMA 2.2_20',
     title: 'Sistema 2.2_20',
     desc: 'Monochromatic composition featuring matte cement gray surfaces, built-in black profiles, and matching sinks.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp23_gen.jpg',
+    img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP23_GEN,
   },
 ]
 
@@ -125,7 +140,7 @@ export default function Novacucina() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.9, ease: 'easeOut' }}
       >
-        <img src="https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp01_p1.jpg" alt="Novacucina Italian Kitchens" />
+        <img src={UKS_NOVACUCINA_2025_NOVACUCINA_COMP01_P1} alt="Novacucina Italian Kitchens" />
       </motion.div>
 
       {/* Intro Text */}

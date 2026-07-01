@@ -1,16 +1,11 @@
+import HERO_IMG from '../assets/uks-retro-vibes/retro-vibes-hero.webp';
+import ARCO_IMG from '../assets/uks-retro-vibes/retro-vibes-afbeelding-bij-tekst1.webp';
+import GEO_IMG from '../assets/uks-retro-vibes/retro-vibes-afbeelding-bij-tekst2.webp';
+import WIDE_IMG from '../assets/uks-retro-vibes/retro-vibes-hero2.webp';
+import STYLE_IMG from '../assets/uks-retro-vibes/hoe-maak-ik-deze-stijl.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
-
-// Images
-const HERO_IMG   = `${BASE}/OaUWNvDP/uploads/media/68f0f29be799f/retro-vibes-hero.webp?originalExtension=jpg`
-const ARCO_IMG   = `${BASE}/EfxDuLs9/uploads/media/68f5fa5565081/retro-vibes-afbeelding-bij-tekst1.webp?originalExtension=jpg`
-const GEO_IMG    = `${BASE}/L96ozio6/uploads/media/68f5f767c2a9d/retro-vibes-afbeelding-bij-tekst2.webp?originalExtension=jpg`
-const WIDE_IMG   = `${BASE}/mclf5QDJ/uploads/media/68f5f47e56944/retro-vibes-hero2.webp?originalExtension=jpg`
-const STYLE_IMG  = `${BASE}/axybTSMl/uploads/media/6914871f81a84/hoe-maak-ik-deze-stijl.webp?originalExtension=jpg`
-
 const FAQ_DATA = [
   {
     q: 'Which colours and materials can I choose for this kitchen?',

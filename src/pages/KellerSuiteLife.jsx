@@ -1,15 +1,18 @@
+import UKS_KELLER_SUITE_LIFE_SUITE_LIFE_HERO from '../assets/uks-keller-suite-life/uks-keller-suite-life-suite-life-hero.webp';
+import UKS_KELLER_SUITE_LIFE_SUIT_LIFE_AFBEELDING_BIJ_TEKST from '../assets/uks-keller-suite-life/uks-keller-suite-life-suit-life-afbeelding-bij-tekst.webp';
+import UKS_KELLER_SUITE_LIFE_SUIT_LIFE_AFBEELDING_BIJ_TEKST2 from '../assets/uks-keller-suite-life/uks-keller-suite-life-suit-life-afbeelding-bij-tekst2.webp';
+import UKS_KELLER_SUITE_LIFE_HOE_MAAK_IK_DEZE_STIJL5 from '../assets/uks-keller-suite-life/uks-keller-suite-life-hoe-maak-ik-deze-stijl5.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG      = `${BASE}/yH3w4sWc/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg`
-const SPLIT1_IMG    = `${BASE}/cCnDgvxl/uploads/media/68f6009e6a17c/suit-life-afbeelding-bij-tekst.webp?originalExtension=jpg`
-const SPLIT2_IMG    = `${BASE}/ShkBtQ1o/uploads/media/68f614a359257/suit-life-afbeelding-bij-tekst2.webp?originalExtension=jpg`
-const WIDE_BG_IMG   = `${BASE}/yH3w4sWc/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg`
-const SPLIT3_IMG    = `${BASE}/GfJw9DnX/uploads/media/691486115948e/hoe-maak-ik-deze-stijl5.webp?originalExtension=jpg`
+const HERO_IMG      = UKS_KELLER_SUITE_LIFE_SUITE_LIFE_HERO
+const SPLIT1_IMG    = UKS_KELLER_SUITE_LIFE_SUIT_LIFE_AFBEELDING_BIJ_TEKST
+const SPLIT2_IMG    = UKS_KELLER_SUITE_LIFE_SUIT_LIFE_AFBEELDING_BIJ_TEKST2
+const WIDE_BG_IMG   = UKS_KELLER_SUITE_LIFE_SUITE_LIFE_HERO
+const SPLIT3_IMG    = UKS_KELLER_SUITE_LIFE_HOE_MAAK_IK_DEZE_STIJL5
 
 const FAQ_DATA = [
   {

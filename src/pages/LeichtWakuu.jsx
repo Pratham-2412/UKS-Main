@@ -1,10 +1,49 @@
+import UKS_LEICHT_WAKUU_0880312FOTOPRODUKTIONRAHMENFRONT031COPY from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880312FotoproduktionRahmenfront031copy.jpeg';
+import UKS_LEICHT_WAKUU_0890305IDEA002 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0890305Idea002.jpg';
+import UKS_LEICHT_WAKUU_0880304CFOTOPRODUKTIONRAHMENFRONT030 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880304cFotoproduktionRahmenfront030.jpg';
+import UKS_LEICHT_WAKUU_0880311FOTOPRODUKTIONRAHMENFRONT029 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880311FotoproduktionRahmenfront029.jpg';
+import UKS_LEICHT_WAKUU_ME163CUPRUM from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-ME163cuprum.png';
+import UKS_LEICHT_WAKUU_ME164AUREN from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-ME164auren.png';
+import UKS_LEICHT_WAKUU_ME165FERON from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-ME165feron.png';
+import UKS_LEICHT_WAKUU_ME166TANOR from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-ME166tanor.png';
+import UKS_LEICHT_WAKUU_218ULMENATUR1000X100096DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-218ulmenatur1000x100096dpi.jpg';
+import UKS_LEICHT_WAKUU_221STRUKTUREICHEABRUZZEN800X80072DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-221struktureicheabruzzen800x80072dpi.jpg';
+import UKS_LEICHT_WAKUU_222STRUKTUREICHENATUR800X80072DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-222struktureichenatur800x80072dpi.jpg';
+import UKS_LEICHT_WAKUU_309BERGAMOULME800X800106DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-309bergamoulme800x800106dpi.jpg';
+import UKS_LEICHT_WAKUU_310ESCHEMADEIRA800X80072DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-310eschemadeira800x80072dpi.jpg';
+import UKS_LEICHT_WAKUU_312HWALNUSS1300X1500150DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-312hwalnuss1300x1500150dpi.jpg';
+import UKS_LEICHT_WAKUU_313STRUKTUREICHEKUPFER800X80072DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-313struktureichekupfer800x80072dpi.jpg';
+import UKS_LEICHT_WAKUU_316HSTRUKTUREICHEMOOR800X80072DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-316hstruktureichemoor800x80072dpi.jpg';
+import UKS_LEICHT_WAKUU_319VALPINEICHENATUR1150X1600150DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-319valpineichenatur1150x1600150dpi.jpg';
+import UKS_LEICHT_WAKUU_320VWALNUSSNATUR1140X1600150DPI from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-320vwalnussnatur1140x1600150dpi.jpg';
+import UKS_LEICHT_WAKUU_MG7582B from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-MG7582b.png';
+import UKS_LEICHT_WAKUU_0890301IDEA003 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0890301Idea003.jpg';
+import UKS_LEICHT_WAKUU_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_WAKUU_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_WAKUU_TOPOSCLASSICFS03 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_WAKUU_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_WAKUU_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_WAKUU_0480101KYOTO012NAH from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_WAKUU_684269M01167309J22 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-684269M01167309J22.jpg';
+import UKS_LEICHT_WAKUU_244753M01350120J20 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-244753M01350120j20.jpg';
+import UKS_LEICHT_WAKUU_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_WAKUU_0470101BAHIA026 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0470101BAHIA026.jpg';
+import UKS_LEICHT_WAKUU_744293M01352192J22 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-744293M01352192j22.jpg';
+import UKS_LEICHT_WAKUU_713269M01103316J19 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-713269M01103316j19.jpg';
+import UKS_LEICHT_WAKUU_219213269M01298025312J18 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-219213269M01298025312j18.jpg';
+import UKS_LEICHT_WAKUU_753283213M01120335NCSJ22 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-753283213M01120335NCSj22.jpg';
+import UKS_LEICHT_WAKUU_739719M01134345J18 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-739719M01134345j18.jpg';
+import UKS_LEICHT_WAKUU_0880310BFOTOPRODUKTIONRAHMENFRONT031 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880310bFotoproduktionRahmenfront031.jpg';
+import UKS_LEICHT_WAKUU_ADOBESTOCK514189127 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-AdobeStock514189127.jpeg';
+import UKS_LEICHT_WAKUU_0880303FOTOPRODUKTIONRAHMENFRONT031 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880303FotoproduktionRahmenfront031.jpg';
+import UKS_LEICHT_WAKUU_0880309FOTOPRODUKTIONRAHMENFRONT030 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0880309FotoproduktionRahmenfront030.jpg';
+import UKS_LEICHT_WAKUU_0834901AMETIS002 from '../assets/uks-leicht-wakuu/uks-leicht-wakuu-0834901Ametis002.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -13,7 +52,7 @@ const hotspots = [
     y: '39.6%',
     title: 'Suspended railing',
     desc: 'The suspended light bridge combines design and function: space for kitchen accessories, plants and utensils, glare-free, continuously dimmable lighting from warm to cool white. Surfaces in stainless steel or black ensure harmonious integration into any cooking island.',
-    img: `${CAISY}/07608b0c-da65-4208-9efa-9b93cdb7f728/09cee1a8-8784-4517-886b-c59d2b27144f/0880312FotoproduktionRahmenfront031copy.jpeg?width=600`,
+    img: UKS_LEICHT_WAKUU_0880312FOTOPRODUKTIONRAHMENFRONT031COPY,
     dir: 'bottom',
   },
   {
@@ -22,7 +61,7 @@ const hotspots = [
     y: '51.5%',
     title: 'Glass display cabinet VERO',
     desc: 'Discover how VERO glass display cabinets make your kitchen planning efficient and flexible.',
-    img: `${CAISY}/4dbfa34e-493b-454a-b42c-2090bafef84f/ae5f4b4f-736c-4a9d-9e01-c250f9aa8469/0890305Idea002.jpg?width=600`,
+    img: UKS_LEICHT_WAKUU_0890305IDEA002,
     dir: 'bottom',
   },
   {
@@ -31,7 +70,7 @@ const hotspots = [
     y: '70.9%',
     title: 'WAKUU Supporting Program',
     desc: 'Filigree design with a narrow Frame of just 10 mm – interpreted in a modern way in fine wood or high-quality lacquer.',
-    img: `${CAISY}/d7b3e5c5-96cc-4343-914b-6cdadc9cd24f/1931fa88-5cf0-4dbb-8c06-16ce40cf67d9/0880304cFotoproduktionRahmenfront030.jpg?width=600`,
+    img: UKS_LEICHT_WAKUU_0880304CFOTOPRODUKTIONRAHMENFRONT030,
     dir: 'top',
   },
   {
@@ -40,7 +79,7 @@ const hotspots = [
     y: '36.2%',
     title: 'WAKUU-FS: Variety of colours',
     desc: 'The WAKUU-FS lacquer variant offers a wide range of colours: standard LEICHT colours, RAL shades and exclusive Les Couleurs® Le Corbusier® colours open up a wide range of design possibilities, including six RAL shades from our Hygge colour concept for creative design.',
-    img: `${CAISY}/a135fec1-ed45-4ad8-aef3-4c1c926a441d/92819c0c-9b07-44f5-9108-e6cbc013121e/0880311FotoproduktionRahmenfront029.jpg?width=600`,
+    img: UKS_LEICHT_WAKUU_0880311FOTOPRODUKTIONRAHMENFRONT029,
     dir: 'top',
   },
 ]
@@ -49,37 +88,37 @@ const metallicShades = [
   {
     code: 'ME 163',
     name: 'cuprum',
-    img: `${CAISY}/b803f275-37ea-4d32-b477-887df359d54a/d1ec0aec-5c0c-4d72-80cd-185a3b592cc1/ME163cuprum.png?width=400`,
+    img: UKS_LEICHT_WAKUU_ME163CUPRUM,
   },
   {
     code: 'ME 164',
     name: 'auren',
-    img: `${CAISY}/e0dd1e7c-0a5b-4027-a599-2d998f306838/2dc80391-2fd3-4643-b39b-cc599390839b/ME164auren.png?width=400`,
+    img: UKS_LEICHT_WAKUU_ME164AUREN,
   },
   {
     code: 'ME 165',
     name: 'feron',
-    img: `${CAISY}/f341fcb4-3a6b-4714-bc01-6575a9ebacf4/4f6f015f-0aad-4798-912b-3accc8e4c8b6/ME165feron.png?width=400`,
+    img: UKS_LEICHT_WAKUU_ME165FERON,
   },
   {
     code: 'ME 166',
     name: 'tanor',
-    img: `${CAISY}/b813cd14-7229-4247-a81c-98f4c9dcbc39/171a1dd8-3768-4c12-8825-9d4b1d6ff006/ME166tanor.png?width=400`,
+    img: UKS_LEICHT_WAKUU_ME166TANOR,
   },
 ]
 
 const woodColors = [
-  { code: '218', name: 'elm natural', img: `${CAISY}/e97ffbeb-e469-4a65-a1f4-8d68e57af090/13c8f3dc-bf94-4e0d-9a4a-62b1a4f17146/218ulmenatur1000x100096dpi.jpg?width=300` },
-  { code: '221', name: 'textured oak abruzzo', img: `${CAISY}/1fa4bf12-1962-4a69-8323-730ab7b3cfa2/dcda4507-13f6-4789-856e-44f00617ea10/221struktureicheabruzzen800x80072dpi.jpg?width=300` },
-  { code: '222', name: 'textured natural oak', img: `${CAISY}/fca36bff-7b41-4a24-bd74-153ab63aae3f/39152a57-e430-4e72-96c9-d67ae6cf5e90/222struktureichenatur800x80072dpi.jpg?width=300` },
-  { code: '309', name: 'bergamo elm', img: `${CAISY}/d668b24d-40f7-4aab-aa42-c6016f919579/825ce0bc-c648-4e61-ab1a-3df15f336e5d/309bergamoulme800x800106dpi.jpg?width=300` },
-  { code: '310', name: 'ash madeira', img: `${CAISY}/99d01694-69d6-4880-b94d-93b8bb9b34bf/bd8f00d8-4510-4a12-bc7d-7f3caac44cb3/310eschemadeira800x80072dpi.jpg?width=300` },
-  { code: '312', name: 'walnut', img: `${CAISY}/d8e9304f-9305-4fec-8180-8fb866cb4397/a5e4b895-03c1-41b1-96c6-9b53f71f8d28/312hwalnuss1300x1500150dpi.jpg?width=300` },
-  { code: '313', name: 'textured oak copper', img: `${CAISY}/b63c81ac-a2ff-448f-b581-49241cc9e931/2c91b508-cfd2-45aa-a601-9b1596bde1b5/313struktureichekupfer800x80072dpi.jpg?width=300` },
+  { code: '218', name: 'elm natural', img: UKS_LEICHT_WAKUU_218ULMENATUR1000X100096DPI },
+  { code: '221', name: 'textured oak abruzzo', img: UKS_LEICHT_WAKUU_221STRUKTUREICHEABRUZZEN800X80072DPI },
+  { code: '222', name: 'textured natural oak', img: UKS_LEICHT_WAKUU_222STRUKTUREICHENATUR800X80072DPI },
+  { code: '309', name: 'bergamo elm', img: UKS_LEICHT_WAKUU_309BERGAMOULME800X800106DPI },
+  { code: '310', name: 'ash madeira', img: UKS_LEICHT_WAKUU_310ESCHEMADEIRA800X80072DPI },
+  { code: '312', name: 'walnut', img: UKS_LEICHT_WAKUU_312HWALNUSS1300X1500150DPI },
+  { code: '313', name: 'textured oak copper', img: UKS_LEICHT_WAKUU_313STRUKTUREICHEKUPFER800X80072DPI },
   { code: '315', name: 'northern oak', img: `https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb/bc88eb7d-a459-4ecd-8df0-efbf005e03e0/1fb0770c-7fcd-455d-99cb-91ebc5acd959/315vnordeiche1150x1600150dpi.jpg?width=300` },
-  { code: '316', name: 'textured oak marsh', img: `${CAISY}/db1d17ea-fd71-4658-b348-a33cd1dbb05a/977116b4-f083-49ee-91d5-d940b934ccf5/316hstruktureichemoor800x80072dpi.jpg?width=300` },
-  { code: '319', name: 'alpine natural oak', img: `${CAISY}/620d9647-9985-4a26-883e-2ae2e9da619d/4a4e0c8b-b0ab-4271-9bb3-82dfe5816d03/319valpineichenatur1150x1600150dpi.jpg?width=300` },
-  { code: '320', name: 'walnut natural', img: `${CAISY}/ed5c3373-07ab-4a65-9e89-d9d5309f5147/1e278287-fc61-4d5b-98e2-a7a030a61ea2/320vwalnussnatur1140x1600150dpi.jpg?width=300` },
+  { code: '316', name: 'textured oak marsh', img: UKS_LEICHT_WAKUU_316HSTRUKTUREICHEMOOR800X80072DPI },
+  { code: '319', name: 'alpine natural oak', img: UKS_LEICHT_WAKUU_319VALPINEICHENATUR1150X1600150DPI },
+  { code: '320', name: 'walnut natural', img: UKS_LEICHT_WAKUU_320VWALNUSSNATUR1140X1600150DPI },
 ]
 
 const accordionItems = [
@@ -122,7 +161,7 @@ const accordionItems = [
         </div>
         <div className="wakuu-faq-img-col">
           <img
-            src={`${CAISY}/67820ded-aae3-4bad-9fe1-a5add8fb08d9/86a29b45-5578-4eff-8ab8-b359e65309c1/MG7582b.png?width=600`}
+            src={UKS_LEICHT_WAKUU_MG7582B}
             alt="Wakuu Form griprail options"
           />
         </div>
@@ -146,7 +185,7 @@ const accordionItems = [
         </div>
         <div className="wakuu-faq-img-col">
           <img
-            src={`${CAISY}/539267da-777b-4f90-b233-f571458eb4ab/e572c75e-4587-4aae-aa2a-58b11fea7eb6/0880304cFotoproduktionRahmenfront030.jpg?focal_point=39.32,60.80&width=600`}
+            src={UKS_LEICHT_WAKUU_0880304CFOTOPRODUKTIONRAHMENFRONT030}
             alt="Continuous veneer grain alignment"
           />
         </div>
@@ -159,97 +198,97 @@ const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0480101KYOTO012NAH,
     to: '/kitchens/leicht',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_684269M01167309J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_244753M01350120J20,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${CAISY}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_0470101BAHIA026,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Warm wood texture meets cool concrete.',
-    img: `${CAISY}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_744293M01352192J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'CLASSIC-FS-C | TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${CAISY}/77d147d2-6c6a-403d-9978-6d5bbfe8c587/ac6b25b5-a13e-4e92-810a-a4e3c667673f/713269M01103316j19.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_713269M01103316J19,
     to: '/kitchens/leicht',
   },
   {
     title: 'STEEL CLASSIC-FS TOPOS',
     sub: 'Dark steel meets dark matte lacquer.',
-    img: `${CAISY}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_219213269M01298025312J18,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F45-C',
     sub: 'Fenix in harmony with matte lacquer.',
-    img: `${CAISY}/0797a2ec-ddba-43fd-925d-d524003c8000/2297febd-3a9c-4c86-b3d8-d339204370f1/753283213M01120335NCSj22.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_753283213M01120335NCSJ22,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F54-C',
     sub: 'Fenix in contrast to dark wood decor.',
-    img: `${CAISY}/7a15c454-848a-464d-9427-df38e35b7a09/54d8cd1e-4aab-4f0b-b44b-b02cace4cdac/739719M01134345j18.jpg?width=1200`,
+    img: UKS_LEICHT_WAKUU_739719M01134345J18,
     to: '/kitchens/leicht',
   },
 ]
@@ -288,7 +327,7 @@ export default function LeichtWakuu() {
       <section className="wakuu-hero">
         <div className="wakuu-hero__aspect">
           <img
-            src={`${CAISY}/da5b2457-f571-46e7-aa1c-b96adfc34a56/d27b0a72-095c-4d77-93e2-255a4e3a0751/0880301FotoproduktionRahmenfront032.jpg`}
+            src={UKS_LEICHT_WAKUU_0880301FOTOPRODUKTIONRAHMENFRONT032}
             alt="LEICHT WAKUU kitchen design"
             className="wakuu-hero__img"
           />
@@ -349,13 +388,13 @@ export default function LeichtWakuu() {
           <div className="wakuu2-intro__imgs">
             <div className="wakuu2-intro__img wakuu2-intro__img--wide">
               <img
-                src={`${CAISY}/7e8e2a30-f86d-417a-9a71-ab0f33b221c7/6a51f9f0-1806-44bc-88f7-7c4f524195a6/0880310bFotoproduktionRahmenfront031.jpg?width=1200`}
+                src={UKS_LEICHT_WAKUU_0880310BFOTOPRODUKTIONRAHMENFRONT031}
                 alt="Wakuu kitchen wide show view"
               />
             </div>
             <div className="wakuu2-intro__img wakuu2-intro__img--tall">
               <img
-                src={`${CAISY}/0727ef07-9d0c-44b6-99d6-071acb47c616/46cb6564-b770-4396-bccb-b173457c3b57/AdobeStock514189127.jpeg?width=800`}
+                src={UKS_LEICHT_WAKUU_ADOBESTOCK514189127}
                 alt="Wakuu detail frame front"
               />
             </div>
@@ -369,7 +408,7 @@ export default function LeichtWakuu() {
           <div className="wakuu2-rethinking__block">
             <div className="wakuu2-rethinking__img">
               <img
-                src={`${CAISY}/b2a24f78-be8f-478d-a065-699868b03849/c0da05d7-c7e5-46a4-827e-1e38b24ada18/0880303FotoproduktionRahmenfront031.jpg?width=800`}
+                src={UKS_LEICHT_WAKUU_0880303FOTOPRODUKTIONRAHMENFRONT031}
                 alt="Rethinking delicate fronts cabinet view"
               />
             </div>
@@ -385,7 +424,7 @@ export default function LeichtWakuu() {
           <div className="wakuu2-rethinking__block wakuu2-rethinking__block--reverse">
             <div className="wakuu2-rethinking__img">
               <img
-                src={`${CAISY}/38afcbaa-cc9f-4c96-bc64-cb7c4eb39ef9/63441344-aa74-4744-b26a-809950c7e4ba/0880304cFotoproduktionRahmenfront030.jpg?width=800`}
+                src={UKS_LEICHT_WAKUU_0880304CFOTOPRODUKTIONRAHMENFRONT030}
                 alt="Wakuu kitchen planning versatility"
               />
             </div>
@@ -402,13 +441,13 @@ export default function LeichtWakuu() {
           <div className="wakuu2-rethinking__detail-grid">
             <div className="wakuu2-rethinking__detail-img">
               <img
-                src={`${CAISY}/f60a4c43-4859-4533-a2c7-5cdebd4ea3dd/b51728ee-b84a-41f0-b382-d7f0d91a7127/0880311FotoproduktionRahmenfront029.jpg?width=800`}
+                src={UKS_LEICHT_WAKUU_0880311FOTOPRODUKTIONRAHMENFRONT029}
                 alt="Wakuu drawer profile detail"
               />
             </div>
             <div className="wakuu2-rethinking__detail-img">
               <img
-                src={`${CAISY}/141b65fb-b60d-4959-81ff-84800e650d03/8459e3dd-e498-49c1-90da-1df22f3e5939/0880309FotoproduktionRahmenfront030.jpg?width=800`}
+                src={UKS_LEICHT_WAKUU_0880309FOTOPRODUKTIONRAHMENFRONT030}
                 alt="Wakuu continuous woodgrain detail"
               />
             </div>
@@ -428,7 +467,7 @@ export default function LeichtWakuu() {
         </div>
         <div className="wakuu2-ametis__right">
           <img
-            src={`${CAISY}/f70e1b1c-8f73-45bc-b8bc-ebfb1fbb856a/10058d08-e19e-43a8-bc77-4524a6dadf92/0834901Ametis002.jpg?width=1000`}
+            src={UKS_LEICHT_WAKUU_0834901AMETIS002}
             alt="AMETIS metallic lacquer showcase view"
           />
         </div>

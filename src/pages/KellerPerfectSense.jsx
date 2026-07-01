@@ -1,14 +1,16 @@
+import UKS_KELLER_PERFECT_SENSE_1920_X_1090_HERO_PERFECTSENSE from '../assets/uks-keller-perfect-sense/uks-keller-perfect-sense-1920-x-1090-hero-perfectsense.webp';
+import UKS_KELLER_PERFECT_SENSE_615X718_CARROUSEL_PFSENSE from '../assets/uks-keller-perfect-sense/uks-keller-perfect-sense-615x718-carrousel-pfsense.webp';
+import UKS_KELLER_PERFECT_SENSE_2022_COLLAGE_PERFECT_SENSE from '../assets/uks-keller-perfect-sense/uks-keller-perfect-sense-2022-collage-perfect-sense.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG      = `${BASE}/JR3ivBIB/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg`
-const WIDE1_IMG     = `${BASE}/XKynQ109/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg`
-const SPLIT_IMG     = `${BASE}/ErRNui0D/uploads/media/63088938cb5a4/615x718-carrousel-pfsense.webp?originalExtension=jpg`
-const WIDE2_IMG     = `${BASE}/2fD0FU3W/uploads/media/6347c5e022e73/2022-collage-perfect-sense.webp?originalExtension=jpg`
+const HERO_IMG      = UKS_KELLER_PERFECT_SENSE_1920_X_1090_HERO_PERFECTSENSE
+const WIDE1_IMG     = UKS_KELLER_PERFECT_SENSE_1920_X_1090_HERO_PERFECTSENSE
+const SPLIT_IMG     = UKS_KELLER_PERFECT_SENSE_615X718_CARROUSEL_PFSENSE
+const WIDE2_IMG     = UKS_KELLER_PERFECT_SENSE_2022_COLLAGE_PERFECT_SENSE
 
 const FAQ_DATA = [
   {

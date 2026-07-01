@@ -1,14 +1,16 @@
+import UKS_KELLER_PURE_BASIC_1920_X_1090_HERO_PUREBASIC from '../assets/uks-keller-pure-basic/uks-keller-pure-basic-1920-x-1090-hero-purebasic.webp';
+import UKS_KELLER_PURE_BASIC_960_X_1024_PUREBASIC from '../assets/uks-keller-pure-basic/uks-keller-pure-basic-960-x-1024-purebasic.webp';
+import UKS_KELLER_PURE_BASIC_1326_X_884_RASTER_PUREBASIC from '../assets/uks-keller-pure-basic/uks-keller-pure-basic-1326-x-884-raster-purebasic.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG     = `${BASE}/ER0ewnd3/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg`
-const WIDE1_IMG    = `${BASE}/2eDwzNlG/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg`
-const SPLIT_IMG    = `${BASE}/FFJDbIhr/uploads/media/630c83f38a9f7/960-x-1024-purebasic.webp?originalExtension=jpg`
-const WIDE2_IMG    = `${BASE}/zed5tJUC/uploads/media/630c89a5e6bab/1326-x-884-raster-purebasic.webp?originalExtension=jpg`
+const HERO_IMG     = UKS_KELLER_PURE_BASIC_1920_X_1090_HERO_PUREBASIC
+const WIDE1_IMG    = UKS_KELLER_PURE_BASIC_1920_X_1090_HERO_PUREBASIC
+const SPLIT_IMG    = UKS_KELLER_PURE_BASIC_960_X_1024_PUREBASIC
+const WIDE2_IMG    = UKS_KELLER_PURE_BASIC_1326_X_884_RASTER_PUREBASIC
 
 const FAQ_DATA = [
   {

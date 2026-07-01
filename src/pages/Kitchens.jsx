@@ -1,3 +1,6 @@
+import UKS_KITCHENS_684269M01167309J22 from '../assets/uks-kitchens/uks-kitchens-684269M01167309J22.jpg';
+import UKS_KITCHENS_KELLER_KEUKEN_19 from '../assets/uks-kitchens/uks-kitchens-keller-keuken-19.webp';
+import UKS_KITCHENS_2025_NOVACUCINA_COMP01_P1 from '../assets/uks-kitchens/uks-kitchens-2025_novacucina_comp01_p1.jpg';
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import heroImg from '../assets/hero.jpg'
@@ -11,7 +14,7 @@ const brandPartners = [
     name: 'German kitchens Leicht',
     tag: 'LEICHT',
     desc: 'Precision-engineered German craftsmanship, combining advanced technology with elegant, functional design.',
-    img: 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb/fc81e4f5-9736-4acc-bdbb-537e63d19c20/bf7d4907-98ef-43b6-90a5-87fb60199018/684269M01167309J22.jpg?width=1200',
+    img: UKS_KITCHENS_684269M01167309J22,
     to: '/kitchens/leicht',
   },
   {
@@ -19,7 +22,7 @@ const brandPartners = [
     name: 'Dutch Keller',
     tag: 'KELLER',
     desc: 'Sleek, minimalist Dutch kitchens crafted with sustainable materials and warm, contemporary finishes.',
-    img: 'https://www.kellerkitchens.com/media/cache/generic/rc/U4CpjXYX/uploads/media/674846241e714/keller-keuken-19.webp?originalExtension=jpg',
+    img: UKS_KITCHENS_KELLER_KEUKEN_19,
     to: '/kitchens/keller',
   },
   {
@@ -27,7 +30,7 @@ const brandPartners = [
     name: 'Italian Novacucina',
     tag: 'NOVACUCINA',
     desc: 'High-end Italian kitchen design, blending dramatic aesthetics, rich textures, and bespoke details.',
-    img: 'https://novacucina.it/wp-content/uploads/2026/03/2025_novacucina_comp01_p1.jpg',
+    img: UKS_KITCHENS_2025_NOVACUCINA_COMP01_P1,
     to: '/kitchens/novacucina',
   },
 ]

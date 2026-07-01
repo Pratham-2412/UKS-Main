@@ -1,15 +1,17 @@
+import HERO_IMG from '../assets/uks-calm-flow/calm-flow-hero2.webp';
+import SPLIT1_IMG from '../assets/uks-calm-flow/calm-flow-944-x-884-afbeelding-bij-tekst.webp';
+import SPLIT2_IMG from '../assets/uks-calm-flow/calm-flow-944-x-884-afbeelding-bij-tekst2.webp';
+import WIDE_IMG from '../assets/uks-calm-flow/calm-flow-hero.webp';
+import STYLE_IMG from '../assets/uks-calm-flow/hoe-maak-ik-deze-stijl4.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
-
 /* ── Images ────────────────────────────────────────────────── */
-const HERO_IMG   = `${BASE}/ZkjuSX14/uploads/media/68f5d9b9d834e/calm-flow-hero2.webp?originalExtension=jpg`
-const SPLIT1_IMG = `${BASE}/iYG28AoZ/uploads/media/68f5da826a96c/calm-flow-944-x-884-afbeelding-bij-tekst.webp?originalExtension=jpg`
-const SPLIT2_IMG = `${BASE}/WkMLPjbh/uploads/media/68f5de27ee178/calm-flow-944-x-884-afbeelding-bij-tekst2.webp?originalExtension=jpg`
-const WIDE_IMG   = `${BASE}/e4RJZTBQ/uploads/media/68f212d3a5493/calm-flow-hero.webp?originalExtension=jpg`
-const STYLE_IMG  = `${BASE}/5Kou6YTu/uploads/media/691485f80d173/hoe-maak-ik-deze-stijl4.webp?originalExtension=jpg`
+
+
+
+
+
 
 const FAQ_DATA = [
   {

@@ -1,10 +1,30 @@
+import UKS_LEICHT_IDEA_0890305IDEA002 from '../assets/uks-leicht-idea/uks-leicht-idea-0890305Idea002.jpg';
+import UKS_LEICHT_IDEA_0890307IDEA002COPY from '../assets/uks-leicht-idea/uks-leicht-idea-0890307Idea002copy.jpeg';
+import UKS_LEICHT_IDEA_0890303IDEA002COPY from '../assets/uks-leicht-idea/uks-leicht-idea-0890303Idea002copy.jpeg';
+import UKS_LEICHT_IDEA_0890304IDEA002 from '../assets/uks-leicht-idea/uks-leicht-idea-0890304Idea002.jpg';
+import UKS_LEICHT_IDEA_IDEAPM170SANDWEIRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-IDEAPM170sandweiretuschiert.png';
+import UKS_LEICHT_IDEA_IDEAMANDELGRAU from '../assets/uks-leicht-idea/uks-leicht-idea-IDEAmandelgrau.png';
+import UKS_LEICHT_IDEA_IDEAPM172SALBEIGRNRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-IDEAPM172salbeigrnretuschiert.png';
+import UKS_LEICHT_IDEA_IDEAKARMINROTRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-IDEAKarminrotretuschiert.png';
+import UKS_LEICHT_IDEA_METUROVM075SATINPLATINRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-METUROVM075satinplatinretuschiert.png';
+import UKS_LEICHT_IDEA_METUROVM076SATINKUPFERRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-METUROVM076satinkupferretuschiert.png';
+import UKS_LEICHT_IDEA_METUROVM077SATINGRAPHITRETUSCHIERT from '../assets/uks-leicht-idea/uks-leicht-idea-METUROVM077satingraphitretuschiert.png';
+import UKS_LEICHT_IDEA_171ALMONDGREY from '../assets/uks-leicht-idea/uks-leicht-idea-171ALMONDGREY.png';
+import UKS_LEICHT_IDEA_256CELANOWALNUT from '../assets/uks-leicht-idea/uks-leicht-idea-256CELANOWALNUT.png';
+import UKS_LEICHT_IDEA_684WHITEFANTASYSANDED from '../assets/uks-leicht-idea/uks-leicht-idea-684WHITEFANTASYSANDED.png';
+import UKS_LEICHT_IDEA_0890301IDEA003 from '../assets/uks-leicht-idea/uks-leicht-idea-0890301Idea003.jpg';
+import UKS_LEICHT_IDEA_0890303IDEA002 from '../assets/uks-leicht-idea/uks-leicht-idea-0890303Idea002.jpg';
+import UKS_LEICHT_IDEA_IMAGE53 from '../assets/uks-leicht-idea/uks-leicht-idea-image53.png';
+import UKS_LEICHT_IDEA_0890300IDEA001 from '../assets/uks-leicht-idea/uks-leicht-idea-0890300Idea001.webp';
+import UKS_LEICHT_IDEA_0890302IDEA003 from '../assets/uks-leicht-idea/uks-leicht-idea-0890302Idea003.jpg';
+import UKS_LEICHT_IDEA_0834606IDEADETAIL002 from '../assets/uks-leicht-idea/uks-leicht-idea-0834606ideaDetail002.jpg';
+import UKS_LEICHT_IDEA_METURO from '../assets/uks-leicht-idea/uks-leicht-idea-METURO.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 /* ─── Data ─────────────────────────────────────────────────────── */
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -13,7 +33,7 @@ const hotspots = [
     y: '44.27%',
     title: 'Glass display cabinet VERO',
     desc: 'Discover how VERO glass display cabinets make your kitchen planning efficient and flexible.',
-    img: `${CAISY}/4dbfa34e-493b-454a-b42c-2090bafef84f/ae5f4b4f-736c-4a9d-9e01-c250f9aa8469/0890305Idea002.jpg`,
+    img: UKS_LEICHT_IDEA_0890305IDEA002,
     link: '#',
     linkLabel: 'Discover',
     dir: 'bottom',
@@ -24,7 +44,7 @@ const hotspots = [
     y: '53.32%',
     title: 'Gaggenau Ovens',
     desc: 'Discover premium Gaggenau ovens for perfect kitchen planning.',
-    img: `${CAISY}/a7580583-814b-411b-b92a-a8981911d1ee/258cebe2-2f74-451a-87a4-b434ab04e30c/0890307Idea002copy.jpeg`,
+    img: UKS_LEICHT_IDEA_0890307IDEA002COPY,
     link: '#',
     linkLabel: 'Discover Ovens',
     dir: 'bottom',
@@ -35,7 +55,7 @@ const hotspots = [
     y: '60.25%',
     title: 'Vario cooking appliances Series 400',
     desc: 'Vario cooking appliances Series 400, create your own individual, uniform work surface from Gaggenau.',
-    img: `${CAISY}/bb25104c-32fc-4929-a5fc-58bdfeb36d94/83a97064-c672-4c55-b93f-ca74a834f602/0890303Idea002copy.jpeg`,
+    img: UKS_LEICHT_IDEA_0890303IDEA002COPY,
     link: '#',
     linkLabel: 'Discover',
     dir: 'top',
@@ -46,7 +66,7 @@ const hotspots = [
     y: '57.85%',
     title: 'Slide-away door cabinet',
     desc: 'Slide-away door cabinets with pull-outs, design your modern, functional kitchen with storage space.',
-    img: `${CAISY}/fce67ddc-c6a5-4dc4-9280-e92db62a937f/81229291-b23e-4577-bd55-7d446a5fef87/0890304Idea002.jpg`,
+    img: UKS_LEICHT_IDEA_0890304IDEA002,
     link: '#',
     linkLabel: 'Discover',
     dir: 'left',
@@ -57,22 +77,22 @@ const ideaColors = [
   {
     code: 'PM 170',
     name: 'sandy white',
-    img: `${CAISY}/e8ee519f-518b-49ee-8bfa-fc0588ee84d0/9f466e12-b7a1-4ea4-8cb5-700460bb1822/IDEAPM170sandweiretuschiert.png`,
+    img: UKS_LEICHT_IDEA_IDEAPM170SANDWEIRETUSCHIERT,
   },
   {
     code: 'PM 171',
     name: 'almond grey',
-    img: `${CAISY}/0bb41305-d2a1-4516-bbbe-cf178754b436/d497a1eb-72f8-4931-b0fa-3917e872df6a/IDEAmandelgrau.png`,
+    img: UKS_LEICHT_IDEA_IDEAMANDELGRAU,
   },
   {
     code: 'PM 172',
     name: 'sage green',
-    img: `${CAISY}/52ad9ff6-b4d1-426b-9fc4-58b284978e15/30332657-0588-46dc-940c-36bc81eeb581/IDEAPM172salbeigrnretuschiert.png`,
+    img: UKS_LEICHT_IDEA_IDEAPM172SALBEIGRNRETUSCHIERT,
   },
   {
     code: 'PM 173',
     name: 'crimson',
-    img: `${CAISY}/5f895791-cd39-4077-b8fc-010b230a6a8e/4260fd32-0843-402e-b31d-581c55cadffb/IDEAKarminrotretuschiert.png`,
+    img: UKS_LEICHT_IDEA_IDEAKARMINROTRETUSCHIERT,
   },
 ]
 
@@ -80,17 +100,17 @@ const meturoColors = [
   {
     code: 'VM 075v',
     name: 'satin platinum',
-    img: `${CAISY}/a2d73718-67a6-4f5f-9adf-bf343880e838/dcfb9846-b9e5-4981-b6e3-9096eaf7e429/METUROVM075satinplatinretuschiert.png`,
+    img: UKS_LEICHT_IDEA_METUROVM075SATINPLATINRETUSCHIERT,
   },
   {
     code: 'VM 076v',
     name: 'satin copper',
-    img: `${CAISY}/1761a8e3-f050-437a-a5a9-4e3cd49d7b07/79ecdc5a-a45a-4ef5-8bc0-d99774cf9b98/METUROVM076satinkupferretuschiert.png`,
+    img: UKS_LEICHT_IDEA_METUROVM076SATINKUPFERRETUSCHIERT,
   },
   {
     code: 'VM 077v',
     name: 'satin graphite',
-    img: `${CAISY}/27a89311-fc95-47c9-9af4-87f7b2416687/d1e6947e-ad2c-4240-b2d7-524aca92e917/METUROVM077satingraphitretuschiert.png`,
+    img: UKS_LEICHT_IDEA_METUROVM077SATINGRAPHITRETUSCHIERT,
   },
 ]
 
@@ -114,7 +134,7 @@ const accordionItems = [
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
           <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden' }}>
             <img
-              src={`${CAISY}/7771e802-271b-43cc-954a-0299e9bfd21d/5920d8b3-5805-4122-a4b2-4da4089f1429/171ALMONDGREY.png`}
+              src={UKS_LEICHT_IDEA_171ALMONDGREY}
               alt="171 almond grey"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
@@ -124,7 +144,7 @@ const accordionItems = [
         <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
           <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden' }}>
             <img
-              src={`${CAISY}/0e7895ba-0eb0-42fb-ac69-08459718c686/1a1ca6b0-f07a-4685-8619-57fe2d6a557a/256CELANOWALNUT.png`}
+              src={UKS_LEICHT_IDEA_256CELANOWALNUT}
               alt="256 celano walnut"
               style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             />
@@ -145,7 +165,7 @@ const accordionItems = [
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
             <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden' }}>
               <img
-                src={`${CAISY}/3adadab6-117f-4035-9129-0b4d27ca0dbe/7246aff9-3beb-4e3d-bddc-bd4312b60a64/684WHITEFANTASYSANDED.png`}
+                src={UKS_LEICHT_IDEA_684WHITEFANTASYSANDED}
                 alt="684 white fantasy sanded"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
@@ -292,7 +312,7 @@ export default function LeichtIdea() {
         {/* Aspect-ratio wrapper keeps hotspot % coords stable */}
         <div className="idea-hero2__aspect">
           <img
-            src={`${CAISY}/ed5099bf-c2cd-4c69-adf8-b660889c596c/cee7b3ea-a826-4503-bc47-6e049a9c882f/0890301Idea003.jpg`}
+            src={UKS_LEICHT_IDEA_0890301IDEA003}
             alt="LEICHT IDEA kitchen concept"
             className="idea-hero2__img"
           />
@@ -355,13 +375,13 @@ export default function LeichtIdea() {
           <div className="idea2-intro__imgs">
             <div className="idea2-intro__img idea2-intro__img--wide">
               <img
-                src={`${CAISY}/8c32741b-4136-449b-91e0-d1dbe4887ce6/7b30b63a-6251-47b9-9a4d-c9928866a8cd/0890303Idea002.jpg`}
+                src={UKS_LEICHT_IDEA_0890303IDEA002}
                 alt="IDEA kitchen wide view"
               />
             </div>
             <div className="idea2-intro__img idea2-intro__img--tall">
               <img
-                src={`${CAISY}/00f1e2ca-fbdd-4399-b033-a2d5496f6b83/2f707dcd-0b40-4487-b2d6-b6e9baef99f2/image53.png`}
+                src={UKS_LEICHT_IDEA_IMAGE53}
                 alt="IDEA detail close-up"
               />
             </div>
@@ -410,7 +430,7 @@ export default function LeichtIdea() {
         </div>
         <div className="idea2-arch__right">
           <img
-            src={`${CAISY}/80aaecda-55fb-44ea-b2f3-ce133a6fa479/854b3012-6da5-47bd-82cb-32003c49b7d7/0890300Idea001.webp`}
+            src={UKS_LEICHT_IDEA_0890300IDEA001}
             alt="Architecture meets tranquillity"
           />
         </div>
@@ -420,7 +440,7 @@ export default function LeichtIdea() {
       <section className="idea2-material">
         <div className="idea2-material__bg">
           <img
-            src={`${CAISY}/0483b0f5-f16f-421d-a0a8-8ab407afde37/fbfd6985-727c-4aa4-820f-5175d383f5b5/0890302Idea003.jpg`}
+            src={UKS_LEICHT_IDEA_0890302IDEA003}
             alt="Material background"
           />
         </div>
@@ -440,7 +460,7 @@ export default function LeichtIdea() {
           </div>
           <div className="idea2-material__card idea2-material__card--img">
             <img
-              src={`${CAISY}/831612cb-fdbf-41a3-8756-c71d3d7df977/e4573244-b03e-48bc-a345-73c7374018a9/0834606ideaDetail002.jpg`}
+              src={UKS_LEICHT_IDEA_0834606IDEADETAIL002}
               alt="Elegance in every detail"
             />
           </div>
@@ -451,7 +471,7 @@ export default function LeichtIdea() {
       <section className="idea2-pullouts">
         <div className="idea2-pullouts__img">
           <img
-            src={`${CAISY}/2ef79f8b-038d-4155-948e-19da08870ed2/3e316d03-87df-4bc3-b113-bb7c26fda409/0890304Idea002.jpg`}
+            src={UKS_LEICHT_IDEA_0890304IDEA002}
             alt="Practical and versatile pullouts"
           />
         </div>
@@ -487,7 +507,7 @@ export default function LeichtIdea() {
         </div>
         <div className="idea2-meturo__right">
           <img
-            src={`${CAISY}/10166157-9bfa-47da-b884-e5835a29c616/4bcdc79e-050d-420b-9dd9-b73706776d8c/METURO.jpg`}
+            src={UKS_LEICHT_IDEA_METURO}
             alt="METURO Semi-Gloss Acrylic Surfaces"
           />
         </div>

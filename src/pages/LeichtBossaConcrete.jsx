@@ -1,9 +1,33 @@
+import UKS_LEICHT_BOSSA_CONCRETE_744293D06352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293D06352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293MO05352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293Mo05352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293MO04352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293Mo04352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293D01352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293D01352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293MO07352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293Mo07352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293D03352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293D03352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293MO08352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293Mo08352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293MO09352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293Mo09352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0890301IDEA003 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0890301Idea003.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_TOPOSCLASSICFS03 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0480101KYOTO012NAH from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_684269M01167309J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-684269M01167309J22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_244753M01350120J20 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-244753M01350120j20.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_0470101BAHIA026 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-0470101BAHIA026.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293M01352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293M01352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_ADOBESTOCK514189127 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-AdobeStock514189127.jpeg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293M05352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293M05352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293D02352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293D02352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293D05352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293D05352192j22.jpg';
+import UKS_LEICHT_BOSSA_CONCRETE_744293M03352192J22 from '../assets/uks-leicht-bossa-concrete/uks-leicht-bossa-concrete-744293M03352192j22.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
+const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb';
 
-const BASE = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
-const ILLUS_BASE = 'https://assets.caisy.io/assets/75c43b7c-42d5-4e2f-aab1-74e182f03c94'
 
 /* ── HOTSPOTS ── exact positions from live site ─────────────── */
 const hotspots = [
@@ -12,7 +36,7 @@ const hotspots = [
     x: '68.8%', y: '41.14%',
     title: 'VERO glass display cabinets',
     desc: 'The VERO illuminated glass cabinets are available in three different frame colours and with a wide range of interior fittings. They are also available as base, top or tall cabinets.',
-    img: `${BASE}/1ed2bc6f-d15b-4796-b3d9-e4c401513c57/ac96da81-bbb5-4276-930c-686be19ae3cd/744293D06352192j22.jpg?width=257&height=169`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_744293D06352192J22,
     popDir: 'right',
   },
   {
@@ -20,7 +44,7 @@ const hotspots = [
     x: '32.6%', y: '62.76%',
     title: 'BOSSA surface',
     desc: 'The characteristic BOSSA surface of protruding, linear rods creates a uniform overall appearance with a delicate, three-dimensional effect.',
-    img: `${BASE}/e1053de0-ef53-4da8-83f7-62944aed450c/01816336-4337-4de1-a28a-5d828d227444/744293Mo05352192j22.jpg?width=257&height=169`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_744293MO05352192J22,
     popDir: 'left',
   },
   {
@@ -28,7 +52,7 @@ const hotspots = [
     x: '52%', y: '56.46%',
     title: 'Harmonious material composition',
     desc: 'While the walnut wood from BOSSA radiates warmth, the natural stone ROCCA in Taj Mahal adds a balancing coolness.',
-    img: `${BASE}/6b1c8de4-a52e-448e-9ffb-452db581d939/25c3c39b-ed81-4705-a702-9d279fb69af5/744293Mo04352192j22.jpg?width=257&height=169`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_744293MO04352192J22,
     popDir: 'right',
   },
   {
@@ -36,7 +60,7 @@ const hotspots = [
     x: '34.8%', y: '41.89%',
     title: 'Concrete surface',
     desc: 'Special concrete, available in different colours, is applied by hand and gives the surface an authentic concrete look.',
-    img: `${BASE}/c96ea508-6049-45c2-b6a0-96bb12ccf095/18a7406b-0d46-44bf-b8cb-9d95cb4ff0bd/744293D01352192j22.jpg?width=257&height=169`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_744293D01352192J22,
     popDir: 'left',
   },
   {
@@ -44,7 +68,7 @@ const hotspots = [
     x: '43.5%', y: '62%',
     title: 'M8 interior frame',
     desc: 'The M8 frame, which is only 8 mm thick, is optionally available for internal drawers and internal pull-outs, giving a very minimalist and elegant overall impression.',
-    img: `${BASE}/43bcfde3-ad1d-4740-b305-d07b71bf90e8/3fad9af8-128e-4f03-8fd1-ce5a6b96f868/744293Mo07352192j22.jpg?width=257&height=169`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_744293MO07352192J22,
     popDir: 'right',
   },
 ]
@@ -53,26 +77,26 @@ const hotspots = [
 const SWATCHES = [
   {
     id: 1,
-    thumb: `${BASE}/caafd35e-08e0-4e9b-a72b-a14671494d27/87f621c9-188b-41d8-a5b7-0e63f35a0e01/744293D03352192j22.jpg?focal_point=48.96,38.61&width=120&height=73`,
-    large: `${BASE}/caafd35e-08e0-4e9b-a72b-a14671494d27/87f621c9-188b-41d8-a5b7-0e63f35a0e01/744293D03352192j22.jpg?focal_point=48.96,38.61&width=1440&height=609`,
+    thumb: UKS_LEICHT_BOSSA_CONCRETE_744293D03352192J22,
+    large: UKS_LEICHT_BOSSA_CONCRETE_744293D03352192J22,
     alt: 'BOSSA walnut surface',
   },
   {
     id: 2,
-    thumb: `${BASE}/77f676b0-ffa3-47bb-abe4-b05531331d0e/98f77b12-fa88-4c3e-a8cb-e5ed4087f6d9/744293Mo07352192j22.jpg?width=120&height=73`,
-    large: `${BASE}/77f676b0-ffa3-47bb-abe4-b05531331d0e/98f77b12-fa88-4c3e-a8cb-e5ed4087f6d9/744293Mo07352192j22.jpg?width=1440&height=609`,
+    thumb: UKS_LEICHT_BOSSA_CONCRETE_744293MO07352192J22,
+    large: UKS_LEICHT_BOSSA_CONCRETE_744293MO07352192J22,
     alt: 'Open shelving with walnut',
   },
   {
     id: 3,
-    thumb: `${BASE}/fdf3418e-00c3-47ac-9c3c-2d761260c782/4a1f7c93-c84d-4ad1-9c5e-70db971eb2ff/744293Mo08352192j22.jpg?width=120&height=73`,
-    large: `${BASE}/fdf3418e-00c3-47ac-9c3c-2d761260c782/4a1f7c93-c84d-4ad1-9c5e-70db971eb2ff/744293Mo08352192j22.jpg?width=1440&height=609`,
+    thumb: UKS_LEICHT_BOSSA_CONCRETE_744293MO08352192J22,
+    large: UKS_LEICHT_BOSSA_CONCRETE_744293MO08352192J22,
     alt: 'Concrete and island combination',
   },
   {
     id: 4,
-    thumb: `${BASE}/918c8f41-8a97-4485-a7e4-c1480c5038d3/12b5dcea-726b-4941-afbf-92c97df1ef90/744293Mo09352192j22.jpg?width=120&height=73`,
-    large: `${BASE}/918c8f41-8a97-4485-a7e4-c1480c5038d3/12b5dcea-726b-4941-afbf-92c97df1ef90/744293Mo09352192j22.jpg?width=1440&height=609`,
+    thumb: UKS_LEICHT_BOSSA_CONCRETE_744293MO09352192J22,
+    large: UKS_LEICHT_BOSSA_CONCRETE_744293MO09352192J22,
     alt: 'Full room sideboard view',
   },
 ]
@@ -82,67 +106,67 @@ const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${BASE}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${BASE}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${BASE}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${BASE}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${BASE}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${BASE}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${BASE}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${BASE}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${BASE}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${BASE}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht/bossa-kera-madero',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${BASE}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_CONCRETE_0470101BAHIA026,
     to: '/kitchens/leicht/bahia',
   }
 ]
@@ -173,7 +197,7 @@ export default function LeichtBossaConcrete() {
         <div className="bc-hero__wrap">
           <img
             className="bc-hero__img"
-            src={`${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=2499&height=1666`}
+            src={UKS_LEICHT_BOSSA_CONCRETE_744293M01352192J22}
             srcSet={`${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1279&height=853 1279w,
               ${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1919&height=1279 1919w,
               ${BASE}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=2499&height=1666 2499w`}
@@ -239,7 +263,7 @@ export default function LeichtBossaConcrete() {
             {/* Image 1 – kitchen countertop detail */}
             <div className="bc-intro__img-wide">
               <img
-                src={`${BASE}/6a38e89c-2284-4f32-b853-f89bef6dac45/39b194f5-ff6a-4c01-b645-6cacd2cf8aea/744293Mo04352192j22.jpg?width=720&height=480`}
+                src={UKS_LEICHT_BOSSA_CONCRETE_744293MO04352192J22}
                 alt="BOSSA CONCRETE kitchen countertop detail"
                 loading="lazy"
               />
@@ -247,7 +271,7 @@ export default function LeichtBossaConcrete() {
             {/* Image 2 – AdobeStock landscape (original Leicht pairing) */}
             <div className="bc-intro__img-tall">
               <img
-                src={`${BASE}/8501a325-ad55-4c1e-a7e8-3fa2ac5793b1/ca8b44ba-33f4-45ff-8b11-d20120038492/AdobeStock514189127.jpeg?width=720&height=480`}
+                src={UKS_LEICHT_BOSSA_CONCRETE_ADOBESTOCK514189127}
                 alt="Architectural landscape"
                 loading="lazy"
               />
@@ -262,7 +286,7 @@ export default function LeichtBossaConcrete() {
       <section className="bc-form-fn">
         <div className="bc-form-fn__img-wrap">
           <img
-            src={`${BASE}/550a20f9-737e-42ca-ab6a-d26b05121420/cb466416-b2d2-42c6-85c3-580543ba8ebf/744293M05352192j22.jpg?width=1439&height=890`}
+            src={UKS_LEICHT_BOSSA_CONCRETE_744293M05352192J22}
             srcSet={`${BASE}/550a20f9-737e-42ca-ab6a-d26b05121420/cb466416-b2d2-42c6-85c3-580543ba8ebf/744293M05352192j22.jpg?width=833&height=821 833w,
               ${BASE}/550a20f9-737e-42ca-ab6a-d26b05121420/cb466416-b2d2-42c6-85c3-580543ba8ebf/744293M05352192j22.jpg?width=1279&height=1141 1279w,
               ${BASE}/550a20f9-737e-42ca-ab6a-d26b05121420/cb466416-b2d2-42c6-85c3-580543ba8ebf/744293M05352192j22.jpg?width=1439&height=890 1439w`}
@@ -285,7 +309,7 @@ export default function LeichtBossaConcrete() {
       <section className="bc-material">
         <div className="bc-material__img">
           <img
-            src={`${BASE}/3028e327-c5e0-47d2-9e43-ad25b1f1c8a7/c6e07b41-9add-4a5f-8283-3f411b048dc0/744293D02352192j22.jpg?width=720&height=884`}
+            src={UKS_LEICHT_BOSSA_CONCRETE_744293D02352192J22}
             srcSet={`${BASE}/3028e327-c5e0-47d2-9e43-ad25b1f1c8a7/c6e07b41-9add-4a5f-8283-3f411b048dc0/744293D02352192j22.jpg?width=833&height=1217 833w,
               ${BASE}/3028e327-c5e0-47d2-9e43-ad25b1f1c8a7/c6e07b41-9add-4a5f-8283-3f411b048dc0/744293D02352192j22.jpg?width=1279&height=1033 1279w,
               ${BASE}/3028e327-c5e0-47d2-9e43-ad25b1f1c8a7/c6e07b41-9add-4a5f-8283-3f411b048dc0/744293D02352192j22.jpg?width=720&height=884 1919w`}
@@ -308,7 +332,7 @@ export default function LeichtBossaConcrete() {
       <section className="bc-harmony">
         <div className="bc-harmony__bg">
           <img
-            src={`${BASE}/5a19bfe3-6768-48e5-9585-6cfc8400d766/df36aefa-8473-4fb5-9298-40b69807bf7d/744293D05352192j22.jpg?width=1439&height=745`}
+            src={UKS_LEICHT_BOSSA_CONCRETE_744293D05352192J22}
             srcSet={`${BASE}/5a19bfe3-6768-48e5-9585-6cfc8400d766/df36aefa-8473-4fb5-9298-40b69807bf7d/744293D05352192j22.jpg?width=833&height=738 833w,
               ${BASE}/5a19bfe3-6768-48e5-9585-6cfc8400d766/df36aefa-8473-4fb5-9298-40b69807bf7d/744293D05352192j22.jpg?width=1279&height=1032 1279w,
               ${BASE}/5a19bfe3-6768-48e5-9585-6cfc8400d766/df36aefa-8473-4fb5-9298-40b69807bf7d/744293D05352192j22.jpg?width=1919&height=876 1919w`}
@@ -329,7 +353,7 @@ export default function LeichtBossaConcrete() {
           {/* portrait image */}
           <div className="bc-harmony__portrait">
             <img
-              src={`${BASE}/3e66b6f4-e1c8-4b2b-9e87-7c54595953b7/76f63ff2-5b08-4f7a-b4a1-618925a6a730/744293M03352192j22.jpg?width=720&height=998`}
+              src={UKS_LEICHT_BOSSA_CONCRETE_744293M03352192J22}
               srcSet={`${BASE}/3e66b6f4-e1c8-4b2b-9e87-7c54595953b7/76f63ff2-5b08-4f7a-b4a1-618925a6a730/744293M03352192j22.jpg?width=833&height=1137 833w,
                 ${BASE}/3e66b6f4-e1c8-4b2b-9e87-7c54595953b7/76f63ff2-5b08-4f7a-b4a1-618925a6a730/744293M03352192j22.jpg?width=720&height=998 1919w`}
               sizes="(max-width:991px) 100vw, 42vw"

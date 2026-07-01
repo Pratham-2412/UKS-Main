@@ -1,17 +1,21 @@
+import UKS_KELLER_NAUTICAL_NAVY_VIDEO_NAUTICALNAVY_LANDSCAPE from '../assets/uks-keller-nautical-navy/uks-keller-nautical-navy-video-nauticalnavy-landscape.mp4';
+import UKS_KELLER_NAUTICAL_NAVY_VIDEO_NAUTICALNAVY_PORTRAIT from '../assets/uks-keller-nautical-navy/uks-keller-nautical-navy-video-nauticalnavy-portrait.mp4';
+import UKS_KELLER_NAUTICAL_NAVY_1920_X_1090_HERO_NAUTICALNAVY from '../assets/uks-keller-nautical-navy/uks-keller-nautical-navy-1920-x-1090-hero-nauticalnavy.webp';
+import UKS_KELLER_NAUTICAL_NAVY_960_X_1024_AFBEELDING_BIJ_TEKST_NAUTICAL_NAVY from '../assets/uks-keller-nautical-navy/uks-keller-nautical-navy-960-x-1024-afbeelding-bij-tekst-nautical-navy.webp';
+import UKS_KELLER_NAUTICAL_NAVY_1326_X_884_RASTER_NAUTICAL_NAVY from '../assets/uks-keller-nautical-navy/uks-keller-nautical-navy-1326-x-884-raster-nautical-navy.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG   = `${BASE}/dwWkswQ9/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg`
-const SPLIT_IMG  = `${BASE}/68DPdVBx/uploads/media/6311e89f9a8ba/960-x-1024-afbeelding-bij-tekst-nautical-navy.webp?originalExtension=jpg`
-const WIDE_IMG   = `${BASE}/33wwGozg/uploads/media/6316f6bba6976/1326-x-884-raster-nautical-navy.webp?originalExtension=jpg`
+const HERO_IMG   = UKS_KELLER_NAUTICAL_NAVY_1920_X_1090_HERO_NAUTICALNAVY
+const SPLIT_IMG  = UKS_KELLER_NAUTICAL_NAVY_960_X_1024_AFBEELDING_BIJ_TEKST_NAUTICAL_NAVY
+const WIDE_IMG   = UKS_KELLER_NAUTICAL_NAVY_1326_X_884_RASTER_NAUTICAL_NAVY
 
 // Videos
-const VIDEO_LANDSCAPE = 'https://www.kellerkitchens.com/uploads/media/637cd396b577f/video-nauticalnavy-landscape.mp4'
-const VIDEO_PORTRAIT  = 'https://www.kellerkitchens.com/uploads/media/637cd3a9b72b8/video-nauticalnavy-portrait.mp4'
+const VIDEO_LANDSCAPE = UKS_KELLER_NAUTICAL_NAVY_VIDEO_NAUTICALNAVY_LANDSCAPE
+const VIDEO_PORTRAIT  = UKS_KELLER_NAUTICAL_NAVY_VIDEO_NAUTICALNAVY_PORTRAIT
 
 const FAQ_DATA = [
   {

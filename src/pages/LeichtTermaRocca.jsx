@@ -1,8 +1,23 @@
+import UKS_LEICHT_TERMA_ROCCA_FRONTVERLNGERUNG from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-Frontverlngerung.png';
+import UKS_LEICHT_TERMA_ROCCA_NATURSTEIN from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-Naturstein.png';
+import UKS_LEICHT_TERMA_ROCCA_OPALTEST from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-opaltest.jpg';
+import UKS_LEICHT_TERMA_ROCCA_360VMARAVALKASTANIE1120X1600150DPI from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-360vmaravalkastanie1120x1600150dpi.jpg';
+import UKS_LEICHT_TERMA_ROCCA_0890301IDEA003 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0890301Idea003.jpg';
+import UKS_LEICHT_TERMA_ROCCA_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_TERMA_ROCCA_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_TERMA_ROCCA_TOPOSCLASSICFS03 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_TERMA_ROCCA_TP211126 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-tp211126.jpg';
+import UKS_LEICHT_TERMA_ROCCA_0660203WELLENGRIFFFRONT002COPY from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0660203Wellengrifffront002copy.jpg';
+import UKS_LEICHT_TERMA_ROCCA_TECHNISCHEZEICHNUNGOBERSCHRANKUNDUNTERSCHRANK from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-TechnischeZeichnungOberschrankundUnterschrank.png';
+import UKS_LEICHT_TERMA_ROCCA_TECHNISCHEZEICHNUNGHOCHSCHRANK from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-TechnischeZeichnungHochschrank.png';
+import UKS_LEICHT_TERMA_ROCCA_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_TERMA_ROCCA_0690103FOTOPRODUKTIONK7015COPY from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0690103Fotoproduktionk7015copy.jpg';
+import UKS_LEICHT_TERMA_ROCCA_ADOBESTOCK514189127 from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-AdobeStock514189127.jpeg';
+import UKS_LEICHT_TERMA_ROCCA_0690102FOTOPRODUKTIONK7003COPY from '../assets/uks-leicht-terma-rocca/uks-leicht-terma-rocca-0690102Fotoproduktionk7003copy.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -11,7 +26,7 @@ const hotspots = [
     y: '26.02%',
     title: 'Upper Cabinet Overhang',
     desc: 'We offer customized tall cabinet lines that fit specific room heights without the need for a ceiling panel. By making the fronts adjustable in height, we ensure a seamless and high-quality kitchen design.',
-    img: `${CAISY}/05d0b472-43db-4ce9-87b6-289d2eaad9a1/d22c8e54-78c0-42c3-b6d4-d3ee73ee5907/Frontverlngerung.png?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_FRONTVERLNGERUNG,
     dir: 'bottom',
   },
   {
@@ -20,7 +35,7 @@ const hotspots = [
     y: '68.03%',
     title: 'Natural Stone Worktop',
     desc: 'Natural stone countertop ROCCA-C GI in the color 690 breccia imperiale – available in thicknesses of 2.6 cm, 4 cm, and 6 cm.',
-    img: `${CAISY}/97947b3f-497c-428b-a386-37631add832a/fedc8224-bee0-4d99-a354-0f3847212414/Naturstein.png?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_NATURSTEIN,
     dir: 'top',
   },
   {
@@ -29,7 +44,7 @@ const hotspots = [
     y: '41.72%',
     title: 'PEARL Program in Color 071 opal',
     desc: 'The PEARL program by LEICHT is presented in the elegant color 071 opal, providing a soft, matte contrast to the natural wood and stone textures.',
-    img: `${CAISY}/a0cb4c6d-fabb-4946-a6f6-d8eb42150f62/88b0482d-ad29-4477-9163-7ee6cc33b12e/opaltest.jpg?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_OPALTEST,
     dir: 'bottom',
   },
   {
@@ -38,7 +53,7 @@ const hotspots = [
     y: '52.89%',
     title: '276 TERMA-Q',
     desc: 'Program 276 TERMA in color 360v maraval kastanie (chestnut) creates an elegant, warm look, paired here with the handle in color 417 steel black.',
-    img: `${CAISY}/3cc30be2-5021-46dd-a2e3-d78da1d26f67/beb157c6-c8f0-43a4-b740-ff4ceedbe6f0/360vmaravalkastanie1120x1600150dpi.jpg?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_360VMARAVALKASTANIE1120X1600150DPI,
     dir: 'right',
   },
 ]
@@ -47,17 +62,17 @@ const swatches = [
   {
     code: '276 TERMA',
     name: '360v maraval kastanie (chestnut wood veneer)',
-    img: `${CAISY}/3cc30be2-5021-46dd-a2e3-d78da1d26f67/beb157c6-c8f0-43a4-b740-ff4ceedbe6f0/360vmaravalkastanie1120x1600150dpi.jpg?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_360VMARAVALKASTANIE1120X1600150DPI,
   },
   {
     code: 'ROCCA-C',
     name: '690 breccia imperiale (natural stone worktop)',
-    img: `${CAISY}/97947b3f-497c-428b-a386-37631add832a/fedc8224-bee0-4d99-a354-0f3847212414/Naturstein.png?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_NATURSTEIN,
   },
   {
     code: 'PEARL',
     name: '071 opal (soft matte lacquer surface)',
-    img: `${CAISY}/a0cb4c6d-fabb-4946-a6f6-d8eb42150f62/88b0482d-ad29-4477-9163-7ee6cc33b12e/opaltest.jpg?width=400`,
+    img: UKS_LEICHT_TERMA_ROCCA_OPALTEST,
   },
 ]
 
@@ -65,25 +80,25 @@ const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_TERMA_ROCCA_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_TERMA_ROCCA_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_TERMA_ROCCA_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_TERMA_ROCCA_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
@@ -192,7 +207,7 @@ export default function LeichtTermaRocca() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
             <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--border)' }}>
               <img
-                src={`${CAISY}/2f64b507-76dd-495a-be2c-17bf5aca4045/728281e1-7f92-48a0-89e5-691e4d39f13e/tp211126.jpg?width=300`}
+                src={UKS_LEICHT_TERMA_ROCCA_TP211126}
                 alt="416 Bronze Dark / Steel Black"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
@@ -214,7 +229,7 @@ export default function LeichtTermaRocca() {
           <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
             <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--border)' }}>
               <img
-                src={`${CAISY}/7087f15e-a4ff-435b-8b03-6d09cad8d0a3/1d06f59f-004e-4d12-8b95-3541f70109d0/0660203Wellengrifffront002copy.jpg?width=300`}
+                src={UKS_LEICHT_TERMA_ROCCA_0660203WELLENGRIFFFRONT002COPY}
                 alt="Lacquered program front details"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
@@ -237,7 +252,7 @@ export default function LeichtTermaRocca() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
               <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--border)' }}>
                 <img
-                  src={`${CAISY}/0c69173d-74db-4f99-9b61-5cf6f848ef9b/a546cc23-efa7-41b7-b64c-2fed9748bbe6/TechnischeZeichnungOberschrankundUnterschrank.png?width=300`}
+                  src={UKS_LEICHT_TERMA_ROCCA_TECHNISCHEZEICHNUNGOBERSCHRANKUNDUNTERSCHRANK}
                   alt="Wall and base cabinet arrangements"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -247,7 +262,7 @@ export default function LeichtTermaRocca() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', width: '180px' }}>
               <div style={{ width: '100%', aspectRatio: '833/539', borderRadius: '4px', overflow: 'hidden', border: '1px solid var(--border)' }}>
                 <img
-                  src={`${CAISY}/872fc35e-9951-4dbb-b071-c44b3198689d/fcb2086e-37fc-49b3-9b95-9da246c50181/TechnischeZeichnungHochschrank.png?width=300`}
+                  src={UKS_LEICHT_TERMA_ROCCA_TECHNISCHEZEICHNUNGHOCHSCHRANK}
                   alt="Tall cabinet arrangements"
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
@@ -272,7 +287,7 @@ export default function LeichtTermaRocca() {
       <section className="terma-hero2">
         <div className="terma-hero2__aspect">
           <img
-            src={`${CAISY}/e6940f4c-d96e-4e0d-ab2d-777b653504fc/fb3c2dec-a1d8-425f-a71f-98e208f944dd/0690101Fotoproduktionk7017obenheller.jpg`}
+            src={UKS_LEICHT_TERMA_ROCCA_0690101FOTOPRODUKTIONK7017OBENHELLER}
             alt="LEICHT TERMA ROCCA PEARL kitchen concept"
             className="terma-hero2__img"
           />
@@ -331,13 +346,13 @@ export default function LeichtTermaRocca() {
           <div className="terma2-intro__imgs">
             <div className="terma2-intro__img terma2-intro__img--wide">
               <img
-                src={`${CAISY}/e9142d60-68ea-478a-b166-6c732f2ac9da/b66d60e4-e1da-4f68-84f7-6057f3d5c0fa/0690103Fotoproduktionk7015copy.jpg?width=800`}
+                src={UKS_LEICHT_TERMA_ROCCA_0690103FOTOPRODUKTIONK7015COPY}
                 alt="TERMA ROCCA kitchen overview"
               />
             </div>
             <div className="terma2-intro__img terma2-intro__img--tall">
               <img
-                src={`${CAISY}/13ec5ad3-91e5-4ca0-9f25-203207688de3/c1367d54-d01e-4ba0-a1f6-d1e56f318387/AdobeStock514189127.jpeg?width=600`}
+                src={UKS_LEICHT_TERMA_ROCCA_ADOBESTOCK514189127}
                 alt="Terma detail close-up"
               />
             </div>
@@ -384,7 +399,7 @@ export default function LeichtTermaRocca() {
         </div>
         <div className="terma2-arch__right">
           <img
-            src={`${CAISY}/e9142d60-68ea-478a-b166-6c732f2ac9da/b66d60e4-e1da-4f68-84f7-6057f3d5c0fa/0690103Fotoproduktionk7015copy.jpg?width=900`}
+            src={UKS_LEICHT_TERMA_ROCCA_0690103FOTOPRODUKTIONK7015COPY}
             alt="Perfect Fusion handle concept"
           />
         </div>
@@ -395,7 +410,7 @@ export default function LeichtTermaRocca() {
         <div className="terma2-material__overlay">
           <div className="terma2-material__card terma2-material__card--img">
             <img
-              src={`${CAISY}/95c0a85c-ecf6-4ccf-b904-0cfe5a905aa5/9d497464-8b98-4810-84cc-769577d7f997/0690102Fotoproduktionk7003copy.jpg?width=900`}
+              src={UKS_LEICHT_TERMA_ROCCA_0690102FOTOPRODUKTIONK7003COPY}
               alt="Handle concept Q integration"
             />
           </div>

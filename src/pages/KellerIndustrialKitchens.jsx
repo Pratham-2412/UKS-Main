@@ -1,49 +1,58 @@
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_INDUSTRIELEKEUKENS from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-industrielekeukens.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_960_X_1024_INDUSTRIEEL from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-960-x-1024-industrieel.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_BOLD_ELEGANCE_HERO from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-bold-elegance-hero.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_URBANNUDE from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-urbannude.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BLCKMETAL from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-blckmetal.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BROOKLYNBRICK from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-brooklynbrick.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_CONCRETEJUNGLE from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-concretejungle.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_DARKRITUALS from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-darkrituals.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_NATURESCHOICE from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-natureschoice.webp';
+import UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_ROCKSOLID from '../assets/uks-keller-industrial-kitchens/uks-keller-industrial-kitchens-1920-x-1090-hero-rocksolid.webp';
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 const INDUSTRIAL_MODELS = [
   {
     name: 'Bold Elegance',
     desc: 'Metallic textured black doors combined with brass frame open display storage.',
-    image: `${BASE}/BJ2OQLpT/uploads/media/66e0836f017d9/bold-elegance-hero.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_BOLD_ELEGANCE_HERO
   },
   {
     name: 'Urban Nude',
     desc: 'Raw concrete block finishes mixed with delicate soft sand-colored laminate panels.',
-    image: `${BASE}/odc4sSud/uploads/media/630cbb72a2fc9/1920-x-1090-hero-urbannude.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_URBANNUDE
   },
   {
     name: 'Black Metal',
     desc: 'Deep graphite matte cabinets framed with steel support columns and dark wire mesh.',
-    image: `${BASE}/0b1TTPSx/uploads/media/630cb1d98f788/1920-x-1090-hero-blckmetal.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BLCKMETAL
   },
   {
     name: 'Brooklyn Brick',
     desc: 'Weathered brick wallpaper elements paired with dark warm wood panels and black rails.',
-    image: `${BASE}/g6W7B6x5/uploads/media/631ef3b6b8d84/1920-x-1090-hero-brooklynbrick.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BROOKLYNBRICK
   },
   {
     name: 'Concrete Jungle',
     desc: 'Bold slate concrete-look doors complete with industrial handles and open dark frames.',
-    image: `${BASE}/YmbOJV0U/uploads/media/630cb785aa135/1920-x-1090-hero-concretejungle.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_CONCRETEJUNGLE
   },
   {
     name: 'Dark Rituals',
     desc: 'Monochrome layout combining dark stained timber with textured black composite tops.',
-    image: `${BASE}/EiSGawKS/uploads/media/630c91435d3fc/1920-x-1090-hero-darkrituals.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_DARKRITUALS
   },
   {
     name: 'Nature\'s Choice',
     desc: 'Soften the raw elements with light vertical timber panels and greyed structured stone.',
-    image: `${BASE}/tRV66fWT/uploads/media/64ec6cf21563c/1920-x-1090-hero-natureschoice.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_NATURESCHOICE
   },
   {
     name: 'Rock Solid',
     desc: 'Heavy textured stone doors matching the sturdy concrete details and raw steel hardware.',
-    image: `${BASE}/w9F2wZGx/uploads/media/630cbc8e45e20/1920-x-1090-hero-rocksolid.webp?originalExtension=jpg`
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_ROCKSOLID
   }
 ]
 
@@ -85,7 +94,7 @@ export default function KellerIndustrialKitchens() {
       {/* ── HERO BANNER ── */}
       <section className="kic-hero">
         <img
-          src="https://www.kellerkitchens.com/media/cache/generic/rc/3tgY1Jvp/uploads/media/6308a9d56132e/1920-x-1090-hero-industrielekeukens.webp?originalExtension=jpg"
+          src={UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_INDUSTRIELEKEUKENS}
           alt="Keller Industrial Kitchens"
           className="kic-hero__img"
         />
@@ -198,7 +207,7 @@ export default function KellerIndustrialKitchens() {
             </div>
             <div className="kic-split-media">
               <img
-                src="https://www.kellerkitchens.com/media/cache/generic/rc/xzOArcUr/uploads/media/630768afea742/960-x-1024-industrieel.webp?originalExtension=png"
+                src={UKS_KELLER_INDUSTRIAL_KITCHENS_960_X_1024_INDUSTRIEEL}
                 alt="Moodboard industrial style"
                 className="kic-split-image"
               />

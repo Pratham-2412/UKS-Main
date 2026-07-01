@@ -1,8 +1,27 @@
+import UKS_LEICHT_CONTINO12_684269M05167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M05167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269M09167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M09167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269MO01167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269Mo01167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269D03167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269D03167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269D04167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269D04167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269D02167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269D02167309J22.jpg';
+import UKS_LEICHT_CONTINO12_0890301IDEA003 from '../assets/uks-leicht-contino12/uks-leicht-contino12-0890301Idea003.jpg';
+import UKS_LEICHT_CONTINO12_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-contino12/uks-leicht-contino12-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_CONTINO12_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-contino12/uks-leicht-contino12-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_CONTINO12_TOPOSCLASSICFS03 from '../assets/uks-leicht-contino12/uks-leicht-contino12-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_CONTINO12_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-contino12/uks-leicht-contino12-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_CONTINO12_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-contino12/uks-leicht-contino12-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_CONTINO12_0480101KYOTO012NAH from '../assets/uks-leicht-contino12/uks-leicht-contino12-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_CONTINO12_684269M01167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M01167309J22.jpg';
+import UKS_LEICHT_CONTINO12_ROWANHEUVELMCVVHW1OVS0UNSPLASH from '../assets/uks-leicht-contino12/uks-leicht-contino12-rowanheuvelMCvvhW1OvS0unsplash.jpg';
+import UKS_LEICHT_CONTINO12_684269M02167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M02167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269MO02167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269Mo02167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269M04167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M04167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269M08167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M08167309J22.jpg';
+import UKS_LEICHT_CONTINO12_684269M11167309J22 from '../assets/uks-leicht-contino12/uks-leicht-contino12-684269M11167309J22.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -11,7 +30,7 @@ const hotspots = [
     y: '29.7%',
     title: 'ICONIC shelving system',
     desc: 'The vertical shelf sides of the open shelving system ICONIC stand at a minimum distance of 5 cm from the wall, creating a pleasant spatial effect through indirect LED lighting.',
-    img: `${CAISY}/419ecc9d-8617-47ae-b53f-bd84c4bf33fe/7ab1be77-7eae-483d-90b3-5f781694dc1f/684269M05167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269M05167309J22,
     dir: 'left',
   },
   {
@@ -20,7 +39,7 @@ const hotspots = [
     y: '45.9%',
     title: 'Walk-in cube',
     desc: 'Interior design of LEICHT makes it possible to design spaces with unit elements. Access can be planned either with sliding doors or access doors in the same material.',
-    img: `${CAISY}/091b9d40-f748-49ca-bacf-6662dc12f7a8/84be4088-51a0-4514-b491-39e195afc6af/684269M09167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269M09167309J22,
     dir: 'left',
   },
   {
@@ -29,7 +48,7 @@ const hotspots = [
     y: '63.7%',
     title: 'Fronts in 12 mm',
     desc: 'CONTINO 12 impresses with its elegance, which is created by the front thickness of 12 mm and the materials aluminium and matt lacquer.',
-    img: `${CAISY}/b31f7b68-e24f-40f1-964f-a64e8ea4efb5/5346da90-193a-487f-9b1e-4eceebe52f63/684269Mo01167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269MO01167309J22,
     dir: 'left',
   },
   {
@@ -38,7 +57,7 @@ const hotspots = [
     y: '69.4%',
     title: 'Aluminium',
     desc: 'A cool, silvery-green base tone gives this surface a high level of elegance. The colours oxide bronze, oxide titanium and oxide silver with fine brushing are available.',
-    img: `${CAISY}/a8baca12-4e91-4eca-9c04-7c69e372b3ee/b6771936-8c90-4bd1-9de7-c845bb39e582/684269D03167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269D03167309J22,
     dir: 'right',
   },
   {
@@ -47,7 +66,7 @@ const hotspots = [
     y: '60.4%',
     title: 'Wood and aluminium',
     desc: 'The combination of cool, technical and warm materials creates pleasant contrasts and is compelling thanks to its material authenticity.',
-    img: `${CAISY}/9d0dd7e0-f007-4e14-afab-705cc87f4acf/99219b24-18d6-4857-a68e-266f8bf650fd/684269D04167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269D04167309J22,
     dir: 'left',
   },
   {
@@ -56,7 +75,7 @@ const hotspots = [
     y: '63.4%',
     title: 'Minimalist aesthetic',
     desc: 'The reduced material thickness of the front is consistently continued in the pull-out system. The filigree aesthetics of the metal sides, which are only 8 mm thick, are supported by the dark colour of both the pull-out system and the wardrobe.',
-    img: `${CAISY}/2bf30d1b-5186-41ce-8e7f-bf8e8fdaf48b/2761222e-bf54-441b-ad52-9ad461b5eafc/684269D02167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269D02167309J22,
     dir: 'right',
   },
 ]
@@ -65,17 +84,17 @@ const swatches = [
   {
     code: 'CONTINO 12',
     name: '12 mm matte lacquer',
-    img: `${CAISY}/c8d9b429-daff-4ab2-8d11-fdd11f027231/ba2f4d0d-04f4-4e62-a3bb-5fb7d6ad0841/684269Mo01167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269MO01167309J22,
   },
   {
     code: 'ALUMINIUM',
     name: 'oxide bronze / titanium / silver',
-    img: `${CAISY}/4355aab4-4b86-4f7e-b452-9cdf7ab77ab1/ba562558-ad73-4cf4-988a-3bc42df85580/684269D03167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269D03167309J22,
   },
   {
     code: 'WOOD & METAL',
     name: 'natural wood combined with aluminum',
-    img: `${CAISY}/8f0832ea-59fb-4572-b0a3-c741adf21f5f/ec4013e9-63da-4bc4-af26-0da03a34df57/684269D04167309J22.jpg?width=400`,
+    img: UKS_LEICHT_CONTINO12_684269D04167309J22,
   },
 ]
 
@@ -83,49 +102,49 @@ const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_CONTINO12_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
 ]
@@ -159,7 +178,7 @@ export default function LeichtContino12() {
       <section className="contino12-hero">
         <div className="contino12-hero__aspect">
           <img
-            src={`${CAISY}/0d4338b1-a4f3-4030-b20d-2e309d95646e/dc789f8f-4f57-439e-9168-48042dc6b087/684269M01167309J22.jpg`}
+            src={UKS_LEICHT_CONTINO12_684269M01167309J22}
             alt="LEICHT CONTINO 12 kitchen concept"
             className="contino12-hero__img"
           />
@@ -218,13 +237,13 @@ export default function LeichtContino12() {
           <div className="contino12-intro__imgs">
             <div className="contino12-intro__img contino12-intro__img--wide">
               <img
-                src={`${CAISY}/b31f7b68-e24f-40f1-964f-a64e8ea4efb5/5346da90-193a-487f-9b1e-4eceebe52f63/684269Mo01167309J22.jpg?width=800`}
+                src={UKS_LEICHT_CONTINO12_684269MO01167309J22}
                 alt="Contino 12 elegant front details"
               />
             </div>
             <div className="contino12-intro__img contino12-intro__img--tall">
               <img
-                src={`${CAISY}/de335292-abe1-4090-b6d1-5e9b35bc3b90/182570af-1780-4ddc-8e98-36d282c6775c/rowanheuvelMCvvhW1OvS0unsplash.jpg?width=600`}
+                src={UKS_LEICHT_CONTINO12_ROWANHEUVELMCVVHW1OVS0UNSPLASH}
                 alt="Contino 12 architectural details"
               />
             </div>
@@ -274,7 +293,7 @@ export default function LeichtContino12() {
         </div>
         <div className="contino12-split__img">
           <img
-            src={`${CAISY}/b0c29880-1b46-4335-8ff3-e2e4cc9be02c/84a90b77-691a-4473-a81a-17638d28ff63/684269M02167309J22.jpg?width=900`}
+            src={UKS_LEICHT_CONTINO12_684269M02167309J22}
             alt="Innovative kitchen design layout details"
           />
         </div>
@@ -284,7 +303,7 @@ export default function LeichtContino12() {
       <section className="contino12-split contino12-split--img-left contino12-split--dark">
         <div className="contino12-split__img">
           <img
-            src={`${CAISY}/ab45d174-4ea7-4bad-b62b-524391382b90/4ee176db-82fb-478e-b77e-2095630333b7/684269Mo02167309J22.jpg?width=900`}
+            src={UKS_LEICHT_CONTINO12_684269MO02167309J22}
             alt="M8 drawer system carbon grey pull-out detail"
           />
         </div>
@@ -302,7 +321,7 @@ export default function LeichtContino12() {
       <section className="contino12-banner">
         <div className="contino12-banner__img-container">
           <img
-            src={`${CAISY}/f3395ac5-357f-4ef4-9b1b-c2bcc46ac206/18af1058-d65d-44a9-a9aa-e3c5031ac0f7/684269M04167309J22.jpg?width=1920`}
+            src={UKS_LEICHT_CONTINO12_684269M04167309J22}
             alt="Leicht Contino 12 modern kitchen setup"
             className="contino12-banner__img"
           />
@@ -347,8 +366,8 @@ export default function LeichtContino12() {
               transition={{ duration: 0.3 }}
               src={
                 activeTab === 1
-                  ? `${CAISY}/ca98eac4-6e5c-46d6-b05b-a72047e9803c/a791d5f6-150b-4be0-bc0c-d307d3e0df48/684269M08167309J22.jpg?width=900`
-                  : `${CAISY}/9cf6d2d9-1730-40cd-8065-67c4335c3a42/14d39c5c-9d5f-4a1e-ba6f-128715527d9c/684269M09167309J22.jpg?width=900`
+                  ? UKS_LEICHT_CONTINO12_684269M08167309J22
+                  : UKS_LEICHT_CONTINO12_684269M09167309J22
               }
               alt="Iconic shelving system details"
               style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
@@ -361,7 +380,7 @@ export default function LeichtContino12() {
       <section className="contino12-split contino12-split--img-left">
         <div className="contino12-split__img">
           <img
-            src={`${CAISY}/bb9f3930-1a0e-4b90-ae0f-a1198254e961/011ba290-9a27-4f2e-8917-5bbbd40551c6/684269M11167309J22.jpg?width=900`}
+            src={UKS_LEICHT_CONTINO12_684269M11167309J22}
             alt="Walk-in utility cube and pantry integration"
           />
         </div>

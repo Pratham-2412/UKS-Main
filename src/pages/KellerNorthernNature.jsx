@@ -1,14 +1,16 @@
+import UKS_KELLER_NORTHERN_NATURE_1920_X_1090_HERO_NORTHERNNATURE from '../assets/uks-keller-northern-nature/uks-keller-northern-nature-1920-x-1090-hero-northernnature.webp';
+import UKS_KELLER_NORTHERN_NATURE_960_X_1024_AFBEELDING_BIJ_TEKST_NORTHERNNATURE from '../assets/uks-keller-northern-nature/uks-keller-northern-nature-960-x-1024-afbeelding-bij-tekst-northernnature.webp';
+import UKS_KELLER_NORTHERN_NATURE_1326_X_884_RASTER_NORTHERNNATURE from '../assets/uks-keller-northern-nature/uks-keller-northern-nature-1326-x-884-raster-northernnature.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 // Images
-const HERO_IMG     = `${BASE}/Xkiw6Wzo/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg`
-const WIDE1_IMG    = `${BASE}/RnaNwsX6/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg`
-const SPLIT_IMG    = `${BASE}/uJuyvgjQ/uploads/media/63c90cca5cdc5/960-x-1024-afbeelding-bij-tekst-northernnature.webp?originalExtension=jpg`
-const WIDE2_IMG    = `${BASE}/NoWqb0wF/uploads/media/63c916db68971/1326-x-884-raster-northernnature.webp?originalExtension=jpg`
+const HERO_IMG     = UKS_KELLER_NORTHERN_NATURE_1920_X_1090_HERO_NORTHERNNATURE
+const WIDE1_IMG    = UKS_KELLER_NORTHERN_NATURE_1920_X_1090_HERO_NORTHERNNATURE
+const SPLIT_IMG    = UKS_KELLER_NORTHERN_NATURE_960_X_1024_AFBEELDING_BIJ_TEKST_NORTHERNNATURE
+const WIDE2_IMG    = UKS_KELLER_NORTHERN_NATURE_1326_X_884_RASTER_NORTHERNNATURE
 
 const FAQ_DATA = [
   {

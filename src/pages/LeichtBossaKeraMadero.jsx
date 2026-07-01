@@ -1,8 +1,37 @@
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D05352352544267J20 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D05352352544267j20.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D07352352544267J20 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D07352352544267j20.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D08352352544267J20RENDER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D08352352544267j20RENDER.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D16352352544267J20RENDER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D16352352544267j20RENDER.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D14352352544267J20BODENNEU from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D14352352544267j20BODENNEU.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO29352352544267J20 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268MO29352352544267j20.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D10352352544267J20RENDER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D10352352544267j20RENDER.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL9WARM from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-BOSSAdunkel9warm.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0890301IDEA003 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0890301Idea003.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_TOPOSCLASSICFS03 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0480101KYOTO012NAH from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_684269M01167309J22 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-684269M01167309J22.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_244753M01350120J20 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-244753M01350120j20.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_001BOSSA033A3300DPI from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-001Bossa033A3300dpi.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO21352352544267J20WARM from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268MO21352352544267j20warm.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO25352352544267J20WARM from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268MO25352352544267j20WARM.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO28352352544267J20WARM from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268MO28352352544267j20WARM.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO27352352544267J20 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268MO27352352544267j20.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL4RENDER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-BOSSAdunkel4Render.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL10WARM from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-BOSSAdunkel10warm.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D09352352544267J20RENDER from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-844244886268D09352352544267j20RENDER.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_350VALPINEICHELINIERT1000X100047DPI from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-350valpineicheliniert1000x100047dpi.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_352VWALNUSSLINIERT1000X100046DPI from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-352vwalnussliniert1000x100046dpi.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_0010201BOSSAGRIFF001 from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-0010201BossaGriff001.jpg';
+import UKS_LEICHT_BOSSA_KERA_MADERO_BOSSAGRIFFTZMEHRWEI from '../assets/uks-leicht-bossa-kera-madero/uks-leicht-bossa-kera-madero-BossaGriffTZmehrwei.png';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -11,7 +40,7 @@ const hotspots = [
     y: '65.9%',
     title: 'Edge processing',
     desc: 'For a harmonious, high-quality overall appearance, also when opening the units, both the fronts and the edges themselves are finished with ceramic.',
-    img: `${CAISY}/e8083e29-c533-4598-a476-af47e62fd361/04cc59e6-1b78-428e-b983-0d0769467d48/844244886268D05352352544267j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D05352352544267J20,
     dir: 'left'
   },
   {
@@ -20,7 +49,7 @@ const hotspots = [
     y: '74.8%',
     title: 'KERA',
     desc: 'Front with surrounding edge in the same design. The carrier medium is 16 mm melamine-coated chipboard glued with approx. 3.5 mm thick ceramic. Rear in colour-coordinated coating. Colour: CI 544v nasca',
-    img: `${CAISY}/89516895-d3ea-4df8-abc2-cbfb24237a10/e8c08c6a-8bd5-4339-a0f7-ddfbedc9021b/844244886268D07352352544267j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D07352352544267J20,
     dir: 'left'
   },
   {
@@ -29,7 +58,7 @@ const hotspots = [
     y: '45.3%',
     title: 'Tall pullout unit',
     desc: 'Practical tall pullout unit in the same design as the drawers and drawer pullouts. All groceries are clearly arranged and immediately to hand. Units available in widths of 30, 40, and 50 cm.',
-    img: `${CAISY}/01017265-3565-4869-b018-9e41b8e48817/b0325025-2ece-4773-8b93-b868cf290f11/844244886268D08352352544267j20RENDER.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D08352352544267J20RENDER,
     dir: 'left'
   },
   {
@@ -38,7 +67,7 @@ const hotspots = [
     y: '62.5%',
     title: 'Waste disposal system',
     desc: 'We provide waste disposal systems with various compartments for optimum waste separation. To complete the overall look, the waste disposal systems can be colour-coordinated with the carcase. In this case, dark carbon grey.',
-    img: `${CAISY}/250cdca7-63e6-4ac3-af1f-05b6d4928d1c/6f88c4ce-c54c-4c38-b4ff-51afd1cc1c3c/844244886268D16352352544267j20RENDER.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D16352352544267J20RENDER,
     dir: 'left'
   },
   {
@@ -47,7 +76,7 @@ const hotspots = [
     y: '70.2%',
     title: 'Dark carcase',
     desc: 'We offer two different carcase colors to perfectly match the interior with the exterior design. The dark carcase in carbongrau adds an extra touch of elegance and enhances the sophisticated kitchen design.',
-    img: `${CAISY}/600084c1-766d-4e4c-9aaf-c4b2c9c0fde6/0917bdba-470c-421d-b9b4-69bd0b6df8be/844244886268D14352352544267j20BODENNEU.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D14352352544267J20BODENNEU,
     dir: 'right'
   },
   {
@@ -56,7 +85,7 @@ const hotspots = [
     y: '62.7%',
     title: 'MADERO',
     desc: 'Real wood front in oak with matching graining; vivid grain structures on both sides, including in particular twisted knots, cracks and gnarls. Colour: HI 267v wild oak marsh',
-    img: `${CAISY}/c57834d8-d6ba-4077-8b94-58903043c7bb/dbecd91c-4677-4ec5-aeda-811c24c62912/844244886268MO29352352544267j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO29352352544267J20,
     dir: 'right'
   },
   {
@@ -65,7 +94,7 @@ const hotspots = [
     y: '46.4%',
     title: 'Storage centre',
     desc: 'This puts an end to unreachable groceries right at the back of a unit: our storage centre is the perfect way to make sure groceries are well organised and quick to hand.',
-    img: `${CAISY}/688e68f4-1008-45dc-84a5-e50de47efdf8/675007f2-a7bb-4d0e-b687-04a221b07e83/844244886268D10352352544267j20RENDER.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D10352352544267J20RENDER,
     dir: 'right'
   },
   {
@@ -74,7 +103,7 @@ const hotspots = [
     y: '29.7%',
     title: 'BOSSA',
     desc: 'Real wood front in the veneers oak or walnut. Protruding, linear ridges in a 12.5mm grid give the veneer a delicate, extremely vital, three-dimensional look. Design range: PRIMO. Colour: HI 352v walnut lined',
-    img: `${CAISY}/6ef8a6ae-2a31-4bef-967b-6cdce70b3cc1/77f7b719-613a-4bd9-aac1-557049c4dc34/BOSSAdunkel9warm.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL9WARM,
     dir: 'right'
   }
 ]
@@ -83,55 +112,55 @@ const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_KERA_MADERO_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
 ]
@@ -170,7 +199,7 @@ export default function LeichtBossaKeraMadero() {
       <section className="madero-hero">
         <div className="madero-hero__aspect">
           <img
-            src={`${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg`}
+            src={UKS_LEICHT_BOSSA_KERA_MADERO_001BOSSA023OHNEFUCHS3840X2160}
             alt="LEICHT BOSSA KERA MADERO kitchen clone"
             className="madero-hero__img"
           />
@@ -229,13 +258,13 @@ export default function LeichtBossaKeraMadero() {
           <div className="madero-intro__imgs">
             <div className="madero-intro__img madero-intro__img--wide">
               <img
-                src={`${CAISY}/5dab8caf-8c42-4402-b393-71cf8b7adc97/c524f60b-c766-49d9-b6f4-8ef46328a71c/001Bossa033A3300dpi.jpg?width=800`}
+                src={UKS_LEICHT_BOSSA_KERA_MADERO_001BOSSA033A3300DPI}
                 alt="Bossa Kera Madero wide concept perspective"
               />
             </div>
             <div className="madero-intro__img madero-intro__img--tall">
               <img
-                src={`${CAISY}/3f2794d3-af6e-4e3d-95b9-17ec5958b2e0/f294cfe4-a192-45e7-8ec2-49c0b66c6359/844244886268MO21352352544267j20warm.jpg?width=600`}
+                src={UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO21352352544267J20WARM}
                 alt="Bossa Kera Madero vertical cabinet detail"
               />
             </div>
@@ -283,10 +312,10 @@ export default function LeichtBossaKeraMadero() {
               transition={{ duration: 0.3 }}
               src={
                 activeMaterialTab === 1
-                  ? `${CAISY}/1bc38494-fc5f-4772-806e-aded370cca3a/20c79f2d-1d53-43ca-a7ab-9476002a6436/844244886268MO25352352544267j20WARM.jpg?width=900`
+                  ? UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO25352352544267J20WARM
                   : activeMaterialTab === 2
-                  ? `${CAISY}/3be3812f-d8ce-4119-b3c4-556ebc36fa15/26f9f7ee-1d63-419a-ba57-dbeb017d06ab/844244886268MO28352352544267j20WARM.jpg?width=900`
-                  : `${CAISY}/87af24bc-579f-4cdf-bde6-eefc57dd59de/6b807574-aa5d-4eb2-b26d-1cc692583af7/BOSSAdunkel9warm.jpg?width=900`
+                  ? UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO28352352544267J20WARM
+                  : UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL9WARM
               }
               alt="Bossa Kera Madero material details close up"
               style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
@@ -308,7 +337,7 @@ export default function LeichtBossaKeraMadero() {
         </div>
         <div className="madero-split__img">
           <img
-            src={`${CAISY}/e236e881-75ed-4372-a2c1-da69c0338792/4f6f1f62-e842-402a-91a2-da1c10283c44/844244886268MO27352352544267j20.jpg?width=900`}
+            src={UKS_LEICHT_BOSSA_KERA_MADERO_844244886268MO27352352544267J20}
             alt="Bossa Kera Madero Nordic feeling layout style"
           />
         </div>
@@ -326,7 +355,7 @@ export default function LeichtBossaKeraMadero() {
         </div>
         <div className="madero-split__img">
           <img
-            src={`${CAISY}/f5008aeb-0f00-47a4-9121-d1630756de54/7df2e795-b593-4be6-8a41-6bce223e0646/BOSSAdunkel4Render.jpg?width=900`}
+            src={UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL4RENDER}
             alt="Bossa Kera Madero storage centre interior details"
           />
         </div>
@@ -340,7 +369,7 @@ export default function LeichtBossaKeraMadero() {
             <div className="madero-feature-card">
               <div className="madero-feature-card__img">
                 <img
-                  src={`${CAISY}/d8405165-d3b3-484c-b203-c9f2419d6056/904ad185-5775-4ffb-832b-e9bb615ddc53/844244886268D08352352544267j20RENDER.jpg?width=600`}
+                  src={UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D08352352544267J20RENDER}
                   alt="Pull-out pantry cabinet"
                 />
               </div>
@@ -355,7 +384,7 @@ export default function LeichtBossaKeraMadero() {
             <div className="madero-feature-card">
               <div className="madero-feature-card__img">
                 <img
-                  src={`${CAISY}/9d7ff373-1573-4521-abc6-431cf12d2f86/77c26658-1416-45ec-a2e5-cfd21eab80ed/BOSSAdunkel10warm.jpg?width=600`}
+                  src={UKS_LEICHT_BOSSA_KERA_MADERO_BOSSADUNKEL10WARM}
                   alt="Fold-away sliding door systems"
                 />
               </div>
@@ -370,7 +399,7 @@ export default function LeichtBossaKeraMadero() {
             <div className="madero-feature-card">
               <div className="madero-feature-card__img">
                 <img
-                  src={`${CAISY}/4717bc8d-9dd3-428f-9705-47e6a5c44adc/f6f4cc44-b32f-48e5-b2de-6aea0e43d4de/844244886268D09352352544267j20RENDER.jpg?width=600`}
+                  src={UKS_LEICHT_BOSSA_KERA_MADERO_844244886268D09352352544267J20RENDER}
                   alt="Wall unit with a depth of 60 cm"
                 />
               </div>
@@ -410,11 +439,11 @@ export default function LeichtBossaKeraMadero() {
                   <p>The BOSSA program is available in the elegant wood decors HI 350v alpine oak lined and HI 352v walnut lined, bringing a warm and natural aesthetic to your kitchen.</p>
                   <div className="madero-acc__images">
                     <div className="madero-acc__img-wrapper">
-                      <img src={`${CAISY}/e47be7bd-7adf-4228-9265-1d29a44b7b05/3639fb7b-9f3a-4f20-87fd-8c510806d247/350valpineicheliniert1000x100047dpi.jpg?width=600`} alt="HI 350v alpine oak lined swatch" />
+                      <img src={UKS_LEICHT_BOSSA_KERA_MADERO_350VALPINEICHELINIERT1000X100047DPI} alt="HI 350v alpine oak lined swatch" />
                       <span>HI 350v alpine oak lined</span>
                     </div>
                     <div className="madero-acc__img-wrapper">
-                      <img src={`${CAISY}/0d54d291-bf0c-4d19-a79f-68a8e6923884/68ee94f0-9194-499d-ad06-4d73133d3e30/352vwalnussliniert1000x100046dpi.jpg?width=600`} alt="HI 352v walnut lined swatch" />
+                      <img src={UKS_LEICHT_BOSSA_KERA_MADERO_352VWALNUSSLINIERT1000X100046DPI} alt="HI 352v walnut lined swatch" />
                       <span>HI 352v walnut lined</span>
                     </div>
                   </div>
@@ -438,10 +467,10 @@ export default function LeichtBossaKeraMadero() {
                   <p>Yes, handles can be added to the front to match the design of other units if desired, or it can be planned as a clean, handleless version for a minimal look.</p>
                   <div className="madero-acc__images">
                     <div className="madero-acc__img-wrapper">
-                      <img src={`${CAISY}/0302ca68-ab5d-4f53-ae41-dd9ac5745c79/40d296d6-8c80-4258-9678-7a078743a817/0010201BossaGriff001.jpg?width=600`} alt="BOSSA handle front detail" />
+                      <img src={UKS_LEICHT_BOSSA_KERA_MADERO_0010201BOSSAGRIFF001} alt="BOSSA handle front detail" />
                     </div>
                     <div className="madero-acc__img-wrapper">
-                      <img src={`${CAISY}/f6204612-8e95-44fb-be85-a3980f03b3df/0c0b4059-f391-45cc-8b1a-54a7f0be5851/BossaGriffTZmehrwei.png?width=600`} alt="BOSSA handle technical scheme" />
+                      <img src={UKS_LEICHT_BOSSA_KERA_MADERO_BOSSAGRIFFTZMEHRWEI} alt="BOSSA handle technical scheme" />
                     </div>
                   </div>
                 </div>

@@ -1,105 +1,130 @@
+import UKS_LEICHT_HYGGE_0890301IDEA003 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0890301Idea003.jpg';
+import UKS_LEICHT_HYGGE_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_HYGGE_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_HYGGE_TOPOSCLASSICFS03 from '../assets/uks-leicht-hygge/uks-leicht-hygge-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_HYGGE_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-hygge/uks-leicht-hygge-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_HYGGE_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-hygge/uks-leicht-hygge-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_HYGGE_0480101KYOTO012NAH from '../assets/uks-leicht-hygge/uks-leicht-hygge-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_HYGGE_684269M01167309J22 from '../assets/uks-leicht-hygge/uks-leicht-hygge-684269M01167309J22.jpg';
+import UKS_LEICHT_HYGGE_244753M01350120J20 from '../assets/uks-leicht-hygge/uks-leicht-hygge-244753M01350120j20.jpg';
+import UKS_LEICHT_HYGGE_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-hygge/uks-leicht-hygge-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_HYGGE_0470101BAHIA026 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0470101BAHIA026.jpg';
+import UKS_LEICHT_HYGGE_744293M01352192J22 from '../assets/uks-leicht-hygge/uks-leicht-hygge-744293M01352192j22.jpg';
+import UKS_LEICHT_HYGGE_713269M01103316J19 from '../assets/uks-leicht-hygge/uks-leicht-hygge-713269M01103316j19.jpg';
+import UKS_LEICHT_HYGGE_219213269M01298025312J18 from '../assets/uks-leicht-hygge/uks-leicht-hygge-219213269M01298025312j18.jpg';
+import UKS_LEICHT_HYGGE_753283213M01120335NCSJ22 from '../assets/uks-leicht-hygge/uks-leicht-hygge-753283213M01120335NCSj22.jpg';
+import UKS_LEICHT_HYGGE_739719M01134345J18 from '../assets/uks-leicht-hygge/uks-leicht-hygge-739719M01134345j18.jpg';
+import UKS_LEICHT_HYGGE_0900306HYGGEHELLCYAN002 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0900306Hyggehellcyan002.jpg';
+import UKS_LEICHT_HYGGE_0902004HYGGELEBENSMITTEL001 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0902004HyggeLebensmittel001.jpg';
+import UKS_LEICHT_HYGGE_0902001HYGGELEBENSMITTEL001 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0902001HyggeLebensmittel001.jpg';
+import UKS_LEICHT_HYGGE_0900502HYGGESCHLAMMPINK005 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0900502Hyggeschlammpink005.jpg';
+import UKS_LEICHT_HYGGE_0901103HYGGEWACHSGELB003 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0901103Hyggewachsgelb003.jpg';
+import UKS_LEICHT_HYGGE_0902002HYGGELEBENSMITTEL001 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0902002HyggeLebensmittel001.jpg';
+import UKS_LEICHT_HYGGE_0900402HYGGENILGRUEN006 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0900402Hyggenilgruen006.jpg';
+import UKS_LEICHT_HYGGE_0900401HYGGEFLACHSBEIGE005 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0900401Hyggeflachsbeige005.jpg';
+import UKS_LEICHT_HYGGE_0902003HYGGELEBENSMITTEL001 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0902003HyggeLebensmittel001.jpg';
+import UKS_LEICHT_HYGGE_0901004HYGGEEICHENBRAUN0021 from '../assets/uks-leicht-hygge/uks-leicht-hygge-0901004Hyggeeichenbraun0021.jpg';
 import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
 /* ─── CDN Base ──────────────────────────────────── */
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0480101KYOTO012NAH,
     to: '/kitchens/leicht',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_684269M01167309J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_244753M01350120J20,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${CAISY}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_0470101BAHIA026,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Warm wood texture meets cool concrete.',
-    img: `${CAISY}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_744293M01352192J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'CLASSIC-FS-C | TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${CAISY}/77d147d2-6c6a-403d-9978-6d5bbfe8c587/ac6b25b5-a13e-4e92-810a-a4e3c667673f/713269M01103316j19.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_713269M01103316J19,
     to: '/kitchens/leicht',
   },
   {
     title: 'STEEL CLASSIC-FS TOPOS',
     sub: 'Dark steel meets dark matte lacquer.',
-    img: `${CAISY}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_219213269M01298025312J18,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F45-C',
     sub: 'Fenix in harmony with matte lacquer.',
-    img: `${CAISY}/0797a2ec-ddba-43fd-925d-d524003c8000/2297febd-3a9c-4c86-b3d8-d339204370f1/753283213M01120335NCSj22.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_753283213M01120335NCSJ22,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F54-C',
     sub: 'Fenix in contrast to dark wood decor.',
-    img: `${CAISY}/7a15c454-848a-464d-9427-df38e35b7a09/54d8cd1e-4aab-4f0b-b44b-b02cace4cdac/739719M01134345j18.jpg?width=1200`,
+    img: UKS_LEICHT_HYGGE_739719M01134345J18,
     to: '/kitchens/leicht',
   },
 ]
@@ -153,7 +178,7 @@ export default function LeichtHygge() {
       <section className="hygge2-hero">
         <div className="hygge2-hero__aspect">
           <img
-            src={`${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1920`}
+            src={UKS_LEICHT_HYGGE_0900305HYGGEHELLCYAN002}
             alt="LEICHT HYGGE Kitchen Design Concept"
             className="hygge2-hero__img"
           />
@@ -194,13 +219,13 @@ export default function LeichtHygge() {
           <div className="hygge2-intro__imgs">
             <div className="hygge2-intro__img hygge2-intro__img--wide">
               <img
-                src={`${CAISY}/0a493c36-aa6d-40ca-88aa-841fd759023b/4730b9cc-5e56-4d48-af32-e27b9a73249c/0900306Hyggehellcyan002.jpg?width=1000`}
+                src={UKS_LEICHT_HYGGE_0900306HYGGEHELLCYAN002}
                 alt="Hygge light cyan kitchen concept"
               />
             </div>
             <div className="hygge2-intro__img hygge2-intro__img--tall">
               <img
-                src={`${CAISY}/87313d7c-5668-4cf4-89c9-c87bcd50e442/4fe53770-e104-423c-b21f-c64af64cedb8/0902004HyggeLebensmittel001.jpg?width=600`}
+                src={UKS_LEICHT_HYGGE_0902004HYGGELEBENSMITTEL001}
                 alt="Nordic natural food ingredients close-up"
               />
             </div>
@@ -231,7 +256,7 @@ export default function LeichtHygge() {
         <div className="container">
           <div className="hygge2-color-block__banner">
             <img
-              src={`${CAISY}/3d55c5ef-b249-4f31-a8c2-66c78da7df53/f2d33383-f270-4cf7-af72-d01b01a036aa/0902001HyggeLebensmittel001.jpg?width=1400`}
+              src={UKS_LEICHT_HYGGE_0902001HYGGELEBENSMITTEL001}
               alt="Rosé tinted ingredients banner"
             />
           </div>
@@ -247,7 +272,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-color-image">
               <img
-                src={`${CAISY}/f370afed-0f4f-4c4e-8ac6-419e9aee96dd/662e75c0-2542-4a27-a72b-3664a69e7b39/0900502Hyggeschlammpink005.jpg?width=800`}
+                src={UKS_LEICHT_HYGGE_0900502HYGGESCHLAMMPINK005}
                 alt="Rosé tinted kitchen application"
               />
             </div>
@@ -269,7 +294,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-split-image">
               <img
-                src={`${CAISY}/c1a24326-c681-466f-9615-04c856c93d2c/7d3a6b1a-8871-419b-bbad-d3865067deda/0901103Hyggewachsgelb003.jpg?width=1200`}
+                src={UKS_LEICHT_HYGGE_0901103HYGGEWACHSGELB003}
                 alt="Wax yellow kitchen application"
               />
             </div>
@@ -300,7 +325,7 @@ export default function LeichtHygge() {
         <div className="container">
           <div className="hygge2-color-block__banner">
             <img
-              src={`${CAISY}/732e269f-dbb0-4153-868c-4d3c25561ecf/c10dee7e-d1fb-4a31-b917-274258a7fb46/0902002HyggeLebensmittel001.jpg?width=1400`}
+              src={UKS_LEICHT_HYGGE_0902002HYGGELEBENSMITTEL001}
               alt="Forest tranquility ingredients banner"
             />
           </div>
@@ -316,7 +341,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-color-image">
               <img
-                src={`${CAISY}/7ec488d2-fe32-4049-92b2-a3e3a44b45e1/1b9cc9e9-76d7-440f-b138-f18fe163befe/0900402Hyggenilgruen006.jpg?width=800`}
+                src={UKS_LEICHT_HYGGE_0900402HYGGENILGRUEN006}
                 alt="Forest green kitchen application"
               />
             </div>
@@ -338,7 +363,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-split-image">
               <img
-                src={`${CAISY}/c824eae0-8ab0-486d-b688-5091a4f361c2/21c9bcbd-3135-40e9-8ca3-e92f359de039/0900401Hyggeflachsbeige005.jpg?width=1200`}
+                src={UKS_LEICHT_HYGGE_0900401HYGGEFLACHSBEIGE005}
                 alt="Flax beige kitchen application"
               />
             </div>
@@ -369,7 +394,7 @@ export default function LeichtHygge() {
         <div className="container">
           <div className="hygge2-color-block__banner">
             <img
-              src={`${CAISY}/e0dc72ad-ed5c-4b90-adee-aaadab4625c0/5830bffa-177b-46ac-baf8-f558a8f61390/0902003HyggeLebensmittel001.jpg?width=1400`}
+              src={UKS_LEICHT_HYGGE_0902003HYGGELEBENSMITTEL001}
               alt="Deep brown ingredients banner"
             />
           </div>
@@ -385,7 +410,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-color-image">
               <img
-                src={`${CAISY}/4972a1d6-8d46-46bc-83d8-a2caf5ad01fd/81a4a910-43ad-4146-ac9e-80826f007064/0901004Hyggeeichenbraun0021.jpg?width=800`}
+                src={UKS_LEICHT_HYGGE_0901004HYGGEEICHENBRAUN0021}
                 alt="Deep brown oak kitchen application"
               />
             </div>
@@ -407,7 +432,7 @@ export default function LeichtHygge() {
             </div>
             <div className="hygge2-split-image">
               <img
-                src={`${CAISY}/65cbce6f-138e-4923-b9c1-a0c7433d3bb0/14c7060a-97e1-45f7-8b84-a606a2330530/0900306Hyggehellcyan002.jpg?width=1200`}
+                src={UKS_LEICHT_HYGGE_0900306HYGGEHELLCYAN002}
                 alt="Light cyan kitchen application"
               />
             </div>

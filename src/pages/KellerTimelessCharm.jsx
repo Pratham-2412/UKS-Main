@@ -1,14 +1,15 @@
+import HERO_IMG from '../assets/uks-timeless-charm/timeless-charm-1326-x-884-afbeelding.webp';
+import SPLIT1_IMG from '../assets/uks-timeless-charm/timeless-charm-944-x-884-afbeelding-bij-tekst.webp';
+import SPLIT2_IMG from '../assets/uks-timeless-charm/timeless-charm-944-x-884-afbeelding-bij-tekst2.webp';
+import WIDE_IMG from '../assets/uks-timeless-charm/timeless-charm-1326-x-884-afbeelding.webp';
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
-
 /* ── Images ────────────────────────────────────────────────── */
-const HERO_IMG   = `${BASE}/BXqCKzN8/uploads/media/66e14ccf72b7e/timeless-charm-1326-x-884-afbeelding.webp?originalExtension=png`
-const SPLIT1_IMG = `${BASE}/Wvp51FDH/uploads/media/66e02688f0351/timeless-charm-944-x-884-afbeelding-bij-tekst.webp?originalExtension=jpg`
-const SPLIT2_IMG = `${BASE}/06LSKTxs/uploads/media/66e4385626e33/timeless-charm-944-x-884-afbeelding-bij-tekst2.webp?originalExtension=jpg`
-const WIDE_IMG   = `${BASE}/BXqCKzN8/uploads/media/66e14ccf72b7e/timeless-charm-1326-x-884-afbeelding.webp?originalExtension=png`
+
+
+
+
 
 const FAQ_DATA = [
   {

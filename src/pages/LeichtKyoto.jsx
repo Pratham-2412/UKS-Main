@@ -1,8 +1,32 @@
+import UKS_LEICHT_KYOTO_0480105KYOTO003WANGENREGAL from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480105Kyoto003Wangenregal.png';
+import UKS_LEICHT_KYOTO_0480104KYOTO001 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480104Kyoto001.jpg';
+import UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA01B from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-KYOTOCLASSICFSSYNTHIA01b.jpg';
+import UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA05 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-KYOTOCLASSICFSSYNTHIA05.jpg';
+import UKS_LEICHT_KYOTO_0890301IDEA003 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0890301Idea003.jpg';
+import UKS_LEICHT_KYOTO_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_KYOTO_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_KYOTO_TOPOSCLASSICFS03 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_KYOTO_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_KYOTO_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_KYOTO_0480101KYOTO012NAH from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_KYOTO_684269M01167309J22 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-684269M01167309J22.jpg';
+import UKS_LEICHT_KYOTO_244753M01350120J20 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-244753M01350120j20.jpg';
+import UKS_LEICHT_KYOTO_001BOSSA023OHNEFUCHS3840X2160 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-001Bossa023ohnefuchs3840x2160.jpg';
+import UKS_LEICHT_KYOTO_0470101BAHIA026 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0470101BAHIA026.jpg';
+import UKS_LEICHT_KYOTO_744293M01352192J22 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-744293M01352192j22.jpg';
+import UKS_LEICHT_KYOTO_713269M01103316J19 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-713269M01103316j19.jpg';
+import UKS_LEICHT_KYOTO_219213269M01298025312J18 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-219213269M01298025312j18.jpg';
+import UKS_LEICHT_KYOTO_753283213M01120335NCSJ22 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-753283213M01120335NCSj22.jpg';
+import UKS_LEICHT_KYOTO_739719M01134345J18 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-739719M01134345j18.jpg';
+import UKS_LEICHT_KYOTO_0480105KYOTO003 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480105Kyoto003.jpg';
+import UKS_LEICHT_KYOTO_04802112KYOTOMOOD001 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-04802112KyotoMood001.jpg';
+import UKS_LEICHT_KYOTO_0480102KYOTO002 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480102Kyoto002.jpg';
+import UKS_LEICHT_KYOTO_0480106KYOTO002 from '../assets/uks-leicht-kyoto/uks-leicht-kyoto-0480106Kyoto002.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
+
 
 const hotspots = [
   {
@@ -11,7 +35,7 @@ const hotspots = [
     y: '35.2%',
     title: 'Downdraft shelves',
     desc: 'The open downdraft shelf in HI 319v alpine oak natural complements the design with warm, homely accents while providing practical storage space.',
-    img: `${CAISY}/c6ced956-a528-4f25-a17f-56a65f81c3e5/ed31e686-23c3-48de-94a3-9df1f83f1648/0480105Kyoto003Wangenregal.png?width=400`,
+    img: UKS_LEICHT_KYOTO_0480105KYOTO003WANGENREGAL,
     dir: 'left',
     to: '/wangen-regalsystem',
   },
@@ -21,7 +45,7 @@ const hotspots = [
     y: '58.1%',
     title: 'Pullout system',
     desc: 'L3 is the classic pullout frame, with the pullout mechanism integrated in the sides. As an alternative to an L3 interior frame with glass, an M3 interior frame made of metal can be selected.',
-    img: `${CAISY}/e9ca34c2-414d-490a-b9f7-03b4e05d693c/2a3b6588-82fb-4ff4-aea4-ad75484c7961/0480104Kyoto001.jpg?width=400`,
+    img: UKS_LEICHT_KYOTO_0480104KYOTO001,
     dir: 'right',
   },
 ]
@@ -30,17 +54,17 @@ const swatches = [
   {
     code: 'KYOTO',
     name: '319v alpine oak natural',
-    img: `${CAISY}/698218c7-89d0-481a-889f-0746259b07d2/aab00062-82ec-4fed-9047-100b39e7dd29/KYOTOCLASSICFSSYNTHIA01b.jpg?width=400`,
+    img: UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA01B,
   },
   {
     code: 'CLASSIC-FS',
     name: 'sand grey matte lacquer',
-    img: `${CAISY}/93626b88-8d54-4120-9fb0-d660960fb7e4/ba8754fb-762f-4806-afff-c08416963fed/KYOTOCLASSICFSSYNTHIA05.jpg?focal_point=44.88,69.89&width=400`,
+    img: UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA05,
   },
   {
     code: 'SYNTHIA',
     name: 'alpine oak natural',
-    img: `${CAISY}/698218c7-89d0-481a-889f-0746259b07d2/aab00062-82ec-4fed-9047-100b39e7dd29/KYOTOCLASSICFSSYNTHIA01b.jpg?width=400`,
+    img: UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA01B,
   },
 ]
 
@@ -48,97 +72,97 @@ const kitchenSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_684269M01167309J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_244753M01350120J20,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA KERA MADERO',
     sub: 'Embossed walnut veneer combined with ceramics.',
-    img: `${CAISY}/ece684d6-842d-42b1-ae1d-e74e8661a1bc/d0e25257-8f2c-43ed-9433-42906ed1815e/001Bossa023ohnefuchs3840x2160.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_001BOSSA023OHNEFUCHS3840X2160,
     to: '/kitchens/leicht',
   },
   {
     title: 'BAHIA',
     sub: 'Real wood front with asymmetric groove structure.',
-    img: `${CAISY}/b3e8255a-1826-4b17-a901-2f09698a4c09/4342f9b6-a670-46dc-95ce-dd82d936f12f/0470101BAHIA026.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_0470101BAHIA026,
     to: '/kitchens/leicht',
   },
   {
     title: 'BOSSA CONCRETE',
     sub: 'Warm wood texture meets cool concrete.',
-    img: `${CAISY}/68923d49-541a-474e-912a-b3d2945f8e70/8027452c-2935-4d42-82ae-0ae91e8e83a7/744293M01352192j22.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_744293M01352192J22,
     to: '/kitchens/leicht',
   },
   {
     title: 'CLASSIC-FS-C | TOPOS',
     sub: 'Matte lacquer combined with veneer surface.',
-    img: `${CAISY}/77d147d2-6c6a-403d-9978-6d5bbfe8c587/ac6b25b5-a13e-4e92-810a-a4e3c667673f/713269M01103316j19.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_713269M01103316J19,
     to: '/kitchens/leicht',
   },
   {
     title: 'STEEL CLASSIC-FS TOPOS',
     sub: 'Dark steel meets dark matte lacquer.',
-    img: `${CAISY}/64aa5c14-7364-49ea-92f2-193cd9996d8c/1789ba52-06f9-47c8-b390-f5853de36dea/219213269M01298025312j18.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_219213269M01298025312J18,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F45-C',
     sub: 'Fenix in harmony with matte lacquer.',
-    img: `${CAISY}/0797a2ec-ddba-43fd-925d-d524003c8000/2297febd-3a9c-4c86-b3d8-d339204370f1/753283213M01120335NCSj22.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_753283213M01120335NCSJ22,
     to: '/kitchens/leicht',
   },
   {
     title: 'FENIX F54-C',
     sub: 'Fenix in contrast to dark wood decor.',
-    img: `${CAISY}/7a15c454-848a-464d-9427-df38e35b7a09/54d8cd1e-4aab-4f0b-b44b-b02cace4cdac/739719M01134345j18.jpg?width=1200`,
+    img: UKS_LEICHT_KYOTO_739719M01134345J18,
     to: '/kitchens/leicht',
   },
 ]
@@ -171,7 +195,7 @@ export default function LeichtKyoto() {
       <section className="kyoto2-hero">
         <div className="kyoto2-hero__aspect">
           <img
-            src={`${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg`}
+            src={UKS_LEICHT_KYOTO_0480101KYOTO012NAH}
             alt="LEICHT KYOTO kitchen concept"
             className="kyoto2-hero__img"
           />
@@ -235,13 +259,13 @@ export default function LeichtKyoto() {
           <div className="kyoto2-intro__imgs">
             <div className="kyoto2-intro__img kyoto2-intro__img--wide">
               <img
-                src={`${CAISY}/3b3efaa4-1c3d-4ed1-8c6a-248dc66affc3/bb716ab2-04c7-4714-961f-cf49ef0ef3f0/0480105Kyoto003.jpg?width=800`}
+                src={UKS_LEICHT_KYOTO_0480105KYOTO003}
                 alt="Kyoto kitchen design layout wide"
               />
             </div>
             <div className="kyoto2-intro__img kyoto2-intro__img--tall">
               <img
-                src={`${CAISY}/e19316a0-9647-4f5a-a44c-4d12bd1eb907/152b6d95-25b3-4883-915d-daf958c98d0f/04802112KyotoMood001.jpg?width=600`}
+                src={UKS_LEICHT_KYOTO_04802112KYOTOMOOD001}
                 alt="Kyoto kitchen close-up details"
               />
             </div>
@@ -288,7 +312,7 @@ export default function LeichtKyoto() {
         </div>
         <div className="kyoto2-split__img">
           <img
-            src={`${CAISY}/4d11a016-1cb9-467b-b84d-5c3e61b53e27/ccf058f4-0f53-4126-aab1-41e45888e252/0480102Kyoto002.jpg?width=900`}
+            src={UKS_LEICHT_KYOTO_0480102KYOTO002}
             alt="KYOTO Design in Perfection architectural visual"
           />
         </div>
@@ -298,7 +322,7 @@ export default function LeichtKyoto() {
       <section className="kyoto2-split kyoto2-split--img-left kyoto2-split--dark">
         <div className="kyoto2-split__img">
           <img
-            src={`${CAISY}/c1b85a57-c547-40e0-8f4c-e301317d5485/4e1bfbbd-991b-4bb8-92a5-dfd71d6a6975/0480104Kyoto001.jpg?width=900`}
+            src={UKS_LEICHT_KYOTO_0480104KYOTO001}
             alt="Japanese Craftsmanship meets elegance details"
           />
         </div>
@@ -324,7 +348,7 @@ export default function LeichtKyoto() {
         </div>
         <div className="kyoto2-split__img">
           <img
-            src={`${CAISY}/ca55c5e8-066e-44cd-8099-4fd0e354e93b/2f76d361-9596-43d2-96aa-59eb479ce730/0480106Kyoto002.jpg?width=900`}
+            src={UKS_LEICHT_KYOTO_0480106KYOTO002}
             alt="Oversized doors design extension representation"
           />
         </div>
@@ -334,7 +358,7 @@ export default function LeichtKyoto() {
       <section className="kyoto2-split kyoto2-split--img-left">
         <div className="kyoto2-split__img">
           <img
-            src={`${CAISY}/698218c7-89d0-481a-889f-0746259b07d2/aab00062-82ec-4fed-9047-100b39e7dd29/KYOTOCLASSICFSSYNTHIA01b.jpg?width=900`}
+            src={UKS_LEICHT_KYOTO_KYOTOCLASSICFSSYNTHIA01B}
             alt="KYOTO Planning Principle layout representation"
           />
         </div>

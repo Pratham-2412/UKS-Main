@@ -1,8 +1,27 @@
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D03350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D03350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D06350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D06350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753MO13350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753MO13350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D07350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D07350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753MO07350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753MO07350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0890301IDEA003 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0890301Idea003.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0880301FOTOPRODUKTIONRAHMENFRONT032 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0880301FotoproduktionRahmenfront032.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0900305HYGGEHELLCYAN002 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0900305Hyggehellcyan002.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_TOPOSCLASSICFS03 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-TOPOSCLASSICFS03.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0690101FOTOPRODUKTIONK7017OBENHELLER from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0690101Fotoproduktionk7017obenheller.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0680102FOTOPRODUKTIONA042COPY from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0680102FotoproduktionA042copy.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_0480101KYOTO012NAH from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-0480101Kyoto012nah.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_684269M01167309J22 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-684269M01167309J22.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753M01350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753M01350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753M02350120J201 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753M02350120j201.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_KRISTAPSGRUNDSTEINSIJ5SVDYCXIYUNSPLASH from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-kristapsgrundsteinsIj5sVdycxIYunsplash.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D01350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D01350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D02350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D02350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D05350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D05350120j20.jpg';
+import UKS_LEICHT_BOSSA_FENIX_F45C_244753D04350120J20 from '../assets/uks-leicht-bossa-fenix-f45c/uks-leicht-bossa-fenix-f45c-244753D04350120j20.jpg';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const CAISY = 'https://assets.caisy.io/assets/551e9be6-4efc-46d0-85a5-cad97ca9e6eb'
 
 const hotspots = [
   {
@@ -11,7 +30,7 @@ const hotspots = [
     y: '45.4%',
     title: 'Pull-out door cabinet',
     desc: 'When the unit is opened, the door can be slid in at the side of the carcase. This is both practical and convenient. Devices can be optimally concealed when not in use, creating a simple, straightforward look.',
-    img: `${CAISY}/0b685055-d0ee-4736-89d8-c6f72b3e82a1/b85eed16-0b30-4040-90cb-d657042859f7/244753D03350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753D03350120J20,
     dir: 'left',
   },
   {
@@ -20,7 +39,7 @@ const hotspots = [
     y: '43.0%',
     title: 'Table pull-out',
     desc: 'Midway unit with pull-out shelf. Interior design in wood, matching the selected front. Units available in greater widths.',
-    img: `${CAISY}/d5aa5711-acba-46af-b9f3-d8d583d0bb75/e8467208-0970-4360-8dcc-d29be6fc19e2/244753D06350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753D06350120J20,
     dir: 'left',
   },
   {
@@ -29,7 +48,7 @@ const hotspots = [
     y: '47.8%',
     title: 'BOSSA',
     desc: 'Real wood front in the veneers oak or walnut. Protruding, linear ridges in a 12.5mm grid give the veneer a delicate, extremely vital, three-dimensional look. Primo range, alpine oak lined.',
-    img: `${CAISY}/68241e6d-e814-44a5-9858-925dcd17eb09/693d0128-7a20-4ec2-a29b-c972ab8812e1/244753MO13350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753MO13350120J20,
     dir: 'left',
   },
   {
@@ -38,7 +57,7 @@ const hotspots = [
     y: '37.5%',
     title: 'FIOS shelving system',
     desc: 'The shelving system with 16 mm metal brackets consists of mounted shelves. In terms of dimensions, the metal brackets are flexible and are available in several colours. The shelves are 16 mm or 28 mm thick and are available in many materials.',
-    img: `${CAISY}/edb9f305-dc9f-4f50-a71d-c589bd12f94d/53945bc8-f7f5-4f01-8143-c7ec6fe11f3e/244753D07350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753D07350120J20,
     dir: 'right',
   },
   {
@@ -47,7 +66,7 @@ const hotspots = [
     y: '61.0%',
     title: 'FENIX F 45',
     desc: 'Laminate front made of original FENIX material in ultra-matt; soft-to-the-touch with anti-fingerprint finish. Minor traces of use can be repaired. Contino range, frosty white color.',
-    img: `${CAISY}/4ddb836b-fbac-4671-a219-7518880950c4/b1a0bafc-b323-473e-82e4-8673123ca997/244753MO07350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753MO07350120J20,
     dir: 'left',
   },
   {
@@ -56,7 +75,7 @@ const hotspots = [
     y: '61.8%',
     title: 'Vertical miter',
     desc: 'The side panel and drawer fronts feature a beveled edge at a 45-degree angle, allowing the handle profile and side panel to merge seamlessly. This creates the illusion of the side and front blending into a delicate, cohesive unit.',
-    img: `${CAISY}/4ddb836b-fbac-4671-a219-7518880950c4/b1a0bafc-b323-473e-82e4-8673123ca997/244753MO07350120j20.jpg?width=400`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753MO07350120J20,
     dir: 'right',
   },
 ]
@@ -65,55 +84,55 @@ const sliderSlides = [
   {
     title: 'IDEA',
     sub: 'Acrylic glass elegance in transparent matte and glossy finishes.',
-    img: `${CAISY}/3afd8ad1-729b-4951-ba32-b216ba6fc45f/72b71e1f-2932-48f8-ae65-0f9c666625f7/0890301Idea003.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0890301IDEA003,
     to: '/kitchens/leicht/idea',
   },
   {
     title: 'WAKUU',
     sub: 'Filigree framed fronts for modern kitchens.',
-    img: `${CAISY}/0d9259d8-749a-42df-b235-3967aa116571/9f03937b-8d76-4c08-80b9-b49775a0a0eb/0880301FotoproduktionRahmenfront032.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0880301FOTOPRODUKTIONRAHMENFRONT032,
     to: '/kitchens/leicht/wakuu',
   },
   {
     title: 'HYGGE',
     sub: 'Hygge: Experience peace, warmth and naturalness.',
-    img: `${CAISY}/e88b06c5-32b0-4f5b-ab84-df566437929b/7c3aaad9-f85c-4a6d-b3c8-14252b108a03/0900305Hyggehellcyan002.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0900305HYGGEHELLCYAN002,
     to: '/kitchens/leicht/hygge',
   },
   {
     title: 'CURVED',
     sub: 'Curved side panels for smooth transitions.',
-    img: `${CAISY}/fd359af4-f618-4c04-ac5d-b9ab4f957855/fc20fca3-5dfa-403a-a9fb-0b93b621bae9/TOPOSCLASSICFS03.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_TOPOSCLASSICFS03,
     to: '/kitchens/leicht/curved',
   },
   {
     title: 'TERMA ROCCA',
     sub: 'Chestnut veneer meets natural stone.',
-    img: `${CAISY}/33c60548-f4e7-479c-9b64-e91d08e0d8a1/98bc9789-1572-4034-ac30-3073b69409cc/0690101Fotoproduktionk7017obenheller.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0690101FOTOPRODUKTIONK7017OBENHELLER,
     to: '/kitchens/leicht/terma-rocca',
   },
   {
     title: 'TAJ MAHAL',
     sub: 'Taj Mahal combined with light wood decor.',
-    img: `${CAISY}/99ed4902-3e61-41b7-8177-b362e0505505/6e11a8a5-f70d-4d3d-978d-899511aadb28/0680102FotoproduktionA042copy.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0680102FOTOPRODUKTIONA042COPY,
     to: '/kitchens/leicht/taj-mahal',
   },
   {
     title: 'KYOTO',
     sub: 'Kyoto Kitchen: Japandi & Nordic Design combined.',
-    img: `${CAISY}/e55fa4d1-4a8b-4ed8-a6e3-c28839a9f659/0da1e8dc-ff21-456e-9ece-e11dc03429d6/0480101Kyoto012nah.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_0480101KYOTO012NAH,
     to: '/kitchens/leicht/kyoto',
   },
   {
     title: 'CONTINO Ξ 12',
     sub: 'Matte lacquer combined with elegant aluminum front.',
-    img: `${CAISY}/5072bc14-f5b1-41eb-ba37-206bf95cb0b8/10caaa77-74fa-4301-902d-31fe0f369637/684269M01167309J22.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_684269M01167309J22,
     to: '/kitchens/leicht/contino-12',
   },
   {
     title: 'BOSSA FENIX F45-C',
     sub: 'Embossed oak veneer combined with Fenix.',
-    img: `${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg?width=1200`,
+    img: UKS_LEICHT_BOSSA_FENIX_F45C_244753M01350120J20,
     to: '/kitchens/leicht/bossa-fenix-f45-c',
   },
 ]
@@ -148,7 +167,7 @@ export default function LeichtBossaFenixF45C() {
       <section className="bossafenix-hero">
         <div className="bossafenix-hero__aspect">
           <img
-            src={`${CAISY}/dcf211cf-cf73-44f0-a40e-3f689aaec77b/74a57b81-9538-427c-a520-59e7a61ef70d/244753M01350120j20.jpg`}
+            src={UKS_LEICHT_BOSSA_FENIX_F45C_244753M01350120J20}
             alt="LEICHT BOSSA FENIX F45-C kitchen concept"
             className="bossafenix-hero__img"
           />
@@ -207,13 +226,13 @@ export default function LeichtBossaFenixF45C() {
           <div className="bossafenix-intro__imgs">
             <div className="bossafenix-intro__img bossafenix-intro__img--wide">
               <img
-                src={`${CAISY}/3da27bc7-ce72-438d-b65f-dfc298e33fa1/d2f65d33-5a6e-4341-9fa1-8854dfbff883/244753M02350120j201.jpg?width=800`}
+                src={UKS_LEICHT_BOSSA_FENIX_F45C_244753M02350120J201}
                 alt="Bossa Fenix F45-C natural wood close-up fronts"
               />
             </div>
             <div className="bossafenix-intro__img bossafenix-intro__img--tall">
               <img
-                src={`${CAISY}/55b541a1-1936-4cbe-bb50-a0efc1492393/2338aba1-17fc-4c3b-a47b-95ce422ed0eb/kristapsgrundsteinsIj5sVdycxIYunsplash.jpg?width=600`}
+                src={UKS_LEICHT_BOSSA_FENIX_F45C_KRISTAPSGRUNDSTEINSIJ5SVDYCXIYUNSPLASH}
                 alt="Minimalist design interior decor details"
               />
             </div>
@@ -233,7 +252,7 @@ export default function LeichtBossaFenixF45C() {
         </div>
         <div className="bossafenix-split__img">
           <img
-            src={`${CAISY}/7838a2ef-731b-4534-a635-435c858243c7/1cb6ad40-9043-4421-8575-7140bd11293d/244753MO13350120j20.jpg?width=900`}
+            src={UKS_LEICHT_BOSSA_FENIX_F45C_244753MO13350120J20}
             alt="BOSSA natural elegance real wood wood structure"
           />
         </div>
@@ -251,10 +270,10 @@ export default function LeichtBossaFenixF45C() {
               transition={{ duration: 0.3 }}
               src={
                 activeSlideAwayTab === 1
-                  ? `${CAISY}/4e46f9e5-09a1-422d-959e-e07ac09474d0/854b51c2-4fce-4bda-bc91-cad557206a5d/244753D01350120j20.jpg?width=900`
+                  ? UKS_LEICHT_BOSSA_FENIX_F45C_244753D01350120J20
                   : activeSlideAwayTab === 2
-                  ? `${CAISY}/4f9ec03f-9e7f-4ffc-b570-a649c081a0fb/cc621573-e237-4fe7-883a-3f5942717bd5/244753D02350120j20.jpg?width=900`
-                  : `${CAISY}/8eac3ed0-fe0a-48d7-b3c8-45e1f24f4bd9/abd08273-c29d-4661-91c3-1710125ead36/244753D03350120j20.jpg?width=900`
+                  ? UKS_LEICHT_BOSSA_FENIX_F45C_244753D02350120J20
+                  : UKS_LEICHT_BOSSA_FENIX_F45C_244753D03350120J20
               }
               alt="Slide-away retractable doors configurations"
               style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}
@@ -306,7 +325,7 @@ export default function LeichtBossaFenixF45C() {
         </div>
         <div className="bossafenix-split__img">
           <img
-            src={`${CAISY}/08eec479-daf7-4490-b178-dee6f0732bc0/1e2c1120-1805-44bb-be80-b404d7715017/244753D05350120j20.jpg?width=900`}
+            src={UKS_LEICHT_BOSSA_FENIX_F45C_244753D05350120J20}
             alt="Customizable installation options tall unit details"
           />
         </div>
@@ -324,8 +343,8 @@ export default function LeichtBossaFenixF45C() {
               transition={{ duration: 0.3 }}
               src={
                 activePulloutTab === 1
-                  ? `${CAISY}/9bcce172-3f66-4c66-9ec1-f389207e0d48/043b92fb-9fa5-435d-9df2-00c9933b9ae2/244753D04350120j20.jpg?width=900`
-                  : `${CAISY}/1bc314d5-18e7-4757-82c2-a106bbbf1fc7/a6d56acb-5dd4-4094-98a8-979ccea3a56b/244753D06350120j20.jpg?width=900`
+                  ? UKS_LEICHT_BOSSA_FENIX_F45C_244753D04350120J20
+                  : UKS_LEICHT_BOSSA_FENIX_F45C_244753D06350120J20
               }
               alt="Tabular Pull-Out detail configurations"
               style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }}

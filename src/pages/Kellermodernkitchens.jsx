@@ -1,74 +1,86 @@
+import UKS_KELLERMODERNKITCHENS_SILENT_RIVER_5 from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-silent-river-5.webp';
+import UKS_KELLERMODERNKITCHENS_960_X_1024_MODERN from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-960-x-1024-modern.webp';
+import UKS_KELLERMODERNKITCHENS_SUITE_LIFE_HERO from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-suite-life-hero.webp';
+import UKS_KELLERMODERNKITCHENS_NATURAL_HARMONY_HERO from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-natural-harmony-hero.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_PERFECTSENSE from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-perfectsense.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_BLACKMARBLE from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-blackmarble.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-citychic-walnootkaramel.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_MATTBLACK from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-mattblack.webp';
+import UKS_KELLERMODERNKITCHENS_MODERN_URBAN_1326_X_884_AFBEELDING from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-modern-urban-1326-x-884-afbeelding.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_NAUTICALNAVY from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-nauticalnavy.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_NORTHERNNATURE from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-northernnature.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_PUREBASIC from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-purebasic.webp';
+import UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_VOGUEVIBES from '../assets/uks-kellermodernkitchens/uks-kellermodernkitchens-1920-x-1090-hero-voguevibes.webp';
 import { useState, useRef } from 'react'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
 
 const MODERN_MODELS = [
   {
     name: 'Suite Life',
     desc: 'Deep warm oak textures meet dark accents for an inviting, luxurious culinary space.',
-    image: `${BASE}/WmADdD35/uploads/media/68f2391d37f1b/suite-life-hero.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_SUITE_LIFE_HERO,
     link: '/kitchens/keller/modern-kitchens/suite-life'
   },
   {
     name: 'Natural Harmony',
     desc: 'Light open wood shelves combined with neutral sand tones create a calming, natural atmosphere.',
-    image: `${BASE}/1HfN8X3c/uploads/media/66e01dd6be2d7/natural-harmony-hero.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_NATURAL_HARMONY_HERO,
     link: '/kitchens/keller/modern-kitchens/natural-harmony'
   },
   {
     name: 'Perfect Sense',
     desc: 'Matte anti-fingerprint surfaces in warm graphite grey provide perfect haptics and elegance.',
-    image: `${BASE}/sax3Iuv0/uploads/media/6308be8ced6cc/1920-x-1090-hero-perfectsense.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_PERFECTSENSE,
     link: '/kitchens/keller/modern-kitchens/perfect-sense'
   },
   {
     name: 'Black Marble',
     desc: 'Stunning black marble elements contrasted with dark wood grains for bold architectural statements.',
-    image: `${BASE}/m03J7L3K/uploads/media/6308c7e323e6f/1920-x-1090-hero-blackmarble.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_BLACKMARBLE,
     link: '/kitchens/keller/modern-kitchens/black-marble'
   },
   {
     name: 'City Chic',
     desc: 'Warm walnut caramel veneer matched with smooth cashmere panels for urban sophisticated living.',
-    image: `${BASE}/Kc3Tl9w1/uploads/media/67444e89aecc5/1920-x-1090-hero-citychic-walnootkaramel.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_CITYCHIC_WALNOOTKARAMEL,
     link: '/kitchens/keller/modern-kitchens/city-chic'
   },
   {
     name: 'Matt Black',
     desc: 'Handle-less matte black doors and ultra-slim worktops offer the ultimate minimalist design.',
-    image: `${BASE}/YgLXYn6e/uploads/media/630c8aade7af0/1920-x-1090-hero-mattblack.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_MATTBLACK,
     link: '/kitchens/keller/modern-kitchens/matt-black'
   },
   {
     name: 'Modern Urban',
     desc: 'Compact layouts with smart shelving and functional configurations optimized for city apartments.',
-    image: `${BASE}/HUPXKnPl/uploads/media/66e14d8593ac7/modern-urban-1326-x-884-afbeelding.webp?originalExtension=png`,
+    image: UKS_KELLERMODERNKITCHENS_MODERN_URBAN_1326_X_884_AFBEELDING,
     link: '/kitchens/keller/modern-kitchens/modern-urban'
   },
   {
     name: 'Nautical Navy',
     desc: 'Deep marine navy lacquer paired with light quartz countertops for a fresh, classic look.',
-    image: `${BASE}/v1qjHSrB/uploads/media/630c8fac00834/1920-x-1090-hero-nauticalnavy.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_NAUTICALNAVY,
     link: '/kitchens/keller/modern-kitchens/nautical-navy'
   },
   {
     name: 'Northern Nature',
     desc: 'Scandinavian-inspired combination of pale ash veneer and soft matte sage green.',
-    image: `${BASE}/O8o6VGMY/uploads/media/63c905d0d2eb9/1920-x-1090-hero-northernnature.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_NORTHERNNATURE,
     link: '/kitchens/keller/modern-kitchens/northern-nature'
   },
   {
     name: 'Pure Basic',
     desc: 'Timeless white lacquer and functional, durable laminate surfaces for the family kitchen.',
-    image: `${BASE}/vfXdKbzj/uploads/media/630c82c26d026/1920-x-1090-hero-purebasic.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_PUREBASIC,
     link: '/kitchens/keller/modern-kitchens/pure-basic'
   },
   {
     name: 'Vogue Vibes',
     desc: 'Brushed metal metallic accents and tinted glass showcase units for a touch of haute couture.',
-    image: `${BASE}/Pp1uYGRF/uploads/media/655f44e32b79d/1920-x-1090-hero-voguevibes.webp?originalExtension=jpg`,
+    image: UKS_KELLERMODERNKITCHENS_1920_X_1090_HERO_VOGUEVIBES,
     link: '/kitchens/keller/modern-kitchens/vogue-vibes'
   }
 ]
@@ -111,7 +123,7 @@ export default function KellerModernKitchens() {
       {/* ── HERO BANNER ── */}
       <section className="km-hero">
         <img
-          src="https://www.kellerkitchens.com/media/cache/generic/rc/DX7fa0IF/uploads/media/690085992d58b/silent-river-5.webp?originalExtension=jpg"
+          src={UKS_KELLERMODERNKITCHENS_SILENT_RIVER_5}
           alt="Keller Modern Kitchens"
           className="km-hero__img"
         />
@@ -220,7 +232,7 @@ export default function KellerModernKitchens() {
             </div>
             <div className="km-split-sec__img-wrap">
               <img
-                src="https://www.kellerkitchens.com/media/cache/generic/rc/nN4ujE4p/uploads/media/630760f1e967e/960-x-1024-modern.webp?originalExtension=png"
+                src={UKS_KELLERMODERNKITCHENS_960_X_1024_MODERN}
                 alt="Is modern your style? Keller kitchens panel"
                 loading="lazy"
               />

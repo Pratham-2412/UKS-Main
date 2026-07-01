@@ -1,82 +1,94 @@
+import HERO_CLASSIC_IMG from '../assets/uks-classic-kitchens/1920-x-1090-hero-klassiekekeukens.webp';
+import INTRO_CLASSIC_IMG from '../assets/uks-classic-kitchens/960-x-1024-klassiek.webp';
+import RETRO_VIBES_THUMB from '../assets/uks-classic-kitchens/retro-vibes-hero.webp';
+import NATURAL_WEAVE_THUMB from '../assets/uks-classic-kitchens/natural-weave-hero.webp';
+import CALM_FLOW_THUMB from '../assets/uks-classic-kitchens/calm-flow-hero2.webp';
+import TIMELESS_CHARM_THUMB from '../assets/uks-classic-kitchens/timeless-charm-1326-x-884-afbeelding.webp';
+import BLISS_BOUTIQUE_THUMB from '../assets/uks-bliss-boutique/uks-bliss-boutique-hero-fallback.webp';
+import GLAM_CHIC_THUMB from '../assets/uks-glam-chic/uks-glam-chic-hero.webp';
+import MAJESTIC_MANSION_THUMB from '../assets/uks-majestic-mansion/uks-majestic-mansion-hero.webp';
+import MARBLING_MOODS_THUMB from '../assets/uks-marbling-moods/uks-marbling-moods-hero.webp';
+import OCEAN_BREEZE_THUMB from '../assets/uks-ocean-breeze/uks-ocean-breeze-hero.webp';
+import ORIENTAL_ESSENCE_THUMB from '../assets/uks-oriental-essence/uks-oriental-essence-hero.webp';
+import RAW_NATURE_THUMB from '../assets/uks-raw-nature/uks-raw-nature-hero.webp';
+import TUSCAN_VILLA_THUMB from '../assets/uks-tuscan-villa/uks-tuscan-villa-hero.webp';
 import { useState, useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Link } from 'react-router-dom'
-
-const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc'
-
+const BASE = 'https://www.kellerkitchens.com/media/cache/generic/rc';
 const CLASSIC_MODELS = [
   {
     name: 'Retro Vibes',
     slug: 'retro-vibes',
     desc: 'Warm 70s-inspired aesthetics combined with contemporary cabinet layouts.',
-    image: `${BASE}/D2t8og5h/uploads/media/68f0f29be799f/retro-vibes-hero.webp?originalExtension=jpg`
+    image: RETRO_VIBES_THUMB
   },
   {
     name: 'Natural Weave',
     slug: 'natural-weave',
     desc: 'Organic textures and cane webbing inserts mixed with solid wood frames.',
-    image: `${BASE}/kcN9ZSKg/uploads/media/68f1e8cb5c9b4/natural-weave-hero.webp?originalExtension=jpg`
+    image: NATURAL_WEAVE_THUMB
   },
 
   {
     name: 'Calm Flow',
     slug: 'calm-flow',
     desc: 'Symmetrical handleless layouts in neutral beige and soft wood textures.',
-    image: `${BASE}/ZkjuSX14/uploads/media/68f5d9b9d834e/calm-flow-hero2.webp?originalExtension=jpg`
+    image: CALM_FLOW_THUMB
   },
   {
     name: 'Timeless Charm',
     slug: 'timeless-charm',
     desc: 'Elegant country-style panel doors with metallic handles and marble toppings.',
-    image: `${BASE}/WX57s4Yb/uploads/media/66e14ccf72b7e/timeless-charm-1326-x-884-afbeelding.webp?originalExtension=png`
+    image: TIMELESS_CHARM_THUMB
   },
   {
     name: 'Bliss Boutique',
-    slug: null,
+    slug: 'bliss-boutique',
     desc: 'Luxurious hotel boutique setup featuring rich gold trims and dark frames.',
-    image: `${BASE}/HC4KAMvx/uploads/media/6322f6c5c2922/1920-x-1090-heroblissboutique.webp?originalExtension=jpg`
+    image: BLISS_BOUTIQUE_THUMB
   },
   {
     name: 'Glam Chic',
-    slug: null,
+    slug: 'glam-chic',
     desc: 'High-gloss lacquer finishes paired with majestic mirrored backsplashes.',
-    image: `${BASE}/zV7m5Fxe/uploads/media/6322f118d95df/1920-x-1090-hero-glamchic.webp?originalExtension=jpg`
+    image: GLAM_CHIC_THUMB
   },
   {
     name: 'Majestic Mansion',
-    slug: null,
+    slug: 'majestic-mansion',
     desc: 'Grand scale configurations with double cooking islands and solid stone counters.',
-    image: `${BASE}/w57ebxpK/uploads/media/63218a81bc161/1920-x-1090-hero-majesticmansion.webp?originalExtension=jpg`
+    image: MAJESTIC_MANSION_THUMB
   },
   {
     name: 'Marbling Moods',
-    slug: null,
+    slug: 'marbling-moods',
     desc: 'Stunning veined white marble panels contrasting with deep matte charcoal accents.',
-    image: `${BASE}/DsKqUj3L/uploads/media/6305d6b460601/marbling-moods-1920-x-1090.webp?originalExtension=png`
+    image: MARBLING_MOODS_THUMB
   },
   {
     name: 'Ocean Breeze',
-    slug: null,
+    slug: 'ocean-breeze',
     desc: 'Soft pastel teal tones combined with brass detailing for a light seaside feel.',
-    image: `${BASE}/mLCGJGp6/uploads/media/64ec5a6663f39/1920-x-1090-hero-ocean-breeze.webp?originalExtension=jpg`
+    image: OCEAN_BREEZE_THUMB
   },
   {
     name: 'Oriëntal Essence',
-    slug: null,
+    slug: 'oriental-essence',
     desc: 'Deep red lacquer details combined with dark bamboo screens and dark stone worktops.',
-    image: `${BASE}/llBb6jEE/uploads/media/66e14e4b01341/oriental-essence-1326-x-884-afbeelding.webp?originalExtension=png`
+    image: ORIENTAL_ESSENCE_THUMB
   },
   {
     name: 'Raw Nature',
-    slug: null,
+    slug: 'raw-nature',
     desc: 'Rough natural stone pillars paired with thick dark oak cabinet fronts.',
-    image: `${BASE}/Um6IYMOX/uploads/media/637c8b860c62e/1920-x-1090-hero-raw-nature.webp?originalExtension=jpg`
+    image: RAW_NATURE_THUMB
   },
   {
     name: 'Tuscan Villa',
-    slug: null,
+    slug: 'tuscan-villa',
     desc: 'Terracotta floor tiles, warm sandstone arches and classic shaker units.',
-    image: `${BASE}/hcgaym3g/uploads/media/64ec8d9edb3b4/1920-x-1090-hero-tuscan-villa.webp?originalExtension=jpg`
+    image: TUSCAN_VILLA_THUMB
   }
 ]
 
@@ -118,7 +130,7 @@ export default function KellerClassicKitchens() {
       {/* ── HERO BANNER ── */}
       <section className="kc-hero">
         <img
-          src="https://www.kellerkitchens.com/media/cache/generic/rc/KIB3utdy/uploads/media/63077dc3d0559/1920-x-1090-hero-klassiekekeukens.webp?originalExtension=jpg"
+          src={HERO_CLASSIC_IMG}
           alt="Keller Classic Kitchens"
           className="kc-hero__img"
         />
@@ -164,6 +176,14 @@ export default function KellerClassicKitchens() {
                 alt={CLASSIC_MODELS[activeModel].name}
                 className="kc-display-card__img"
               />
+              {CLASSIC_MODELS[activeModel].slug && (
+                <Link
+                  to={`/kitchens/keller/classic-kitchens/${CLASSIC_MODELS[activeModel].slug}`}
+                  className="kc-display-card__image-overlay-btn"
+                >
+                  More about this kitchen &rarr;
+                </Link>
+              )}
             </div>
             <div className="kc-display-card__content">
               <span className="kc-display-card__num">
@@ -230,7 +250,7 @@ export default function KellerClassicKitchens() {
             </div>
             <div className="kc-split-media">
               <img
-                src="https://www.kellerkitchens.com/media/cache/generic/rc/g3MbACTT/uploads/media/63075d1e1dcf1/960-x-1024-klassiek.webp?originalExtension=png"
+                src={INTRO_CLASSIC_IMG}
                 alt="Moodboard classic style"
                 className="kc-split-image"
               />
@@ -419,6 +439,30 @@ export default function KellerClassicKitchens() {
           height: 100%;
           object-fit: cover;
           object-position: center;
+        }
+        .kc-display-card__image-overlay-btn {
+          position: absolute;
+          bottom: 24px;
+          left: 24px;
+          background: #1d1d1f;
+          color: #ffffff;
+          padding: 12px 24px;
+          border-radius: 99px;
+          font-size: 11px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          transition: background 0.25s ease, transform 0.2s ease;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+          z-index: 10;
+        }
+        .kc-display-card__image-overlay-btn:hover {
+          background: #000000;
+          transform: translateY(-2px);
         }
         .kc-display-card__content {
           padding: 40px;
