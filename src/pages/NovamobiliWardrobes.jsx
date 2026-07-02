@@ -234,23 +234,7 @@ export default function NovamobiliWardrobes() {
         ))}
       </section>
 
-      {/* ── CATALOGUE DOWNLOAD CTA ── */}
-      <section className="nmw-download">
-        <div className="nmw-download__inner container">
-          <h2 className="nmw-download__heading">Download the wardrobes catalogue</h2>
-          <p className="nmw-download__text">
-            Get all the tech sheets, sizes, configurations and finishings details inside our exclusive designer catalogues.
-          </p>
-          <a
-            href="https://res.cloudinary.com/novamobili/images/v1758614156/cdn.novamobili.it/Bilancio_-sostenibilita_2024/Bilancio_-sostenibilita_2024.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="nmw-download__btn"
-          >
-            DOWNLOAD CATALOGUE (PDF)
-          </a>
-        </div>
-      </section>
+
 
       {/* ── SCOPED STYLES ── */}
       <style>{`
@@ -259,7 +243,7 @@ export default function NovamobiliWardrobes() {
           --text-dark:  #323334;
           --text-muted: #6f7071;
           --gold:       #b8905a;
-          --border:     rgba(0, 0, 0, 0.08);
+          --border:     rgba(0, 0, 0, 0.2);
           --font-serif: 'Libre Baskerville', Georgia, serif;
           --font-sans:  'Plus Jakarta Sans', system-ui, sans-serif;
           
@@ -352,7 +336,7 @@ export default function NovamobiliWardrobes() {
         /* ── Intro block ── */
         .nmw-intro {
           padding-top: 56px;
-          padding-bottom: 48px;
+          padding-bottom: 96px;
         }
         .nmw-intro__text {
           font-size: 15px;
@@ -366,21 +350,21 @@ export default function NovamobiliWardrobes() {
         .nmw-sections {
           display: flex;
           flex-direction: column;
-          gap: 64px;
+          gap: 112px;
         }
         .nmw-sec-block {
           display: flex;
           flex-direction: column;
-          gap: 24px;
+          gap: 32px;
         }
         .nmw-sec-header {
           position: relative;
           display: flex;
           align-items: center;
           justify-content: center;
-          border-bottom: 1px solid var(--border);
+          border-bottom: 1.5px solid rgba(0, 0, 0, 0.35);
           padding-bottom: 16px;
-          margin-bottom: 12px;
+          margin-bottom: 24px;
         }
         .nmw-sec-header__title {
           font-family: var(--font-serif);
@@ -397,7 +381,7 @@ export default function NovamobiliWardrobes() {
           display: flex;
           align-items: center;
           gap: 8px;
-          font-size: 10px;
+          font-size: 13px;
           font-weight: 600;
           letter-spacing: 0.08em;
           text-transform: uppercase;
