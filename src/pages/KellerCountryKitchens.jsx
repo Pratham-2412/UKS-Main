@@ -18,47 +18,56 @@ const COUNTRY_MODELS = [
   {
     name: 'Silent River',
     desc: 'Beautiful shaker-style cabinets finished in soft sage green with warm oak wood trims.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_SILENT_RIVER_HERO
+    image: UKS_KELLER_COUNTRY_KITCHENS_SILENT_RIVER_HERO,
+    slug: 'silent-river'
   },
   {
     name: 'Zen Life',
     desc: 'Clean horizontal grains and light soft neutral colors creating a serene atmosphere.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_KELLER_KEUKEN_2
+    image: UKS_KELLER_COUNTRY_KITCHENS_KELLER_KEUKEN_2,
+    slug: 'zen-life'
   },
   {
     name: 'Black Cottage',
     desc: 'Charcoal shaker panels with traditional black handles for a modern rustic look.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_BLCKCOTTAGE
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_BLCKCOTTAGE,
+    slug: 'black-cottage'
   },
   {
     name: 'Cottage Life',
     desc: 'Traditional country styling with raised center door panels and brass accent handles.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_COTTAGELIFE
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_COTTAGELIFE,
+    slug: 'cottage-life'
   },
   {
     name: 'Misty Grey',
     desc: 'Muted grey shaker doors combined with dark wooden open frame display cabinets.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MISTYGREY
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MISTYGREY,
+    slug: 'misty-grey'
   },
   {
     name: 'Modern Farmhouse',
     desc: 'Bold farmhouse style with deep ceramic aproned sink and dark warm oak accents.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MODERNFARMHOUSE
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_MODERNFARMHOUSE,
+    slug: 'modern-farmhouse'
   },
   {
     name: 'Natural Basic',
     desc: 'Minimal country lines with sand beige panels and solid wood details.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NATURAL_BASIC
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NATURAL_BASIC,
+    slug: 'natural-basic'
   },
   {
     name: 'New Country',
     desc: 'Contemporary shaker fronts in matte ivory white for a fresh cottage feel.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NEW_COUNTRY
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_NEW_COUNTRY,
+    slug: 'new-country'
   },
   {
     name: 'Smokey Wood',
     desc: 'Deep warm stained wooden cabinets matched with dark graphite grey details.',
-    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_SMOKEYWOOD
+    image: UKS_KELLER_COUNTRY_KITCHENS_1920_X_1090_HERO_SMOKEYWOOD,
+    slug: 'smokey-wood'
   }
 ]
 
@@ -146,6 +155,17 @@ export default function KellerCountryKitchens() {
                 alt={COUNTRY_MODELS[activeModel].name}
                 className="kcy-display-card__img"
               />
+              {COUNTRY_MODELS[activeModel].slug && (
+                <Link
+                  to={`/kitchens/keller/country-kitchens/${COUNTRY_MODELS[activeModel].slug}`}
+                  className="kcy-display-card__image-overlay-btn"
+                >
+                  <span>MORE ABOUT THIS KITCHEN</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
             </div>
             <div className="kcy-display-card__content">
               <span className="kcy-display-card__num">
@@ -153,12 +173,21 @@ export default function KellerCountryKitchens() {
               </span>
               <h3 className="kcy-display-card__title">{COUNTRY_MODELS[activeModel].name}</h3>
               <p className="kcy-display-card__desc">{COUNTRY_MODELS[activeModel].desc}</p>
-              <Link to="/contact" className="kcy-display-card__btn">
-                <span>Request details</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
+              {COUNTRY_MODELS[activeModel].slug ? (
+                <Link to={`/kitchens/keller/country-kitchens/${COUNTRY_MODELS[activeModel].slug}`} className="kcy-display-card__btn kcy-display-card__btn--more">
+                  <span>MORE ABOUT THIS KITCHEN</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ) : (
+                <Link to="/contact" className="kcy-display-card__btn">
+                  <span>Request details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
             </div>
           </div>
 
@@ -399,6 +428,30 @@ export default function KellerCountryKitchens() {
           object-fit: cover;
           object-position: center;
         }
+        .kcy-display-card__image-overlay-btn {
+          position: absolute;
+          bottom: 24px;
+          left: 24px;
+          background: #1d1d1f;
+          color: #ffffff;
+          padding: 12px 24px;
+          border-radius: 99px;
+          font-size: 11px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          transition: background 0.25s ease, transform 0.2s ease;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+          z-index: 10;
+        }
+        .kcy-display-card__image-overlay-btn:hover {
+          background: #000000;
+          transform: translateY(-2px);
+        }
         .kcy-display-card__content {
           padding: 40px;
           display: flex;
@@ -448,6 +501,29 @@ export default function KellerCountryKitchens() {
         .kcy-display-card__btn:hover {
           color: var(--accent-brown);
           border-color: var(--accent-brown);
+        }
+        .kcy-display-card__btn--more {
+          display: inline-flex;
+          align-items: center;
+          gap: 10px;
+          font-size: 11px;
+          font-weight: 700;
+          letter-spacing: 0.14em;
+          text-transform: uppercase;
+          color: #ffffff;
+          background: var(--charcoal);
+          border: none;
+          border-bottom: none;
+          padding: 14px 28px;
+          border-radius: 100px;
+          text-decoration: none;
+          transition: background 0.25s, transform 0.2s;
+        }
+        .kcy-display-card__btn--more:hover {
+          background: #000;
+          color: #fff;
+          border-color: transparent;
+          transform: translateY(-2px);
         }
 
         /* Thumbnails Slider Track */

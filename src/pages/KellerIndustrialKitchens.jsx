@@ -17,42 +17,50 @@ const INDUSTRIAL_MODELS = [
   {
     name: 'Bold Elegance',
     desc: 'Metallic textured black doors combined with brass frame open display storage.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_BOLD_ELEGANCE_HERO
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_BOLD_ELEGANCE_HERO,
+    slug: 'bold-elegance'
   },
   {
     name: 'Urban Nude',
     desc: 'Raw concrete block finishes mixed with delicate soft sand-colored laminate panels.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_URBANNUDE
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_URBANNUDE,
+    slug: 'urban-nude'
   },
   {
     name: 'Black Metal',
     desc: 'Deep graphite matte cabinets framed with steel support columns and dark wire mesh.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BLCKMETAL
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BLCKMETAL,
+    slug: 'black-metal'
   },
   {
     name: 'Brooklyn Brick',
     desc: 'Weathered brick wallpaper elements paired with dark warm wood panels and black rails.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BROOKLYNBRICK
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_BROOKLYNBRICK,
+    slug: 'brooklyn-brick'
   },
   {
     name: 'Concrete Jungle',
     desc: 'Bold slate concrete-look doors complete with industrial handles and open dark frames.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_CONCRETEJUNGLE
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_CONCRETEJUNGLE,
+    slug: 'concrete-jungle'
   },
   {
     name: 'Dark Rituals',
     desc: 'Monochrome layout combining dark stained timber with textured black composite tops.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_DARKRITUALS
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_DARKRITUALS,
+    slug: 'dark-rituals'
   },
   {
     name: 'Nature\'s Choice',
     desc: 'Soften the raw elements with light vertical timber panels and greyed structured stone.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_NATURESCHOICE
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_NATURESCHOICE,
+    slug: 'natures-choice'
   },
   {
     name: 'Rock Solid',
     desc: 'Heavy textured stone doors matching the sturdy concrete details and raw steel hardware.',
-    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_ROCKSOLID
+    image: UKS_KELLER_INDUSTRIAL_KITCHENS_1920_X_1090_HERO_ROCKSOLID,
+    slug: 'rock-solid'
   }
 ]
 
@@ -139,6 +147,17 @@ export default function KellerIndustrialKitchens() {
                 alt={INDUSTRIAL_MODELS[activeModel].name}
                 className="kic-display-card__img"
               />
+              {INDUSTRIAL_MODELS[activeModel].slug && (
+                <Link
+                  to={`/kitchens/keller/industrial-kitchens/${INDUSTRIAL_MODELS[activeModel].slug}`}
+                  className="kic-display-card__image-overlay-btn"
+                >
+                  <span>MORE ABOUT THIS KITCHEN</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
             </div>
             <div className="kic-display-card__content">
               <span className="kic-display-card__num">
@@ -146,12 +165,21 @@ export default function KellerIndustrialKitchens() {
               </span>
               <h3 className="kic-display-card__title">{INDUSTRIAL_MODELS[activeModel].name}</h3>
               <p className="kic-display-card__desc">{INDUSTRIAL_MODELS[activeModel].desc}</p>
-              <Link to="/contact" className="kic-display-card__btn">
-                <span>Request details</span>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M5 12h14M12 5l7 7-7 7" />
-                </svg>
-              </Link>
+              {INDUSTRIAL_MODELS[activeModel].slug ? (
+                <Link to={`/kitchens/keller/industrial-kitchens/${INDUSTRIAL_MODELS[activeModel].slug}`} className="kic-display-card__btn kic-display-card__btn--more">
+                  <span>MORE ABOUT THIS KITCHEN</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              ) : (
+                <Link to="/contact" className="kic-display-card__btn">
+                  <span>Request details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </Link>
+              )}
             </div>
           </div>
 
@@ -387,6 +415,31 @@ export default function KellerIndustrialKitchens() {
           height: 100%;
           object-fit: cover;
           object-position: center;
+        }
+        .kic-display-card__image-overlay-btn {
+          position: absolute;
+          bottom: 24px;
+          left: 24px;
+          background: #1d1d1f;
+          color: #ffffff;
+          padding: 12px 24px;
+          border-radius: 99px;
+          font-size: 11px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: 0.12em;
+          text-decoration: none;
+          display: inline-flex;
+          align-items: center;
+          gap: 8px;
+          transition: background 0.25s ease, transform 0.2s ease;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+          z-index: 10;
+        }
+        .kic-display-card__image-overlay-btn:hover {
+          background: #000000;
+          transform: scale(1.02);
+          color: #ffffff;
         }
         .kic-display-card__content {
           padding: 40px;

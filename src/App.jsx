@@ -11,6 +11,15 @@ import Contact from './pages/Contact'
 import Leicht from './pages/Leicht'
 import Keller from './pages/Keller'
 import Novacucina from './pages/Novacucina'
+import NovamobiliWardrobes from './pages/NovamobiliWardrobes'
+import NovamobiliHingedWardrobes from './pages/NovamobiliHingedWardrobes'
+import NovamobiliSlidingWardrobes from './pages/NovamobiliSlidingWardrobes'
+import NovamobiliFlushWardrobes from './pages/NovamobiliFlushWardrobes'
+import NovamobiliAccessoriesWardrobes from './pages/NovamobiliAccessoriesWardrobes'
+import NovamobiliWalkInWardrobes from './pages/NovamobiliWalkInWardrobes'
+import NovacucinaSistema221 from './pages/NovacucinaSistema221'
+import NovacucinaSistema222 from './pages/NovacucinaSistema222'
+import NovacucinaSistema223 from './pages/NovacucinaSistema223'
 import LeichtIdea from './pages/LeichtIdea'
 import LeichtWakuu from './pages/LeichtWakuu'
 import LeichtHygge from './pages/LeichtHygge'
@@ -53,6 +62,23 @@ import KellerOrientalEssence from './pages/KellerOrientalEssence'
 import KellerRawNature from './pages/KellerRawNature'
 import KellerTuscanVilla from './pages/KellerTuscanVilla'
 import KellerCountryKitchens from './pages/KellerCountryKitchens'
+import KellerCottageLife from './pages/KellerCottageLife'
+import KellerSilentRiver from './pages/KellerSilentRiver'
+import KellerZenLife from './pages/KellerZenLife'
+import KellerBlackCottage from './pages/KellerBlackCottage'
+import KellerMistyGrey from './pages/KellerMistyGrey'
+import KellerModernFarmhouse from './pages/KellerModernFarmhouse'
+import KellerNaturalBasic from './pages/KellerNaturalBasic'
+import KellerNewCountry from './pages/KellerNewCountry'
+import KellerSmokeyWood from './pages/KellerSmokeyWood'
+import KellerBoldElegance from './pages/KellerBoldElegance'
+import KellerUrbanNude from './pages/KellerUrbanNude'
+import KellerBlackMetal from './pages/KellerBlackMetal'
+import KellerBrooklynBrick from './pages/KellerBrooklynBrick'
+import KellerConcreteJungle from './pages/KellerConcreteJungle'
+import KellerDarkRituals from './pages/KellerDarkRituals'
+import KellerNaturesChoice from './pages/KellerNaturesChoice'
+import KellerRockSolid from './pages/KellerRockSolid'
 import KellerIndustrialKitchens from './pages/KellerIndustrialKitchens'
 
 
@@ -107,7 +133,24 @@ export default function App() {
           <Route path="/kitchens/keller/classic-kitchens/raw-nature" element={<KellerRawNature />} />
           <Route path="/kitchens/keller/classic-kitchens/tuscan-villa" element={<KellerTuscanVilla />} />
           <Route path="/kitchens/keller/country-kitchens" element={<KellerCountryKitchens />} />
+          <Route path="/kitchens/keller/country-kitchens/cottage-life" element={<KellerCottageLife />} />
+          <Route path="/kitchens/keller/country-kitchens/silent-river" element={<KellerSilentRiver />} />
+          <Route path="/kitchens/keller/country-kitchens/zen-life" element={<KellerZenLife />} />
+          <Route path="/kitchens/keller/country-kitchens/black-cottage" element={<KellerBlackCottage />} />
+          <Route path="/kitchens/keller/country-kitchens/misty-grey" element={<KellerMistyGrey />} />
+          <Route path="/kitchens/keller/country-kitchens/modern-farmhouse" element={<KellerModernFarmhouse />} />
+          <Route path="/kitchens/keller/country-kitchens/natural-basic" element={<KellerNaturalBasic />} />
+          <Route path="/kitchens/keller/country-kitchens/new-country" element={<KellerNewCountry />} />
+          <Route path="/kitchens/keller/country-kitchens/smokey-wood" element={<KellerSmokeyWood />} />
           <Route path="/kitchens/keller/industrial-kitchens" element={<KellerIndustrialKitchens />} />
+          <Route path="/kitchens/keller/industrial-kitchens/bold-elegance" element={<KellerBoldElegance />} />
+          <Route path="/kitchens/keller/industrial-kitchens/urban-nude" element={<KellerUrbanNude />} />
+          <Route path="/kitchens/keller/industrial-kitchens/black-metal" element={<KellerBlackMetal />} />
+          <Route path="/kitchens/keller/industrial-kitchens/brooklyn-brick" element={<KellerBrooklynBrick />} />
+          <Route path="/kitchens/keller/industrial-kitchens/concrete-jungle" element={<KellerConcreteJungle />} />
+          <Route path="/kitchens/keller/industrial-kitchens/dark-rituals" element={<KellerDarkRituals />} />
+          <Route path="/kitchens/keller/industrial-kitchens/natures-choice" element={<KellerNaturesChoice />} />
+          <Route path="/kitchens/keller/industrial-kitchens/rock-solid" element={<KellerRockSolid />} />
           <Route path="/kitchens/keller/modern-kitchens/suite-life" element={<KellerSuiteLife />} />
           <Route path="/kitchens/keller/modern-kitchens/natural-harmony" element={<KellerNaturalHarmony />} />
           <Route path="/kitchens/keller/modern-kitchens/perfect-sense" element={<KellerPerfectSense />} />
@@ -120,7 +163,16 @@ export default function App() {
           <Route path="/kitchens/keller/modern-kitchens/pure-basic" element={<KellerPureBasic />} />
           <Route path="/kitchens/keller/modern-kitchens/vogue-vibes" element={<KellerVogueVibes />} />
           <Route path="/kitchens/novacucina" element={<Novacucina />} />
+          <Route path="/kitchens/novacucina/sistema-2-2-1" element={<NovacucinaSistema221 />} />
+          <Route path="/kitchens/novacucina/sistema-2-2-2" element={<NovacucinaSistema222 />} />
+          <Route path="/kitchens/novacucina/sistema-2-2-3" element={<NovacucinaSistema223 />} />
           <Route path="/bedrooms" element={<Bedrooms />} />
+          <Route path="/bedrooms/wardrobes" element={<NovamobiliWardrobes />} />
+          <Route path="/bedrooms/wardrobes/hinged-doors" element={<NovamobiliHingedWardrobes />} />
+          <Route path="/bedrooms/wardrobes/sliding-doors" element={<NovamobiliSlidingWardrobes />} />
+          <Route path="/bedrooms/wardrobes/flush-sliding" element={<NovamobiliFlushWardrobes />} />
+          <Route path="/bedrooms/wardrobes/accessories" element={<NovamobiliAccessoriesWardrobes />} />
+          <Route path="/bedrooms/wardrobes/walk-in" element={<NovamobiliWalkInWardrobes />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

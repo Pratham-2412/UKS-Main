@@ -9,6 +9,7 @@ const bedroomStyles = [
     desc: 'Floor-to-ceiling fitted storage that maximises every inch — designed with precision and elegance.',
     img: '/bedroom-hero.jpg',
     tag: 'STORAGE',
+    link: '/bedrooms/wardrobes'
   },
   {
     id: 2,
@@ -55,13 +56,21 @@ export default function Bedrooms() {
             transition={{ duration: 0.85 }}
           >
             <div className="kitchen-item__img">
-              <img src={b.img} alt={b.style} />
+              {b.link ? (
+                <Link to={b.link}>
+                  <img src={b.img} alt={b.style} />
+                </Link>
+              ) : (
+                <img src={b.img} alt={b.style} />
+              )}
             </div>
             <div className="kitchen-item__content">
               <span className="kitchen-item__tag">{b.tag}</span>
               <h2 className="kitchen-item__title">{b.style}</h2>
               <p className="kitchen-item__desc">{b.desc}</p>
-              <Link to="/contact" className="btn btn-primary">ENQUIRE NOW →</Link>
+              <Link to={b.link || "/contact"} className="btn btn-primary">
+                {b.link ? 'EXPLORE COLLECTIONS →' : 'ENQUIRE NOW →'}
+              </Link>
             </div>
           </motion.article>
         ))}

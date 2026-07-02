@@ -186,39 +186,48 @@ const stylesData = [
     models: [
       {
         name: 'Silent River',
-        image: UKS_KELLER_SILENT_RIVER_HERO
+        image: UKS_KELLER_SILENT_RIVER_HERO,
+        link: '/kitchens/keller/country-kitchens/silent-river'
       },
       {
         name: 'Zen Life',
-        image: UKS_KELLER_KELLER_KEUKEN_2
+        image: UKS_KELLER_KELLER_KEUKEN_2,
+        link: '/kitchens/keller/country-kitchens/zen-life'
       },
       {
         name: 'Black Cottage',
-        image: UKS_KELLER_1920_X_1090_HERO_BLCKCOTTAGE
+        image: UKS_KELLER_1920_X_1090_HERO_BLCKCOTTAGE,
+        link: '/kitchens/keller/country-kitchens/black-cottage'
       },
       {
         name: 'Cottage Life',
-        image: UKS_KELLER_1920_X_1090_HERO_COTTAGELIFE
+        image: UKS_KELLER_1920_X_1090_HERO_COTTAGELIFE,
+        link: '/kitchens/keller/country-kitchens/cottage-life'
       },
       {
         name: 'Misty Grey',
-        image: UKS_KELLER_1920_X_1090_HERO_MISTYGREY
+        image: UKS_KELLER_1920_X_1090_HERO_MISTYGREY,
+        link: '/kitchens/keller/country-kitchens/misty-grey'
       },
       {
         name: 'Modern Farmhouse',
-        image: UKS_KELLER_1920_X_1090_HERO_MODERNFARMHOUSE
+        image: UKS_KELLER_1920_X_1090_HERO_MODERNFARMHOUSE,
+        link: '/kitchens/keller/country-kitchens/modern-farmhouse'
       },
       {
         name: 'Natural Basic',
-        image: UKS_KELLER_1920_X_1090_HERO_NATURAL_BASIC
+        image: UKS_KELLER_1920_X_1090_HERO_NATURAL_BASIC,
+        link: '/kitchens/keller/country-kitchens/natural-basic'
       },
       {
         name: 'New Country',
-        image: UKS_KELLER_1920_X_1090_HERO_NEW_COUNTRY
+        image: UKS_KELLER_1920_X_1090_HERO_NEW_COUNTRY,
+        link: '/kitchens/keller/country-kitchens/new-country'
       },
       {
         name: 'Smokey Wood',
-        image: UKS_KELLER_1920_X_1090_HERO_SMOKEYWOOD
+        image: UKS_KELLER_1920_X_1090_HERO_SMOKEYWOOD,
+        link: '/kitchens/keller/country-kitchens/smokey-wood'
       }
     ]
   },
@@ -231,35 +240,43 @@ const stylesData = [
     models: [
       {
         name: 'Bold Elegance',
-        image: UKS_KELLER_BOLD_ELEGANCE_HERO
+        image: UKS_KELLER_BOLD_ELEGANCE_HERO,
+        link: '/kitchens/keller/industrial-kitchens/bold-elegance'
       },
       {
         name: 'Urban Nude',
-        image: UKS_KELLER_1920_X_1090_HERO_URBANNUDE
+        image: UKS_KELLER_1920_X_1090_HERO_URBANNUDE,
+        link: '/kitchens/keller/industrial-kitchens/urban-nude'
       },
       {
         name: 'Black Metal',
-        image: UKS_KELLER_1920_X_1090_HERO_BLCKMETAL
+        image: UKS_KELLER_1920_X_1090_HERO_BLCKMETAL,
+        link: '/kitchens/keller/industrial-kitchens/black-metal'
       },
       {
         name: 'Brooklyn Brick',
-        image: UKS_KELLER_1920_X_1090_HERO_BROOKLYNBRICK
+        image: UKS_KELLER_1920_X_1090_HERO_BROOKLYNBRICK,
+        link: '/kitchens/keller/industrial-kitchens/brooklyn-brick'
       },
       {
         name: 'Concrete Jungle',
-        image: UKS_KELLER_1920_X_1090_HERO_CONCRETEJUNGLE
+        image: UKS_KELLER_1920_X_1090_HERO_CONCRETEJUNGLE,
+        link: '/kitchens/keller/industrial-kitchens/concrete-jungle'
       },
       {
         name: 'Dark Rituals',
-        image: UKS_KELLER_1920_X_1090_HERO_DARKRITUALS
+        image: UKS_KELLER_1920_X_1090_HERO_DARKRITUALS,
+        link: '/kitchens/keller/industrial-kitchens/dark-rituals'
       },
       {
         name: "Nature's Choice",
-        image: UKS_KELLER_1920_X_1090_HERO_NATURESCHOICE
+        image: UKS_KELLER_1920_X_1090_HERO_NATURESCHOICE,
+        link: '/kitchens/keller/industrial-kitchens/natures-choice'
       },
       {
         name: 'Rock Solid',
-        image: UKS_KELLER_1920_X_1090_HERO_ROCKSOLID
+        image: UKS_KELLER_1920_X_1090_HERO_ROCKSOLID,
+        link: '/kitchens/keller/industrial-kitchens/rock-solid'
       }
     ]
   }

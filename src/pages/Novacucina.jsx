@@ -23,6 +23,7 @@ const collections = [
     title: 'Sistema 2.2_1',
     desc: 'Sleek modern linear layout utilizing handless matte dark cabinetry combined with matching gray oak textures.',
     img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP01_P1,
+    link: '/kitchens/novacucina/sistema-2-2-1',
   },
   {
     id: 2,
@@ -30,6 +31,7 @@ const collections = [
     title: 'Sistema 2.2_2',
     desc: 'Elegant and airy workspace featuring contrasting pure white worktops and warm light timber detailing.',
     img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP_02_GEN,
+    link: '/kitchens/novacucina/sistema-2-2-2',
   },
   {
     id: 3,
@@ -37,6 +39,7 @@ const collections = [
     title: 'Sistema 2.2_3',
     desc: 'Majestic monolith layout emphasizing seamless continuous worktops and rich vertical wood groove accents.',
     img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP06_P1,
+    link: '/kitchens/novacucina/sistema-2-2-3',
   },
   {
     id: 4,
@@ -208,7 +211,7 @@ export default function Novacucina() {
             {collections.map((concept, i) => (
               <Link
                 key={concept.id}
-                to="/contact"
+                to={concept.link || '/contact'}
                 className="brand-card"
                 style={{ textDecoration: 'none', color: 'inherit' }}
               >
