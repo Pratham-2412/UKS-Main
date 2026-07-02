@@ -47,6 +47,7 @@ const collections = [
     title: 'Sistema 2:2 Fly_4',
     desc: 'Minimalist architectural composition with suspended components, open shelving, and a metal profile structure.',
     img: UKS_NOVACUCINA_2025_NOVACUCINA_COMP14_GEN,
+    link: '/kitchens/novacucina/sistema-2-2-fly-4',
   },
   {
     id: 5,
@@ -54,6 +55,7 @@ const collections = [
     title: 'Sistema 2.2_5',
     desc: 'Contemporary island hub kitchen displaying soft earth tones, brushed steel details, and integrated LED strip lighting.',
     img: UKS_NOVACUCINA_2025_NOVACUCINE_C9_GEN,
+    link: '/kitchens/novacucina/sistema-2-2-5',
   },
   {
     id: 6,

@@ -20,6 +20,8 @@ import NovamobiliWalkInWardrobes from './pages/NovamobiliWalkInWardrobes'
 import NovacucinaSistema221 from './pages/NovacucinaSistema221'
 import NovacucinaSistema222 from './pages/NovacucinaSistema222'
 import NovacucinaSistema223 from './pages/NovacucinaSistema223'
+import NovacucinaSistema22Fly4 from './pages/NovacucinaSistema22Fly4'
+import NovacucinaSistema225 from './pages/NovacucinaSistema225'
 import LeichtIdea from './pages/LeichtIdea'
 import LeichtWakuu from './pages/LeichtWakuu'
 import LeichtHygge from './pages/LeichtHygge'
@@ -166,6 +168,8 @@ export default function App() {
           <Route path="/kitchens/novacucina/sistema-2-2-1" element={<NovacucinaSistema221 />} />
           <Route path="/kitchens/novacucina/sistema-2-2-2" element={<NovacucinaSistema222 />} />
           <Route path="/kitchens/novacucina/sistema-2-2-3" element={<NovacucinaSistema223 />} />
+          <Route path="/kitchens/novacucina/sistema-2-2-fly-4" element={<NovacucinaSistema22Fly4 />} />
+          <Route path="/kitchens/novacucina/sistema-2-2-5" element={<NovacucinaSistema225 />} />
           <Route path="/bedrooms" element={<Bedrooms />} />
           <Route path="/bedrooms/wardrobes" element={<NovamobiliWardrobes />} />
           <Route path="/bedrooms/wardrobes/hinged-doors" element={<NovamobiliHingedWardrobes />} />

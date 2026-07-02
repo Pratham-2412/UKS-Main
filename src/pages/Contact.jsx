@@ -135,30 +135,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Slough Showroom Detail Card */}
-            <div className="contact-detail-card">
-              <div className="contact-detail-card__icon-wrap">
-                <IconMapPin />
-              </div>
-              <div className="contact-detail-card__content">
-                <span className="contact-detail-card__label">BY APPOINTMENT ONLY</span>
-                <h3 className="contact-detail-card__title">Slough Showroom</h3>
-                <address className="contact-detail-card__text">
-                  778 Buckingham Avenue, Slough, SL1 4NL<br />
-                  United Kingdom
-                </address>
-                <span className="contact-detail-card__note">Berkshire Design Centre</span>
-                <a 
-                  href="https://maps.google.com/?q=778+Buckingham+Avenue+Slough+SL1+4NL" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="contact-detail-card__link"
-                  style={{ marginTop: '8px', fontSize: '12px', color: 'var(--gold)', fontWeight: '600' }}
-                >
-                  View on Google Maps →
-                </a>
-              </div>
-            </div>
 
             {/* Direct Contact Card */}
             <div className="contact-detail-card">
@@ -169,7 +145,10 @@ export default function Contact() {
                 <span className="contact-detail-card__label">DIRECT CONNECT</span>
                 <h3 className="contact-detail-card__title">Call & Write</h3>
                 <a href="tel:+441895347277" className="contact-detail-card__link">
-                  +44 (0) 1895 347277
+                  01895 347277
+                </a>
+                <a href="tel:+447544381311" className="contact-detail-card__link">
+                  07544 381311
                 </a>
                 <a href="mailto:sales@uks-interiors.com" className="contact-detail-card__link" style={{ fontSize: '14px' }}>
                   sales@uks-interiors.com
@@ -187,9 +166,7 @@ export default function Contact() {
                 <h3 className="contact-detail-card__title">Showroom Hours</h3>
                 <div className="contact-detail-card__text" style={{ fontSize: '13px' }}>
                   <strong>Ruislip Showroom:</strong><br />
-                  Mon – Sat: 09:00am – 05:00pm, Sunday: Closed<br /><br />
-                  <strong>Berkshire Showroom:</strong><br />
-                  Mon – Fri: 09:00am – 05:00pm, Sat – Sun: Closed
+                  Mon – Sat: 09:00am – 05:00pm, Sunday: Closed
                 </div>
               </div>
             </div>
@@ -397,64 +374,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Full Width Bottom Section: Technical Support Directory */}
-        <div className="container" style={{ marginTop: '80px' }}>
-          <div className="support-directory" style={{ marginTop: 0 }}>
-            <div className="support-directory__header">
-              <h2 className="support-directory__title">Technical Support Directory</h2>
-              <p className="support-directory__subtitle">
-                For service and technical support relating directly to kitchen appliances, please contact the brands:
-              </p>
-            </div>
 
-            <div className="support-directory__grid">
-              
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Blanco</span>
-                <a href="tel:01923635200" className="support-item-card__phone">
-                  <IconPhone /> 01923 635 200
-                </a>
-              </div>
-
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Bora</span>
-                <a href="tel:0080078900987" className="support-item-card__phone">
-                  <IconPhone /> 00800 7890 0987
-                </a>
-                <span className="support-item-card__note">*Freephone Number</span>
-              </div>
-
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Liebherr</span>
-                <a href="tel:03330147888" className="support-item-card__phone">
-                  <IconPhone /> 0333 014 7888
-                </a>
-              </div>
-
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Miele</span>
-                <a href="tel:03301606600" className="support-item-card__phone">
-                  <IconPhone /> 0330 160 6600
-                </a>
-              </div>
-
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Siemens</span>
-                <a href="tel:03448928999" className="support-item-card__phone">
-                  <IconPhone /> 0344 892 8999
-                </a>
-              </div>
-
-              <div className="support-item-card">
-                <span className="support-item-card__brand">Quooker</span>
-                <a href="tel:01617685900" className="support-item-card__phone">
-                  <IconPhone /> 0161 768 5900
-                </a>
-              </div>
-
-            </div>
-          </div>
-        </div>
       </section>
     </motion.div>
   )

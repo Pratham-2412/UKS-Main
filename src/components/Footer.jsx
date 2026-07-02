@@ -65,7 +65,8 @@ export default function Footer() {
             <p>22 Pavilion Road</p>
             <p>London SW1X 0BP</p>
             <br />
-            <a href="tel:+442070000000" className="footer__contact-link">+44 (0)20 7000 0000</a>
+            <a href="tel:+441895347277" className="footer__contact-link">01895 347277</a>
+            <a href="tel:+447544381311" className="footer__contact-link">07544 381311</a>
             <a href="mailto:studio@uksinteriors.com" className="footer__contact-link">studio@uksinteriors.com</a>
           </address>
         </div>

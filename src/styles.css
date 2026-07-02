@@ -202,6 +202,87 @@ img {
 .navbar__link--dark:hover  { color: var(--charcoal); border-color: var(--charcoal); }
 .navbar__link--active { border-color: currentColor !important; }
 
+/* Nav Links Dropdowns */
+.navbar__link--has-dropdown {
+  display: inline-flex;
+  align-items: center;
+}
+.navbar__item-dropdown:hover .navbar__chevron {
+  transform: rotate(180deg);
+}
+.navbar__item-dropdown {
+  position: relative;
+}
+.navbar__dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background: var(--cream-light);
+  border: 1px solid #e8e2d9;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding: 12px 0;
+  list-style: none;
+  min-width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 1100;
+  border-radius: 2px;
+}
+.navbar__item-dropdown:hover .navbar__dropdown-menu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+.navbar__dropdown-link {
+  display: block;
+  padding: 8px 24px;
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--charcoal);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  white-space: nowrap;
+  text-align: left;
+}
+.navbar__dropdown-link:hover {
+  background: #f5efe6;
+  color: var(--gold);
+}
+
+/* Mobile Dropdown / Submenu Styles */
+.navbar__mobile-submenu {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.navbar__mobile-sublink {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.navbar__mobile-sublink:hover,
+.navbar__mobile-sublink.active {
+  color: var(--gold);
+}
+
+
 /* CTA Button */
 .navbar__cta {
   font-family: var(--font-sans);

@@ -63,7 +63,7 @@ export default function NovamobiliFlushWardrobes() {
       {/* ── HEADER ── */}
       <header className="nmf-header container">
         <h1 className="nmf-header__title">FLUSH-CLOSING SLIDING DOOR</h1>
-        
+
         <div className="nmf-header__subtitle">
           {isExpanded ? (
             <p>
@@ -215,7 +215,7 @@ export default function NovamobiliFlushWardrobes() {
         /* ── Model Grid ── */
         .nmf-grid {
           display: grid;
-          grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           gap: 80px 0;
           border-top: 1px solid var(--border);
           padding-top: 56px;
@@ -234,11 +234,11 @@ export default function NovamobiliFlushWardrobes() {
           box-sizing: border-box;
         }
         @media (min-width: 993px) {
-          .nmf-card:nth-child(odd) {
+          .nmf-card:not(:last-child) {
             border-right: 1px solid var(--border);
             padding-right: 32px;
           }
-          .nmf-card:nth-child(even) {
+          .nmf-card:not(:first-child) {
             padding-left: 32px;
           }
         }
